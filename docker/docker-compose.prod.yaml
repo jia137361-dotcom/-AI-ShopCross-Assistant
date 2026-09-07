@@ -1,0 +1,86 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    env_file:
+      - ../.env
+    environment:
+      DATA_DIR: /app/data
+      DATABASE_URL: sqlite+aiosqlite:////app/data/shopcross.db
+      QDRANT_URL: http://qdrant:6333
+      REDIS_URL: redis://redis:6379/0
+      QUEUE_ENABLED: "1"
+      # 生产环境未部署 Langfuse 时显式关闭可选观测，避免加载本地开发凭据。
+      LANGFUSE_BASE_URL: ""
+      LANGFUSE_PUBLIC_KEY: ""
+      LANGFUSE_SECRET_KEY: ""
+    volumes:
+      - app-data:/app/data
+    expose:
+      - "8000"
+    depends_on:
+      redis:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    command: ["python", "-m", "app.worker"]
+    env_file:
+      - ../.env
+    environment:
+      DATA_DIR: /app/data
+      DATABASE_URL: sqlite+aiosqlite:////app/data/shopcross.db
+      QDRANT_URL: http://qdrant:6333
+      REDIS_URL: redis://redis:6379/0
+      QUEUE_ENABLED: "1"
+      WORKER_CONCURRENCY: "1"
+      LANGFUSE_BASE_URL: ""
+      LANGFUSE_PUBLIC_KEY: ""
+      LANGFUSE_SECRET_KEY: ""
+    volumes:
+      - app-data:/app/data
+    depends_on:
+      redis:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+    restart: unless-stopped
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    volumes:
+      - qdrant-data:/qdrant/storage
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+    ports:
+      - "80:80"
+    depends_on:
+      app:
+        condition: service_started
+    restart: unless-stopped
+
+volumes:
+  app-data:
+  qdrant-data:
+  redis-data:

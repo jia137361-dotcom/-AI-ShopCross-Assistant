@@ -1,0 +1,7536 @@
+{
+  "metrics": {
+    "bm25": {
+      "recall_at_5": 0.3049,
+      "mrr_at_5": 0.8996,
+      "mrr": 0.9019
+    },
+    "bm25_embedding_rrf": {
+      "recall_at_5": 0.3118,
+      "mrr_at_5": 0.9069,
+      "mrr": 0.9099
+    },
+    "rrf_reranker": {
+      "recall_at_5": 0.3408,
+      "mrr_at_5": 0.9475,
+      "mrr": 0.9479
+    },
+    "meta": {
+      "queries": 300,
+      "relevant_labels": [
+        "E",
+        "S"
+      ],
+      "embedding_model": "qwen3.7-text-embedding-flash",
+      "reranker_model": "qwen3.7-text-rerank",
+      "rrf_k": 60,
+      "rerank_top_k": 20,
+      "embedding_batch_size": 20,
+      "embedding_concurrency": 2,
+      "elapsed_seconds": 672.23,
+      "evaluated_at_utc": "2026-09-02T09:43:12.855360+00:00"
+    }
+  },
+  "predictions": [
+    {
+      "query_id": 185,
+      "query": "(travel size) juillet has a gun perfume not a perfume",
+      "bm25": [
+        "B07B3XQZ42",
+        "B0157V6USM",
+        "B0130MFX74",
+        "B08KHCKCWX",
+        "B089KLC5J8"
+      ],
+      "rrf": [
+        "B07B3XQZ42",
+        "B0130MFX74",
+        "B0157V6USM",
+        "B01LXZ5W0L",
+        "B089KLC5J8"
+      ],
+      "reranked": [
+        "B07B3XQZ42",
+        "B0130MFX74",
+        "B0157V6USM",
+        "B07FHPMP9G",
+        "B01LXZ5W0L"
+      ]
+    },
+    {
+      "query_id": 402,
+      "query": "0 size 4 pads without wings",
+      "bm25": [
+        "B00XQEOTMC",
+        "B0039NMC56",
+        "B00G8DDC44",
+        "B08RDPL244",
+        "B01IZ5EMBO"
+      ],
+      "rrf": [
+        "B08RDPL244",
+        "B00XQEOTMC",
+        "B00G8DDC44",
+        "B01IZ5EMBO",
+        "B01IULAV6I"
+      ],
+      "reranked": [
+        "B00XQEOTMC",
+        "B0039NMC56",
+        "B000GCNB6C",
+        "B08RDPL244",
+        "B01IZ5EMBO"
+      ]
+    },
+    {
+      "query_id": 494,
+      "query": "02 ford f150 rear brake light not coming on",
+      "bm25": [
+        "B07W845X2H",
+        "B07W3BGP1P",
+        "B07472S1MX",
+        "B07JLMYT8P",
+        "B07K572QLQ"
+      ],
+      "rrf": [
+        "B07W3BGP1P",
+        "B07W845X2H",
+        "B07K572QLQ",
+        "B077STZ5LB",
+        "B07R6LKW8Q"
+      ],
+      "reranked": [
+        "B07K572QLQ",
+        "B07VV5DK7Q",
+        "B07Y3BSW6L",
+        "B07W3BGP1P",
+        "B07W845X2H"
+      ]
+    },
+    {
+      "query_id": 541,
+      "query": "06 honda odyssey a/c compressor",
+      "bm25": [
+        "B00JXZKUDK",
+        "B00MPP3K1E",
+        "B07Q85DQD4",
+        "B07JBBRHLR",
+        "B07P53VYXB"
+      ],
+      "rrf": [
+        "B00JXZKUDK",
+        "B07Q85DQD4",
+        "B00MPP3K1E",
+        "B07MCWYTMD",
+        "B07P53VYXB"
+      ],
+      "reranked": [
+        "B07MCWYTMD",
+        "B00JXZKUDK",
+        "B07Q85DQD4",
+        "B07P53VYXB",
+        "B07JBBRHLR"
+      ]
+    },
+    {
+      "query_id": 606,
+      "query": "0zo not bit",
+      "bm25": [
+        "B00GMXFK3G",
+        "B07PGT7LSR",
+        "B07Q21RPS2",
+        "B074R2SXBM",
+        "B07M9ZF35W"
+      ],
+      "rrf": [
+        "B07Q21RPS2",
+        "B00GMXFK3G",
+        "B074R2SXBM",
+        "B07VHQQNVT",
+        "B084D89DBF"
+      ],
+      "reranked": [
+        "B074R2SXBM",
+        "B00GMXFK3G",
+        "B07Q21RPS2",
+        "B07M9ZF35W",
+        "B07PMH4TS2"
+      ]
+    },
+    {
+      "query_id": 690,
+      "query": "1 bushel laundry basket",
+      "bm25": [
+        "B07GDZXTXC",
+        "B00194F1B4",
+        "B07GVPYJSP",
+        "B0771RY8JS",
+        "B00C4TSZ2A"
+      ],
+      "rrf": [
+        "B07GDZXTXC",
+        "B00194F1B4",
+        "B0771RY8JS",
+        "B00C4TSZ2A",
+        "B07GVPYJSP"
+      ],
+      "reranked": [
+        "B0771RY8JS",
+        "B07GDZXTXC",
+        "B00O28GASM",
+        "B07JW18BY8",
+        "B07GVP9JGV"
+      ]
+    },
+    {
+      "query_id": 749,
+      "query": "1 gpm propane water heater not adapter",
+      "bm25": [
+        "B07FTK91YG",
+        "B08Z8D2XZQ",
+        "B01MXDZCKM",
+        "B07TP8W2B7",
+        "B01FXDUQR0"
+      ],
+      "rrf": [
+        "B07FTK91YG",
+        "B07TP8W2B7",
+        "B08XX3N3N7",
+        "B08Z8D2XZQ",
+        "B08V521V9N"
+      ],
+      "reranked": [
+        "B08XX3N3N7",
+        "B08Z8D2XZQ",
+        "B084TMGHXX",
+        "B07TP8W2B7",
+        "B083GQPRW6"
+      ]
+    },
+    {
+      "query_id": 961,
+      "query": "1-year old toys",
+      "bm25": [
+        "B07ZKLF3B1",
+        "B07MNMT3M7",
+        "B078WM314M",
+        "B00005C5H4",
+        "B075TVD253"
+      ],
+      "rrf": [
+        "B07ZKLF3B1",
+        "B00005C5H4",
+        "B078WM314M",
+        "B07MNMT3M7",
+        "B07R3P6HZX"
+      ],
+      "reranked": [
+        "B07ZKLF3B1",
+        "B07P61YSRY",
+        "B00005C5H4",
+        "B078WM314M",
+        "B07CRX1BDG"
+      ]
+    },
+    {
+      "query_id": 1039,
+      "query": "1/16th scale gravity wagon without tractor",
+      "bm25": [
+        "B07D7FMT6J",
+        "B00Q5IBHLC",
+        "B005F29MP2",
+        "B000NYB7I2",
+        "B00N0I9S5W"
+      ],
+      "rrf": [
+        "B07D7FMT6J",
+        "B00Q5IBHLC",
+        "B007LL7J96",
+        "B005F29MP2",
+        "B00N0I9S5W"
+      ],
+      "reranked": [
+        "B00Q5IBHLC",
+        "B07B3246SN",
+        "B000NYB7I2",
+        "B074D5DCYD",
+        "B005F29MP2"
+      ]
+    },
+    {
+      "query_id": 1125,
+      "query": "1/4 sheet pan without sides",
+      "bm25": [
+        "B07GRC1D3L",
+        "B07THW5K6M",
+        "B07JQ398MH",
+        "B07CQCJTQQ",
+        "B009LA107W"
+      ],
+      "rrf": [
+        "B07GRC1D3L",
+        "B07THW5K6M",
+        "B009LA107W",
+        "B07CQCJTQQ",
+        "B083FF8SCQ"
+      ],
+      "reranked": [
+        "B001D1F2DA",
+        "B06XZZ3P6F",
+        "B08C4YY69X",
+        "B009LA107W",
+        "B07GRC1D3L"
+      ]
+    },
+    {
+      "query_id": 1509,
+      "query": "100w solar panel without controller",
+      "bm25": [
+        "B07HN5R2KX",
+        "B06ZY375M5",
+        "B01CQQSD0Y",
+        "B07D4PRMRB",
+        "B087TXQ5ND"
+      ],
+      "rrf": [
+        "B06ZY375M5",
+        "B07D4PRMRB",
+        "B07HN5R2KX",
+        "B01CQQSD0Y",
+        "B08NC189ZQ"
+      ],
+      "reranked": [
+        "B07HN5R2KX",
+        "B07GF5JY35",
+        "B08NC189ZQ",
+        "B08BBZ7P1R",
+        "B07D4PRMRB"
+      ]
+    },
+    {
+      "query_id": 1659,
+      "query": "10×6 patio gazebo without cover",
+      "bm25": [
+        "B00V81DNYK",
+        "B08CRG1MHC",
+        "B00P289JOI",
+        "B00V617XXY",
+        "B01N183EJN"
+      ],
+      "rrf": [
+        "B00V81DNYK",
+        "B076ZGMZZS",
+        "B00P289JOI",
+        "B08CRG1MHC",
+        "B096FHYL61"
+      ],
+      "reranked": [
+        "B07VFMLRBB",
+        "B076ZGMZZS",
+        "B07JGSR263",
+        "B07MLFXY66",
+        "B08CRG1MHC"
+      ]
+    },
+    {
+      "query_id": 1816,
+      "query": "12 hp engine",
+      "bm25": [
+        "B071P2XRHN",
+        "B07DWZMSZH",
+        "B07DX3FBZ7",
+        "B00DC6L7GU",
+        "B07F2152G5"
+      ],
+      "rrf": [
+        "B071P2XRHN",
+        "B07DX3FBZ7",
+        "B07DWZMSZH",
+        "B01NAWE0YF",
+        "B00DC6L7GU"
+      ],
+      "reranked": [
+        "B07DX3FBZ7",
+        "B071P2XRHN",
+        "B01FL14FR6",
+        "B007HKOONU",
+        "B007G83Z6K"
+      ]
+    },
+    {
+      "query_id": 2286,
+      "query": "16x48 frame",
+      "bm25": [
+        "B0731FZM7S",
+        "B07FF2Y9SC",
+        "B07N2XVDS2",
+        "B018WH9HCO",
+        "B0135YHWJO"
+      ],
+      "rrf": [
+        "B07FF2Y9SC",
+        "B0135YHWJO",
+        "B018WH9HCO",
+        "B07N2XVDS2",
+        "B0731FZM7S"
+      ],
+      "reranked": [
+        "B018WH9HCO",
+        "B0135YHWJO",
+        "B07N2XVDS2",
+        "B07FF2Y9SC",
+        "B0731FZM7S"
+      ]
+    },
+    {
+      "query_id": 2471,
+      "query": "1x5p dupont connector housing female",
+      "bm25": [
+        "B00CO889RW",
+        "B07RC516KP",
+        "B079JMQP7H",
+        "B089VR732P",
+        "B01M7V1X88"
+      ],
+      "rrf": [
+        "B07RC516KP",
+        "B089VR732P",
+        "B00CO889RW",
+        "B079JMQP7H",
+        "B01HM3MALE"
+      ],
+      "reranked": [
+        "B079JMQP7H",
+        "B07RC516KP",
+        "B00CO889RW",
+        "B089VR732P",
+        "B087TN37DV"
+      ]
+    },
+    {
+      "query_id": 2798,
+      "query": "20 lb medicine balls rubber",
+      "bm25": [
+        "B07BSWMZNB",
+        "B06ZXZ6LBY",
+        "B018WU95KU",
+        "B01J2D0AI2",
+        "B01J2D0BIQ"
+      ],
+      "rrf": [
+        "B07BSWMZNB",
+        "B018WU95KU",
+        "B01J2D0AI2",
+        "B01J2D0BIQ",
+        "B01J2D0CGW"
+      ],
+      "reranked": [
+        "B01J2D0CGW",
+        "B07BSWMZNB",
+        "B01J2D0BIQ",
+        "B01FN3OEVE",
+        "B08HPMD2C8"
+      ]
+    },
+    {
+      "query_id": 2855,
+      "query": "20lb maxima chameleon",
+      "bm25": [
+        "B003D97TYU",
+        "B07MSM21Y9",
+        "B003CU1LAS",
+        "B0000AXZVE",
+        "B001443NSM"
+      ],
+      "rrf": [
+        "B003CU1LAS",
+        "B001443NSM",
+        "B0000AXZVE",
+        "B00144ACUO",
+        "B003M8M8XO"
+      ],
+      "reranked": [
+        "B003M8M8XO",
+        "B003LC9TBK",
+        "B0000AXZSU",
+        "B001445EHU",
+        "B003CU1LAS"
+      ]
+    },
+    {
+      "query_id": 3522,
+      "query": "3/16 allen wrench",
+      "bm25": [
+        "B0006HB1LE",
+        "B000GTORZE",
+        "B000RU8CYO",
+        "B07YM1TV71",
+        "B0000CBJDU"
+      ],
+      "rrf": [
+        "B0006HB1LE",
+        "B0000CBJDU",
+        "B000GTORZE",
+        "B000RU8CYO",
+        "B07YM1TV71"
+      ],
+      "reranked": [
+        "B000GTORZE",
+        "B0006HB1LE",
+        "B000RU8CYO",
+        "B005NT1F02",
+        "B004RGZZX0"
+      ]
+    },
+    {
+      "query_id": 4300,
+      "query": "49ers hats for men",
+      "bm25": [
+        "B009LACEMW",
+        "B07HYNZSTX",
+        "B07MF2JKGF",
+        "B07J16LYVR",
+        "B0865Q5YKT"
+      ],
+      "rrf": [
+        "B009LACEMW",
+        "B07HYNZSTX",
+        "B07MF2JKGF",
+        "B07Y8NMS3D",
+        "B07J16LYVR"
+      ],
+      "reranked": [
+        "B009LACEMW",
+        "B07MF2JKGF",
+        "B0865Q5YKT",
+        "B07HYNZSTX",
+        "B07J16LYVR"
+      ]
+    },
+    {
+      "query_id": 4729,
+      "query": "55 c1 oled",
+      "bm25": [
+        "B0938WFMV8",
+        "B092KM3JFH",
+        "B08WFV7L3N",
+        "B0829RYP8V",
+        "B08GKYQMD9"
+      ],
+      "rrf": [
+        "B0938WFMV8",
+        "B092KM3JFH",
+        "B08WFV7L3N",
+        "B091G26HPY",
+        "B0829RYP8V"
+      ],
+      "reranked": [
+        "B092KM3JFH",
+        "B0938WFMV8",
+        "B091G26HPY",
+        "B08WFV7L3N",
+        "B097KCPBX8"
+      ]
+    },
+    {
+      "query_id": 5550,
+      "query": "96 toyota tacoma rear shocks",
+      "bm25": [
+        "B01N9U5CN6",
+        "B005Q9E5TC",
+        "B084YRQF6H",
+        "B00HRY9N1O",
+        "B07WLPSHQS"
+      ],
+      "rrf": [
+        "B01N9U5CN6",
+        "B005Q9E5TC",
+        "B07WLPSHQS",
+        "B084YRQF6H",
+        "B00HRY9N1O"
+      ],
+      "reranked": [
+        "B07HF2KG8B",
+        "B00HRY9N1O",
+        "B07WLPSHQS",
+        "B07CK9WHL7",
+        "B01N9U5CN6"
+      ]
+    },
+    {
+      "query_id": 6036,
+      "query": "aaron blakey",
+      "bm25": [
+        "B085RH87W8",
+        "B08BWTQ6TD",
+        "B085RYGHRY",
+        "B085RSSL4S",
+        "B085RSS8GJ"
+      ],
+      "rrf": [
+        "B085RYGHRY",
+        "B085RH87W8",
+        "B085RG65HN",
+        "B085RSSL4S",
+        "B085RSS8GJ"
+      ],
+      "reranked": [
+        "B07VW88RS6",
+        "B085RM3TTD",
+        "B085RH87W8",
+        "B085RSS8GJ",
+        "B077Y2RHCF"
+      ]
+    },
+    {
+      "query_id": 6936,
+      "query": "adult halloween costumes for men",
+      "bm25": [
+        "B00XVX3NN4",
+        "B073W5Z1GH",
+        "B003IC0FL6",
+        "B001AX8774",
+        "1594743061"
+      ],
+      "rrf": [
+        "B00XVX3NN4",
+        "B003IC0FL6",
+        "B0027VT5XI",
+        "B073W5Z1GH",
+        "B001ZSIRJM"
+      ],
+      "reranked": [
+        "B003IC0FL6",
+        "B0027VT5XI",
+        "B00XVX3NN4",
+        "B0071IKPG8",
+        "B001ZSIRJM"
+      ]
+    },
+    {
+      "query_id": 7729,
+      "query": "alan russell gideon and sirius",
+      "bm25": [
+        "B07KXZKN9W",
+        "B07CHPDQTM",
+        "B018E898Z2",
+        "B008BU74RS",
+        "B07TSYMH4W"
+      ],
+      "rrf": [
+        "B07KXZKN9W",
+        "B07CHPDQTM",
+        "B008BU74RS",
+        "B018E898Z2",
+        "B00K2EOOOC"
+      ],
+      "reranked": [
+        "B07KXZKN9W",
+        "B07CHPDQTM",
+        "B018E898Z2",
+        "B00K2EOOOC",
+        "B07TSYMH4W"
+      ]
+    },
+    {
+      "query_id": 7839,
+      "query": "alesis forge drum kit",
+      "bm25": [
+        "B07QNBZFTH",
+        "B08PYQ6F7C",
+        "B078SB645L",
+        "B016KNIJHG",
+        "B07HYTRL7D"
+      ],
+      "rrf": [
+        "B08PYQ6F7C",
+        "B016KNIJHG",
+        "B078SB645L",
+        "B07HYTRL7D",
+        "B002C4SM5W"
+      ],
+      "reranked": [
+        "B01DBMW4TI",
+        "B07W7JLJH3",
+        "B07HYTRL7D",
+        "B073RYR1C7",
+        "B08PYQ6F7C"
+      ]
+    },
+    {
+      "query_id": 8820,
+      "query": "american outdoor grills",
+      "bm25": [
+        "B004W4X930",
+        "B07B8SYB35",
+        "B082FVLQ5B",
+        "B07B8S61DB",
+        "B07RVF1N6X"
+      ],
+      "rrf": [
+        "B004W4X930",
+        "B07B8SYB35",
+        "B074CKPPT8",
+        "B07B8S61DB",
+        "B082FVLQ5B"
+      ],
+      "reranked": [
+        "B00Q6MHIW4",
+        "B00VSNEDBA",
+        "B07B7Q51K2",
+        "B074CKPPT8",
+        "B01HITNEEE"
+      ]
+    },
+    {
+      "query_id": 9440,
+      "query": "anti-theft crossbody bags for women leather",
+      "bm25": [
+        "B07FYRP374",
+        "B06XC1THV5",
+        "B002B3FWXY",
+        "B01CG1J7XG",
+        "B07MF44RYL"
+      ],
+      "rrf": [
+        "B07FYRP374",
+        "B06XC1THV5",
+        "B01CG1J7XG",
+        "B002B3FWXY",
+        "B01EAFE902"
+      ],
+      "reranked": [
+        "B07FYRP374",
+        "B01CG1J7XG",
+        "B06XC1THV5",
+        "B004RTMV48",
+        "B01E5JKPYC"
+      ]
+    },
+    {
+      "query_id": 11027,
+      "query": "attitude sensitive skin natural baby laundry detergent",
+      "bm25": [
+        "B01KA6AVPW",
+        "B01KA6AVU2",
+        "B01KA6AQSO",
+        "B0083AZ6D0",
+        "B084W9VQWW"
+      ],
+      "rrf": [
+        "B01KA6AVU2",
+        "B01KA6AVPW",
+        "B0083AZ6D0",
+        "B01KA6AQSO",
+        "B00O9OO0L8"
+      ],
+      "reranked": [
+        "B0083AZ6D0",
+        "B00O9OO0OK",
+        "B019WOA1QC",
+        "B00O9OO0L8",
+        "B0048IFS5W"
+      ]
+    },
+    {
+      "query_id": 11471,
+      "query": "avery postcards 4 per sheet",
+      "bm25": [
+        "B0006HV3GC",
+        "B01EAW2VQE",
+        "B000UAOVY6",
+        "B07P67DF2H",
+        "B07CPMRR71"
+      ],
+      "rrf": [
+        "B0006HV3GC",
+        "B01EAW2VQE",
+        "B00006B8G1",
+        "B07P67DF2H",
+        "B01F291CZU"
+      ],
+      "reranked": [
+        "B00YNPSWOO",
+        "B07DKF82KB",
+        "B0006HV3GC",
+        "B00B3VEL7I",
+        "B07P67DF2H"
+      ]
+    },
+    {
+      "query_id": 12581,
+      "query": "bag insert with cup holder",
+      "bm25": [
+        "B08F5GHVJ1",
+        "B07JMZYJVW",
+        "B081M3ZPLD",
+        "B08B68XMNR",
+        "B07GHDL9PB"
+      ],
+      "rrf": [
+        "B08F5GHVJ1",
+        "B081M3ZPLD",
+        "B07JMZYJVW",
+        "B07GHDL9PB",
+        "B08B68XMNR"
+      ],
+      "reranked": [
+        "B08F5GHVJ1",
+        "B0888PP357",
+        "B081M3ZPLD",
+        "B07GHDL9PB",
+        "B07WN2X493"
+      ]
+    },
+    {
+      "query_id": 12664,
+      "query": "baking soda bulk",
+      "bm25": [
+        "B077N2M7ZT",
+        "B00CS4AAW4",
+        "B0005ZXPY8",
+        "B00LO1XXQW",
+        "B00HNSJSX2"
+      ],
+      "rrf": [
+        "B00CS4AAW4",
+        "B00HNSJSX2",
+        "B0773Y2KTM",
+        "B07KKL5Q68",
+        "B00LO1XXQW"
+      ],
+      "reranked": [
+        "B00CS4AAW4",
+        "B00HNSJSX2",
+        "B0821SWFNY",
+        "B0005ZXPY8",
+        "B002SKVZIQ"
+      ]
+    },
+    {
+      "query_id": 13042,
+      "query": "bape cases for airpods",
+      "bm25": [
+        "B07WNPZ2FJ",
+        "B07T47HXWD",
+        "B083FC9QNZ",
+        "B07S2WW2N3",
+        "B07TJ2ZX5K"
+      ],
+      "rrf": [
+        "B07WNPZ2FJ",
+        "B07T47HXWD",
+        "B083FC9QNZ",
+        "B07S2WW2N3",
+        "B07TKZV1JF"
+      ],
+      "reranked": [
+        "B083FC9QNZ",
+        "B07T47HXWD",
+        "B07WNPZ2FJ",
+        "B07TKZV1JF",
+        "B082VQ7YVS"
+      ]
+    },
+    {
+      "query_id": 13143,
+      "query": "barbie 4 wheel",
+      "bm25": [
+        "B07NQDX73G",
+        "B004NBXIQA",
+        "B07BJSF9QL",
+        "B015CCR6UC",
+        "B079JCZMMK"
+      ],
+      "rrf": [
+        "B004NBXIQA",
+        "B015CCR6UC",
+        "B071NFFHMZ",
+        "B07BJSF9QL",
+        "B07XD6F2XD"
+      ],
+      "reranked": [
+        "B07XD6F2XD",
+        "B071NFFHMZ",
+        "B07XC3HK9N",
+        "B004NBXIQA",
+        "B015CCR6UC"
+      ]
+    },
+    {
+      "query_id": 13294,
+      "query": "barrel burner",
+      "bm25": [
+        "B079JBK9G9",
+        "B07K51BK2S",
+        "B000IO6RAA",
+        "B01AL32LQQ",
+        "B01AODVYZM"
+      ],
+      "rrf": [
+        "B07K51BK2S",
+        "B079JBK9G9",
+        "B000IO6RAA",
+        "B01AODVYZM",
+        "B01AL32LQQ"
+      ],
+      "reranked": [
+        "B01AODVYZM",
+        "B000IO6RAA",
+        "B002G55XXQ",
+        "B01AL32LQQ",
+        "B07K51BK2S"
+      ]
+    },
+    {
+      "query_id": 15255,
+      "query": "between sisters kristin hannah",
+      "bm25": [
+        "B00HTK4SSO",
+        "B001J1M57K",
+        "952652988X",
+        "B08PW53JTD",
+        "B08N393GT5"
+      ],
+      "rrf": [
+        "B00HTK4SSO",
+        "B001J1M57K",
+        "952652988X",
+        "B08LD4GXQ8",
+        "B08PW53JTD"
+      ],
+      "reranked": [
+        "B00HTK4SSO",
+        "B001J1M57K",
+        "952652988X",
+        "B08LD4GXQ8",
+        "1525820842"
+      ]
+    },
+    {
+      "query_id": 15791,
+      "query": "bike stand",
+      "bm25": [
+        "B00KNO2P10",
+        "B071HQFKBY",
+        "B0872255PS",
+        "B00G7ZO3GE",
+        "B075FWHVM2"
+      ],
+      "rrf": [
+        "B00KNO2P10",
+        "B071HQFKBY",
+        "B00G7ZO3GE",
+        "B06XXSHGWR",
+        "B0872255PS"
+      ],
+      "reranked": [
+        "B00G7ZO3GE",
+        "B06XXSHGWR",
+        "B075FWHVM2",
+        "B07T6GLCBD",
+        "B01NAWNYRK"
+      ]
+    },
+    {
+      "query_id": 15863,
+      "query": "billabong women pant",
+      "bm25": [
+        "B07MDR6KW3",
+        "B07Q6S4M9H",
+        "B07Q6Q5GCX",
+        "B07M8YXYSR",
+        "B07F2PQ81H"
+      ],
+      "rrf": [
+        "B07MDR6KW3",
+        "B07F2PQ81H",
+        "B07M8YXYSR",
+        "B07MRP6NQQ",
+        "B07HBQ67D6"
+      ],
+      "reranked": [
+        "B07F2PQ81H",
+        "B07MDR6KW3",
+        "B07HBQ67D6",
+        "B07MRP6NQQ",
+        "B07XD6JVYH"
+      ]
+    },
+    {
+      "query_id": 16505,
+      "query": "black fan with light and remote",
+      "bm25": [
+        "B07VC5HLDW",
+        "B07L6Q2GSW",
+        "B01CDG05NK",
+        "B00KGKF47S",
+        "B00KGKF2N4"
+      ],
+      "rrf": [
+        "B07VC5HLDW",
+        "B07L6Q2GSW",
+        "B01CDG05NK",
+        "B00KGKF47S",
+        "B0713W8TPH"
+      ],
+      "reranked": [
+        "B07L6Q2GSW",
+        "B07VC5HLDW",
+        "B0713W8TPH",
+        "B07YBRPL4G",
+        "B01CDG05NK"
+      ]
+    },
+    {
+      "query_id": 16709,
+      "query": "black panther watch for boys",
+      "bm25": [
+        "B07FNBBMTG",
+        "B07KYV7J1N",
+        "B07HDS2FSS",
+        "B07H38DNRC",
+        "B07DY248BL"
+      ],
+      "rrf": [
+        "B07KYV7J1N",
+        "B07FNBBMTG",
+        "B07HFG36CG",
+        "B07QT9SB16",
+        "B07H38DNRC"
+      ],
+      "reranked": [
+        "B07HFG36CG",
+        "B07KYV7J1N",
+        "B074VZVJX5",
+        "B074W9VL8N",
+        "B074W9C443"
+      ]
+    },
+    {
+      "query_id": 16812,
+      "query": "black single pendant light",
+      "bm25": [
+        "B01H6H5W5W",
+        "B07BT3ZK77",
+        "B01JA4PIIU",
+        "B07HW2NMYW",
+        "B078HY8QNJ"
+      ],
+      "rrf": [
+        "B01H6H5W5W",
+        "B01JA4PIIU",
+        "B07HW2NMYW",
+        "B07D5SZJZG",
+        "B07MY72QQS"
+      ],
+      "reranked": [
+        "B078HY8QNJ",
+        "B01H6H5W5W",
+        "B07R4CZBNR",
+        "B07HW2NMYW",
+        "B07B1R473V"
+      ]
+    },
+    {
+      "query_id": 16902,
+      "query": "black wax chalk paint",
+      "bm25": [
+        "B0742NHLQ9",
+        "B01J6DXO3G",
+        "B084MDJX7T",
+        "B01E9GTQ0U",
+        "B01FMZHLKY"
+      ],
+      "rrf": [
+        "B0742NHLQ9",
+        "B01FMZHLKY",
+        "B084MDJX7T",
+        "B01J6DXO3G",
+        "B01E9GTQ0U"
+      ],
+      "reranked": [
+        "B0742NHLQ9",
+        "B017V8H4AW",
+        "B01FMZHLKY",
+        "B01E9GTQ0U",
+        "B01J6DXO3G"
+      ]
+    },
+    {
+      "query_id": 17070,
+      "query": "blazin the monster machine toys",
+      "bm25": [
+        "B01KYYKECA",
+        "B00VMU20WI",
+        "B06XJ6796T",
+        "B014AHHF7E",
+        "B07HK8NHVC"
+      ],
+      "rrf": [
+        "B00VMU20WI",
+        "B06XJ6796T",
+        "B014AHHF7E",
+        "B00SYIK4BU",
+        "B07HK8NHVC"
+      ],
+      "reranked": [
+        "B00VMU20WI",
+        "B00SYIK4BU",
+        "B06XJ6796T",
+        "B014AHHF7E",
+        "B07HK8NHVC"
+      ]
+    },
+    {
+      "query_id": 17987,
+      "query": "bohemian jackets for women",
+      "bm25": [
+        "B0797P9YB4",
+        "B079NZY5TN",
+        "B08277K25H",
+        "B00G1RXP7Q",
+        "B07K7T3J1R"
+      ],
+      "rrf": [
+        "B00G1RXP7Q",
+        "B08277K25H",
+        "B079NZY5TN",
+        "B0797P9YB4",
+        "B01MTAITHL"
+      ],
+      "reranked": [
+        "B00G1RXP7Q",
+        "B08277K25H",
+        "B01MTAITHL",
+        "B07Y9VPBKV",
+        "B07K7T3J1R"
+      ]
+    },
+    {
+      "query_id": 18194,
+      "query": "boltune noise canceling headphones",
+      "bm25": [
+        "B09DKTN9ZT",
+        "B095BV8R27",
+        "B08T67XB4T",
+        "B07Q9MJKBV",
+        "B09FF39ZM6"
+      ],
+      "rrf": [
+        "B0756CYWWD",
+        "B07Q9MJKBV",
+        "B09DKTN9ZT",
+        "B08T67XB4T",
+        "B08HMWZBXC"
+      ],
+      "reranked": [
+        "B07Q9MJKBV",
+        "B0756CYWWD",
+        "B09FF39ZM6",
+        "B08HMWZBXC",
+        "B09DKTN9ZT"
+      ]
+    },
+    {
+      "query_id": 18441,
+      "query": "books on wood",
+      "bm25": [
+        "0486451259",
+        "B00BIJ8NO2",
+        "1947026429",
+        "1565237722",
+        "1641240415"
+      ],
+      "rrf": [
+        "B00BIJ8NO2",
+        "0486451259",
+        "1947026429",
+        "1861084366",
+        "1565237722"
+      ],
+      "reranked": [
+        "B00BIJ8NO2",
+        "0486451259",
+        "1861084366",
+        "1565237722",
+        "1600854656"
+      ]
+    },
+    {
+      "query_id": 18639,
+      "query": "bose earbuds",
+      "bm25": [
+        "B01LZI7KQB",
+        "B08C4KWM9T",
+        "B01L7PSJFO",
+        "B0748G1QLP",
+        "B08CJCTG6Z"
+      ],
+      "rrf": [
+        "B01LZI7KQB",
+        "B08C4KWM9T",
+        "B08CJCTG6Z",
+        "B01L7PSJFO",
+        "B085X98N78"
+      ],
+      "reranked": [
+        "B002M966FA",
+        "B01LZI7KQB",
+        "B08C4KWM9T",
+        "B01L7PSJFO",
+        "B08CJCTG6Z"
+      ]
+    },
+    {
+      "query_id": 18986,
+      "query": "bowl noodle soup hot and spicy",
+      "bm25": [
+        "B086R6BKX8",
+        "B005VHHU50",
+        "B07B8QG3MT",
+        "B009AS3E10",
+        "B015U1ROOI"
+      ],
+      "rrf": [
+        "B005VHHU50",
+        "B000MY5YZK",
+        "B01N8U1QIO",
+        "B00VPQZOLS",
+        "B009AS3E10"
+      ],
+      "reranked": [
+        "B000MY5YZK",
+        "B01N8U1QIO",
+        "B00BUURLRO",
+        "B08M5DHXVQ",
+        "B08M4DK6WK"
+      ]
+    },
+    {
+      "query_id": 19828,
+      "query": "brincolines para adultos",
+      "bm25": [
+        "B08H8CZ8BN",
+        "B08HMZ985K",
+        "B08K2XNWJP",
+        "B08P3MVX22",
+        "B08T89ZJRQ"
+      ],
+      "rrf": [
+        "B08P3MVX22",
+        "B08TBPPQDK",
+        "B08H8CZ8BN",
+        "B08HMZ985K",
+        "B08VJ2YY6K"
+      ],
+      "reranked": [
+        "B08ZSQM5GN",
+        "B08T89ZJRQ",
+        "B08HMZ985K",
+        "B08Y987CHD",
+        "B08VJ2YY6K"
+      ]
+    },
+    {
+      "query_id": 20050,
+      "query": "brown ears muffs",
+      "bm25": [
+        "B07GN7JJZM",
+        "B08DNCR99G",
+        "B078D7F2XX",
+        "B087NCX7RK",
+        "B088PZTJN4"
+      ],
+      "rrf": [
+        "B07GN7JJZM",
+        "B08DNCR99G",
+        "B078D7F2XX",
+        "B087NCX7RK",
+        "B07ST12F21"
+      ],
+      "reranked": [
+        "B07GN7JJZM",
+        "B078D7F2XX",
+        "B08DNCR99G",
+        "B087NCX7RK",
+        "B07ST12F21"
+      ]
+    },
+    {
+      "query_id": 20315,
+      "query": "budhas statues",
+      "bm25": [
+        "B07Q2TP44C",
+        "B07DWMX8TR",
+        "B07YN2VKT6",
+        "B07SM3FQGZ",
+        "B07PNR9B92"
+      ],
+      "rrf": [
+        "B07Q2TP44C",
+        "B07SM3FQGZ",
+        "B07K7WD6P1",
+        "B07DWMX8TR",
+        "B07YN2VKT6"
+      ],
+      "reranked": [
+        "B07Q2TP44C",
+        "B07DWMX8TR",
+        "B00UIAGPMY",
+        "B07SM3FQGZ",
+        "B004DGWM30"
+      ]
+    },
+    {
+      "query_id": 20790,
+      "query": "business safes fireproof waterproof with key only 4ft",
+      "bm25": [
+        "B00KOO599O",
+        "B00GE586CY",
+        "B00LALP508",
+        "B005G48L1K",
+        "B005P12C5A"
+      ],
+      "rrf": [
+        "B00KOO599O",
+        "B00GE586CY",
+        "B005G48L1K",
+        "B00LALP508",
+        "B005P12C5A"
+      ],
+      "reranked": [
+        "B00KOO599O",
+        "B005G48L1K",
+        "B00GE586CY",
+        "B00LALP508",
+        "B005P12C5A"
+      ]
+    },
+    {
+      "query_id": 20912,
+      "query": "button up shirt without collar‘s",
+      "bm25": [
+        "B002I6G08A",
+        "B00DU6AKD8",
+        "B076BYKKP8",
+        "B073JVQ238",
+        "B06VSK94LX"
+      ],
+      "rrf": [
+        "B076BYKKP8",
+        "B002I6G08A",
+        "B00DU6AKD8",
+        "B073JVQ238",
+        "B01K1PCU42"
+      ],
+      "reranked": [
+        "B076BYKKP8",
+        "B000PHG4US",
+        "B00KXKZ9EY",
+        "B07DPM5SYN",
+        "B073JVQ238"
+      ]
+    },
+    {
+      "query_id": 22127,
+      "query": "campbell posture cane",
+      "bm25": [
+        "B084BVL3BD",
+        "B07N91HG4D",
+        "B08BVYF93Y",
+        "B07YCPBHH7",
+        "B087NYTHNV"
+      ],
+      "rrf": [
+        "B084BVL3BD",
+        "B07N91HG4D",
+        "B07YCPBHH7",
+        "B08BVYF93Y",
+        "B07WDM3RB1"
+      ],
+      "reranked": [
+        "B08BVYF93Y",
+        "B07N91HG4D",
+        "B084BVL3BD",
+        "B07YCPBHH7",
+        "B07PFR8CYJ"
+      ]
+    },
+    {
+      "query_id": 22534,
+      "query": "canvas holder for painting",
+      "bm25": [
+        "B0172519QO",
+        "B015YL7VBA",
+        "B01KFGKBHU",
+        "B07XHQ6GGG",
+        "B07VS6B51W"
+      ],
+      "rrf": [
+        "B0172519QO",
+        "B07XHQ6GGG",
+        "B015YL7VBA",
+        "B004WQFZV2",
+        "B01KFGKBHU"
+      ],
+      "reranked": [
+        "B004WQFZV2",
+        "B0172519QO",
+        "B07XHQ6GGG",
+        "B015YL7VBA",
+        "B07VS6B51W"
+      ]
+    },
+    {
+      "query_id": 23603,
+      "query": "cashew oil for warts",
+      "bm25": [
+        "B07FVNYK4T",
+        "B07W3ZSVDN",
+        "B01JMDTSDK",
+        "B07KL2B5WY",
+        "B00O7ZHIJA"
+      ],
+      "rrf": [
+        "B07FVNYK4T",
+        "B07W3ZSVDN",
+        "B01JMDTSDK",
+        "B07KL2B5WY",
+        "B00O7ZHIJA"
+      ],
+      "reranked": [
+        "B07FVNYK4T",
+        "B07W3ZSVDN",
+        "B0014HW0VK",
+        "B00O7ZHIJA",
+        "B00RLV27RA"
+      ]
+    },
+    {
+      "query_id": 23635,
+      "query": "casio w217",
+      "bm25": [
+        "B003TEL9YK",
+        "B071JMDFQS",
+        "B001B03MXU",
+        "B00BS8U8PU",
+        "B001AWZDA4"
+      ],
+      "rrf": [
+        "B071JMDFQS",
+        "B003TEL9YK",
+        "B0721BB2ZX",
+        "B0721BB2ZW",
+        "B07SY45ZSD"
+      ],
+      "reranked": [
+        "B071JMDFQS",
+        "B0721BB2ZX",
+        "B0721BB2ZW",
+        "B07SY45ZSD",
+        "B07SSVRTYV"
+      ]
+    },
+    {
+      "query_id": 23701,
+      "query": "castle fo the forsaken emperor lego",
+      "bm25": [
+        "B07Q2WB3D4",
+        "B07NDYSVH7",
+        "B07GYV35RG",
+        "B071NV1BM1",
+        "B00NHQIN9O"
+      ],
+      "rrf": [
+        "B07Q2WB3D4",
+        "B07NDYSVH7",
+        "B07GYV35RG",
+        "B071NV1BM1",
+        "B07GZ3MYC5"
+      ],
+      "reranked": [
+        "B07Q2WB3D4",
+        "B07NDYSVH7",
+        "B07Y8TMX34",
+        "B071NWTFR7",
+        "B071NV1BM1"
+      ]
+    },
+    {
+      "query_id": 24082,
+      "query": "cbd tea",
+      "bm25": [
+        "B00DLJ4JE0",
+        "B00DLGO8U8",
+        "B082TMJ5W6",
+        "B00O62MT7A",
+        "B00CREXUOU"
+      ],
+      "rrf": [
+        "B00DLJ4JE0",
+        "B00O62MT7A",
+        "B00DLGO8U8",
+        "B082TMJ5W6",
+        "B00CREXUOU"
+      ],
+      "reranked": [
+        "B082TMJ5W6",
+        "B081BB1RN5",
+        "B00O62MT7A",
+        "B07L4ZVQPN",
+        "B07RQCVX16"
+      ]
+    },
+    {
+      "query_id": 24617,
+      "query": "chairs",
+      "bm25": [
+        "B06XKSGR2L",
+        "B07V3HQMXS",
+        "B01N2RGJWY",
+        "B0825ZDGV4",
+        "B0825ZPW1B"
+      ],
+      "rrf": [
+        "B06XKSGR2L",
+        "B07V3HQMXS",
+        "B07558553P",
+        "B07NR5FP16",
+        "B01N2RGJWY"
+      ],
+      "reranked": [
+        "B07558553P",
+        "B06XKSGR2L",
+        "B07V3HQMXS",
+        "B01N2RGJWY",
+        "B07SPYD8F1"
+      ]
+    },
+    {
+      "query_id": 24652,
+      "query": "chalk kitchen",
+      "bm25": [
+        "B01H3F9708",
+        "B07SMFH75S",
+        "B07XCRZ56Z",
+        "B07SN5WVPB",
+        "B07NHZXJKB"
+      ],
+      "rrf": [
+        "B01H3F9708",
+        "B07SN5WVPB",
+        "B07XCRZ56Z",
+        "B07NHZXJKB",
+        "B07SMFH75S"
+      ],
+      "reranked": [
+        "B01H3F9708",
+        "B07612BH2P",
+        "B07NW711VB",
+        "B07NHZXJKB",
+        "B07SN5WVPB"
+      ]
+    },
+    {
+      "query_id": 25238,
+      "query": "chef costume for kids",
+      "bm25": [
+        "B00VKM9FH6",
+        "B072Z8MJ6S",
+        "B07Y861426",
+        "B07XFHW2WB",
+        "B07FJL8NCL"
+      ],
+      "rrf": [
+        "B00VKM9FH6",
+        "B072Z8MJ6S",
+        "B07FJL8NCL",
+        "B07V2ML7BM",
+        "B07XFHW2WB"
+      ],
+      "reranked": [
+        "B00VKM9FH6",
+        "B072Z8MJ6S",
+        "B01I59N14E",
+        "B082HC9CPQ",
+        "B07FJL8NCL"
+      ]
+    },
+    {
+      "query_id": 26201,
+      "query": "chunky lace up heels",
+      "bm25": [
+        "B07LFJQP8K",
+        "B07DYMTGK9",
+        "B07PQVYX14",
+        "B07QH2WNFF",
+        "B0756Y5LNJ"
+      ],
+      "rrf": [
+        "B07PQVYX14",
+        "B07LFJQP8K",
+        "B07QH2WNFF",
+        "B0756Y5LNJ",
+        "B07DYMTGK9"
+      ],
+      "reranked": [
+        "B0756Y5LNJ",
+        "B07PQVYX14",
+        "B07LFJQP8K",
+        "B01MY6XVGX",
+        "B07QH2WNFF"
+      ]
+    },
+    {
+      "query_id": 26966,
+      "query": "cloister honey",
+      "bm25": [
+        "B07W6S8KC9",
+        "B07FYGH8ZP",
+        "B07R7MRFGY",
+        "B07FYX5T4B",
+        "B07FYY56M9"
+      ],
+      "rrf": [
+        "B07FYGH8ZP",
+        "B07W6S8KC9",
+        "B07FYX5T4B",
+        "B07R7MRFGY",
+        "B07FYY56M9"
+      ],
+      "reranked": [
+        "B07FYY56M9",
+        "B07R7MRFGY",
+        "B07FYX5T4B",
+        "B07W6S8KC9",
+        "B07FYGH8ZP"
+      ]
+    },
+    {
+      "query_id": 27429,
+      "query": "coffee roaster",
+      "bm25": [
+        "B07TNVYHWS",
+        "B0813671NT",
+        "B00LHEKY68",
+        "B008OARZA6",
+        "B07HL314LF"
+      ],
+      "rrf": [
+        "B07TNVYHWS",
+        "B0813671NT",
+        "B00LHEKY68",
+        "B07HL314LF",
+        "B07DL7ZQ97"
+      ],
+      "reranked": [
+        "B0813671NT",
+        "B07TNVYHWS",
+        "B07GXJYDNP",
+        "B07HL314LF",
+        "B00LHEKY68"
+      ]
+    },
+    {
+      "query_id": 27998,
+      "query": "columbia women's back beauty long sport short",
+      "bm25": [
+        "B008917P5U",
+        "B07K91LKZK",
+        "B006P55NBA",
+        "B07DQ6Q4FF",
+        "B008MW0QJ8"
+      ],
+      "rrf": [
+        "B008917P5U",
+        "B07K91LKZK",
+        "B006P55NBA",
+        "B07DQ6Q4FF",
+        "B00LGQA3HM"
+      ],
+      "reranked": [
+        "B008917P5U",
+        "B008MW0QJ8",
+        "B07DQ6Q4FF",
+        "B00LGQA3HM",
+        "B07CMGBHLY"
+      ]
+    },
+    {
+      "query_id": 28303,
+      "query": "compression socks without feet women",
+      "bm25": [
+        "B07PGNP49V",
+        "B07JB61S7K",
+        "B08DG3HJGP",
+        "B07F2GHF3P",
+        "B07T1L9XT4"
+      ],
+      "rrf": [
+        "B08DG3HJGP",
+        "B07PGNP49V",
+        "B074JFXNC6",
+        "B07F2GHF3P",
+        "B07JVGKX2G"
+      ],
+      "reranked": [
+        "B078M3FV7W",
+        "B08DG3HJGP",
+        "B08YNPGTYS",
+        "B097ZX18ZP",
+        "B071W92GDP"
+      ]
+    },
+    {
+      "query_id": 28500,
+      "query": "confument bowls",
+      "bm25": [
+        "B07TFD6SQ8",
+        "B01IAURJXM",
+        "B07Z4DX57C",
+        "B06XS1B6SS",
+        "B01A6WX18Y"
+      ],
+      "rrf": [
+        "B07Z4DX57C",
+        "B01A6WX18Y",
+        "B087JQX76Q",
+        "B07GJ9S1DW",
+        "B06XS1B6SS"
+      ],
+      "reranked": [
+        "B087JQX76Q",
+        "B07Q48S8YY",
+        "B084R7HRZZ",
+        "B07Z4DX57C",
+        "B083HCZ7WT"
+      ]
+    },
+    {
+      "query_id": 30385,
+      "query": "cruiser bike for women",
+      "bm25": [
+        "B086MHJLPW",
+        "B08CB2NDD6",
+        "B003VGHRWO",
+        "B00FRR6TAG",
+        "B07VJNKGRF"
+      ],
+      "rrf": [
+        "B086MHJLPW",
+        "B00FRR6TAG",
+        "B07B91CZNB",
+        "B003VGHRWO",
+        "B077XHKGD6"
+      ],
+      "reranked": [
+        "B086MHJLPW",
+        "B06XXC8WTT",
+        "B00FRR6TAG",
+        "B07B91CZNB",
+        "B077XHKGD6"
+      ]
+    },
+    {
+      "query_id": 30469,
+      "query": "csj",
+      "bm25": [
+        "B084HL7QWC",
+        "B07GBMW9R8",
+        "B07V2C9JYJ",
+        "B07S197ZS6",
+        "B07WGBMFJP"
+      ],
+      "rrf": [
+        "B084HL7QWC",
+        "B07GBMW9R8",
+        "B07V2C9JYJ",
+        "B07WGBMFJP",
+        "B07S197ZS6"
+      ],
+      "reranked": [
+        "B07S197ZS6",
+        "B07WGBMFJP",
+        "B084HL7QWC",
+        "B07GBMW9R8",
+        "B07V2C9JYJ"
+      ]
+    },
+    {
+      "query_id": 30542,
+      "query": "cube of styrofoam",
+      "bm25": [
+        "B003EAE2SO",
+        "B00OLOYGFQ",
+        "B07V9PHRBM",
+        "B07BPQN7H8",
+        "B07RRDG1KV"
+      ],
+      "rrf": [
+        "B00OLOYGFQ",
+        "B003EAE2SO",
+        "B07V9PHRBM",
+        "B07DX3T5QT",
+        "B07TBMB82J"
+      ],
+      "reranked": [
+        "B00OLOYGFQ",
+        "B003EAE2SO",
+        "B07V9PHRBM",
+        "B07RRDG1KV",
+        "B07V3NP9JL"
+      ]
+    },
+    {
+      "query_id": 30806,
+      "query": "curly hair products",
+      "bm25": [
+        "B081SVNSTT",
+        "B00KJS0ANA",
+        "B0177F8G42",
+        "B07CNJX9BS",
+        "B07NQG58PQ"
+      ],
+      "rrf": [
+        "B00KJS0ANA",
+        "B0177F8G42",
+        "B07NQG58PQ",
+        "B00L9C2JES",
+        "B081SVNSTT"
+      ],
+      "reranked": [
+        "B0886XTJDN",
+        "B07DCJ91HQ",
+        "B00KJS0ANA",
+        "B07NQG58PQ",
+        "B01MXCO41V"
+      ]
+    },
+    {
+      "query_id": 31542,
+      "query": "dare game",
+      "bm25": [
+        "B00IVLIW5K",
+        "B07J6SPJ55",
+        "B07C7D529T",
+        "1618371150",
+        "B07QD2K5N4"
+      ],
+      "rrf": [
+        "B00IVLIW5K",
+        "B07J6SPJ55",
+        "B07C7D529T",
+        "B07QB4NVY2",
+        "1618371150"
+      ],
+      "reranked": [
+        "B00IVLIW5K",
+        "B0787YN5RM",
+        "B07QD2K5N4",
+        "B07QB4NVY2",
+        "1618371150"
+      ]
+    },
+    {
+      "query_id": 31575,
+      "query": "dark green iphone xr case",
+      "bm25": [
+        "B07LGCGSQ5",
+        "B07LDNB8SC",
+        "B07YC47PBR",
+        "B07LFQHN8G",
+        "B0997ZLPKV"
+      ],
+      "rrf": [
+        "B07LDNB8SC",
+        "B07LGCGSQ5",
+        "B07YC47PBR",
+        "B07LFQHN8G",
+        "B098D41KVK"
+      ],
+      "reranked": [
+        "B07LDNB8SC",
+        "B07LGCGSQ5",
+        "B07YC47PBR",
+        "B08GY9X9TK",
+        "B0812664M8"
+      ]
+    },
+    {
+      "query_id": 31578,
+      "query": "dark grey dress shoes men",
+      "bm25": [
+        "B07XPFR89S",
+        "B06XTFGNSM",
+        "B07B47TBHR",
+        "B07GYT43HC",
+        "B01M8PMG8G"
+      ],
+      "rrf": [
+        "B07XPFR89S",
+        "B06XTFGNSM",
+        "B01M8PMG8G",
+        "B07B47TBHR",
+        "B071S6BGGZ"
+      ],
+      "reranked": [
+        "B06XTFGNSM",
+        "B07XPFR89S",
+        "B07B47TBHR",
+        "B07GYT43HC",
+        "B07QP3XYSZ"
+      ]
+    },
+    {
+      "query_id": 31680,
+      "query": "dating is not for marriage",
+      "bm25": [
+        "B01FWOW5OM",
+        "1533589240",
+        "B08DHCZXWT",
+        "1477573305",
+        "1647397294"
+      ],
+      "rrf": [
+        "B01FWOW5OM",
+        "1533589240",
+        "B08DHCZXWT",
+        "B0006NH9BO",
+        "B0061YXJO8"
+      ],
+      "reranked": [
+        "B01FWOW5OM",
+        "0062980734",
+        "1533589240",
+        "080241270X",
+        "0998270105"
+      ]
+    },
+    {
+      "query_id": 31794,
+      "query": "dazzling gold flapper adult costume",
+      "bm25": [
+        "B00D3OB9Z0",
+        "B00B5KA0X6",
+        "B01G4F38PS",
+        "B00D3OBAJA",
+        "B00D3OBA6S"
+      ],
+      "rrf": [
+        "B00D3OB9Z0",
+        "B00B5KA0X6",
+        "B00D3OBAJA",
+        "B01G4F38PS",
+        "B00D3OBA6S"
+      ],
+      "reranked": [
+        "B00D3OB9Z0",
+        "B01G4F38PS",
+        "B00D3OBA6S",
+        "B00XW8PTZS",
+        "B07RRZY89R"
+      ]
+    },
+    {
+      "query_id": 32074,
+      "query": "dectrocetive laterns",
+      "bm25": [
+        "B081L5S358",
+        "B07KYF4K12",
+        "B07JVCBKGW",
+        "B07CYCMTXW",
+        "B07BVRMHWS"
+      ],
+      "rrf": [
+        "B07BVRMHWS",
+        "B07KYF4K12",
+        "B07JVCBKGW",
+        "B01C5QSENQ",
+        "B07CYCMTXW"
+      ],
+      "reranked": [
+        "B07BVRMHWS",
+        "B01C5QSENQ",
+        "B06XKBDX8C",
+        "B07CYCMTXW",
+        "B018UQPMSA"
+      ]
+    },
+    {
+      "query_id": 32078,
+      "query": "dee rings 1.5",
+      "bm25": [
+        "B0198OVHO6",
+        "B07RQW867Y",
+        "B07KB9FFZP",
+        "B07KBBTV87",
+        "B00DTWE3D6"
+      ],
+      "rrf": [
+        "B0198OVHO6",
+        "B07D9CZL45",
+        "B07RQW867Y",
+        "B00JC32W3Y",
+        "B00DTWE3D6"
+      ],
+      "reranked": [
+        "B07D9CZL45",
+        "B00DTWE3D6",
+        "B0198OVHO6",
+        "B07RQW867Y",
+        "B07KB9FFZP"
+      ]
+    },
+    {
+      "query_id": 32917,
+      "query": "diabetic shoes for men",
+      "bm25": [
+        "B00IOT2W4Q",
+        "B07JGVQPCQ",
+        "B000PRLCE6",
+        "B000W8WVUW",
+        "B00P6LHNAS"
+      ],
+      "rrf": [
+        "B00IOT2W4Q",
+        "B000PRLCE6",
+        "B07JGVQPCQ",
+        "B07K4CQY7Z",
+        "B00FJ7SR8Q"
+      ],
+      "reranked": [
+        "B00IOT2W4Q",
+        "B000W8WVUW",
+        "B00FJ7SR8Q",
+        "B00V3MLZYY",
+        "B003UHUO7Y"
+      ]
+    },
+    {
+      "query_id": 33315,
+      "query": "diner booth seat and table",
+      "bm25": [
+        "B072N3Y64F",
+        "B07MH65526",
+        "B07MDLF9XM",
+        "B07MH64SP5",
+        "B08BQGHS8B"
+      ],
+      "rrf": [
+        "B07MDLF9XM",
+        "B07MH65526",
+        "B072N3Y64F",
+        "B07ZT9FLNL",
+        "B07MH64SP5"
+      ],
+      "reranked": [
+        "B07MH65526",
+        "B07MDLF9XM",
+        "B07MH64SP5",
+        "B08BQGHS8B",
+        "B089PZM4GH"
+      ]
+    },
+    {
+      "query_id": 33497,
+      "query": "disappearing bottle for baby doll",
+      "bm25": [
+        "B07GDCQH38",
+        "B0819ZBS2K",
+        "B011SFECRW",
+        "B00447MER2",
+        "B077G59GQF"
+      ],
+      "rrf": [
+        "B07GDCQH38",
+        "B0819ZBS2K",
+        "B077G59GQF",
+        "B011SFECRW",
+        "B00447MER2"
+      ],
+      "reranked": [
+        "B077G59GQF",
+        "B0819ZBS2K",
+        "B07GDCQH38",
+        "B011SFECRW",
+        "B00447MER2"
+      ]
+    },
+    {
+      "query_id": 33772,
+      "query": "disney face masks",
+      "bm25": [
+        "B0868YY9MW",
+        "B08882WRBL",
+        "B088G31DZ3",
+        "B07MKQ2K9M",
+        "B0872QS9QH"
+      ],
+      "rrf": [
+        "B08882WRBL",
+        "B0868YY9MW",
+        "B088G31DZ3",
+        "B087BG9862",
+        "B07MKQ2K9M"
+      ],
+      "reranked": [
+        "B087JR731W",
+        "B08882WRBL",
+        "B088G31DZ3",
+        "B089FRDYKZ",
+        "B087BG9862"
+      ]
+    },
+    {
+      "query_id": 34006,
+      "query": "diy ring tray",
+      "bm25": [
+        "B07G56PZJJ",
+        "B07MCN17YY",
+        "B082R4RCXF",
+        "B07J2SGBGD",
+        "B07DRDS179"
+      ],
+      "rrf": [
+        "B07G56PZJJ",
+        "B082R4RCXF",
+        "B07MCN17YY",
+        "B082Y9849G",
+        "B07J2SGBGD"
+      ],
+      "reranked": [
+        "B082R4RCXF",
+        "B082Y9849G",
+        "B07G56PZJJ",
+        "B07J2SGBGD",
+        "B07VLFJB85"
+      ]
+    },
+    {
+      "query_id": 34363,
+      "query": "dog collar for boxer",
+      "bm25": [
+        "B06Y648S52",
+        "B01NGZIIPW",
+        "B07NGDJMQB",
+        "B08D9LWQ4B",
+        "B08D9M9W3J"
+      ],
+      "rrf": [
+        "B06Y648S52",
+        "B01NGZIIPW",
+        "B07NGDJMQB",
+        "B08D9M9W3J",
+        "B06XW5CCTW"
+      ],
+      "reranked": [
+        "B01NGZIIPW",
+        "B06Y648S52",
+        "B07NGDJMQB",
+        "B015LO9ALE",
+        "B0057D7UT4"
+      ]
+    },
+    {
+      "query_id": 36605,
+      "query": "echo input",
+      "bm25": [
+        "B07TT9YWK6",
+        "B07QWZ56ZH",
+        "B07MPTQQ4H",
+        "B01HI0E89S",
+        "B082LNLMF8"
+      ],
+      "rrf": [
+        "B07TT9YWK6",
+        "B07QWZ56ZH",
+        "B07MPTQQ4H",
+        "B07MLY3JKV",
+        "B01HI0E89S"
+      ],
+      "reranked": [
+        "B07TT9YWK6",
+        "B07QWZ56ZH",
+        "B07MPTQQ4H",
+        "B07FZ8S74R",
+        "B07VTK654B"
+      ]
+    },
+    {
+      "query_id": 36649,
+      "query": "ecografo",
+      "bm25": [
+        "B08T6LR1KW",
+        "B08HQS5T4P",
+        "B088BD2B5T",
+        "B0868P3V2F",
+        "B082CZDYS2"
+      ],
+      "rrf": [
+        "B088BD2B5T",
+        "B07NW3S6HB",
+        "B08HQS5T4P",
+        "B0774CVRZG",
+        "B077FG7SY9"
+      ],
+      "reranked": [
+        "B0774CVRZG",
+        "B088BD2B5T",
+        "B08HQS5T4P",
+        "B07G8YMJKD",
+        "B07NW3S6HB"
+      ]
+    },
+    {
+      "query_id": 37664,
+      "query": "enell high impact sports bra",
+      "bm25": [
+        "B0009JDYVO",
+        "B07NDVTKG8",
+        "B01CK49UVS",
+        "B075352CMR",
+        "B00A0VVI96"
+      ],
+      "rrf": [
+        "B0009JDYVO",
+        "B07NDVTKG8",
+        "B01CK49UVS",
+        "B075352CMR",
+        "B00A0VVI96"
+      ],
+      "reranked": [
+        "B0009JDYVO",
+        "B07NDVTKG8",
+        "B01CK49UVS",
+        "B075352CMR",
+        "B00A0VVI96"
+      ]
+    },
+    {
+      "query_id": 37670,
+      "query": "energen-c electrolutes",
+      "bm25": [
+        "B01KYJZI0S",
+        "B00016RL9G",
+        "B00NNOV1US",
+        "B005UOF4VQ",
+        "B00F656AVW"
+      ],
+      "rrf": [
+        "B01KYJZI0S",
+        "B00F656AVW",
+        "B06XKW4DVL",
+        "B005UOF4VQ",
+        "B07XYH4FMV"
+      ],
+      "reranked": [
+        "B0078J6NVQ",
+        "B00016RL9G",
+        "B00NNOV1US",
+        "B06XKW4DVL",
+        "B0046CD3IO"
+      ]
+    },
+    {
+      "query_id": 38424,
+      "query": "eucerin eye cream",
+      "bm25": [
+        "B07NZW6YGL",
+        "B00TEF9IF0",
+        "B009SYVTRC",
+        "B00JJPMXDO",
+        "B01ACPCKVO"
+      ],
+      "rrf": [
+        "B00TEF9IF0",
+        "B009SYVTRC",
+        "B07NZW6YGL",
+        "B01ACPCKVO",
+        "B01ACPCE2Y"
+      ],
+      "reranked": [
+        "B00TEF9IF0",
+        "B07NZW6YGL",
+        "B009SYVTRC",
+        "B00JJPMXDO",
+        "B004D24818"
+      ]
+    },
+    {
+      "query_id": 38464,
+      "query": "evan currie",
+      "bm25": [
+        "B084TLSQ5Y",
+        "B08414MQXG",
+        "B07YX5CBT2",
+        "B07V3KZZFQ",
+        "B07MYXS338"
+      ],
+      "rrf": [
+        "B084TLSQ5Y",
+        "B07MYXS338",
+        "B00V1YIYMU",
+        "B01FF8HZ22",
+        "B07V3KZZFQ"
+      ],
+      "reranked": [
+        "B07MYXS338",
+        "B005QOX3ZY",
+        "B005ML3B0S",
+        "B00CKY8SVM",
+        "B00F0SI3EM"
+      ]
+    },
+    {
+      "query_id": 38564,
+      "query": "evp extreme pre workout",
+      "bm25": [
+        "B086CG1WKG",
+        "B081KB6MZN",
+        "B086QBZXVM",
+        "B095FFT1QQ",
+        "B07V1Z5ZQ6"
+      ],
+      "rrf": [
+        "B086CG1WKG",
+        "B08W9XD2CB",
+        "B081KB6MZN",
+        "B095FFT1QQ",
+        "B0842W9WMT"
+      ],
+      "reranked": [
+        "B086CG1WKG",
+        "B081KB6MZN",
+        "B095FMGWLJ",
+        "B0842W9WMT",
+        "B08W9RYPHD"
+      ]
+    },
+    {
+      "query_id": 39410,
+      "query": "falda de mezclilla para mujer",
+      "bm25": [
+        "B07VZ3V4TK",
+        "B07WX2ZLXQ",
+        "B07Y16SFSV",
+        "B07ZPD7QW5",
+        "B07ZTVZQMV"
+      ],
+      "rrf": [
+        "B07ZTVZQMV",
+        "B085T622VK",
+        "B08P7VZM6X",
+        "B07TPJC5C8",
+        "B01IWO2KBC"
+      ],
+      "reranked": [
+        "B07Y16SFSV",
+        "B01IWO2KBC",
+        "B07ZPD7QW5",
+        "B07TPJC5C8",
+        "B08HGFBSHL"
+      ]
+    },
+    {
+      "query_id": 40033,
+      "query": "fertile aid",
+      "bm25": [
+        "B013RMKCV4",
+        "B07B164R6T",
+        "B07ZHQ1893",
+        "B07VP6J76V",
+        "B07VC9M9QX"
+      ],
+      "rrf": [
+        "B07B164R6T",
+        "B013RMKCV4",
+        "B010U65X3W",
+        "B0006HDOSM",
+        "B00NG43EC8"
+      ],
+      "reranked": [
+        "B010U65X3W",
+        "B0002G2M9Y",
+        "B0006HDOSM",
+        "B00NG43EC8",
+        "B013RMKCV4"
+      ]
+    },
+    {
+      "query_id": 40356,
+      "query": "financial software for windows 10",
+      "bm25": [
+        "0963571249",
+        "B01N557K0I",
+        "B06XNJB66F",
+        "B08B5KR791",
+        "B00MA5TSNI"
+      ],
+      "rrf": [
+        "0963571249",
+        "B00UM3VG6M",
+        "B06XNJB66F",
+        "B01N557K0I",
+        "B07WHMWD4W"
+      ],
+      "reranked": [
+        "B07FM7BM3Y",
+        "B082DPY4N7",
+        "B00UM3VG6M",
+        "B08B5KR791",
+        "B07J22VR7W"
+      ]
+    },
+    {
+      "query_id": 41134,
+      "query": "flat wood with holds for basket making",
+      "bm25": [
+        "B07FDVB264",
+        "B07QW3JRT4",
+        "B01182WAUG",
+        "B07XJ8SJPL",
+        "B076617VFY"
+      ],
+      "rrf": [
+        "B07FDVB264",
+        "B01182WAUG",
+        "B06X421WJ6",
+        "B076617VFY",
+        "B07XJ8SJPL"
+      ],
+      "reranked": [
+        "B07FDVB264",
+        "B01182WAUG",
+        "B001BLSKZY",
+        "B076617VFY",
+        "B003P2UOCO"
+      ]
+    },
+    {
+      "query_id": 41181,
+      "query": "fleece fabric by the yard for blankets",
+      "bm25": [
+        "B0157T1W6Y",
+        "B07FKGS2DN",
+        "B07FKCJVHM",
+        "B079823HZB",
+        "B00EVY7NSI"
+      ],
+      "rrf": [
+        "B07FKCJVHM",
+        "B07FKGS2DN",
+        "B079823HZB",
+        "B01C8ZCBLK",
+        "B0157T1W6Y"
+      ],
+      "reranked": [
+        "B0818M8LNX",
+        "B079823HZB",
+        "B07FKGS2DN",
+        "B07FKCJVHM",
+        "B00EVY7NSI"
+      ]
+    },
+    {
+      "query_id": 41399,
+      "query": "floor pouf ivory",
+      "bm25": [
+        "B07SR9GWM4",
+        "B07CZYMVVX",
+        "B00KW2VCBC",
+        "B08164NRNM",
+        "B01N1WWZS8"
+      ],
+      "rrf": [
+        "B07SR9GWM4",
+        "B07CZYMVVX",
+        "B08164NRNM",
+        "B07RFNRX99",
+        "B00KW2VCBC"
+      ],
+      "reranked": [
+        "B07SR9GWM4",
+        "B00KW2VCBC",
+        "B07CZYMVVX",
+        "B08164NRNM",
+        "B01N1WWZS8"
+      ]
+    },
+    {
+      "query_id": 41625,
+      "query": "flux planetarium",
+      "bm25": [
+        "B07JB9Q3FW",
+        "B071DCBQZV",
+        "B00FQDWPNQ",
+        "B01KZ4S0E8",
+        "B0862HZ9Z5"
+      ],
+      "rrf": [
+        "B07JB9Q3FW",
+        "B071DCBQZV",
+        "B00FQDWPNQ",
+        "B01KZ4S0E8",
+        "B0862HZ9Z5"
+      ],
+      "reranked": [
+        "B07JB9Q3FW",
+        "B071DCBQZV",
+        "B0862HZ9Z5",
+        "B001UZHASE",
+        "B016YBU4RW"
+      ]
+    },
+    {
+      "query_id": 42143,
+      "query": "forest green bath mat",
+      "bm25": [
+        "B010EBVKFI",
+        "B0856ZLNK6",
+        "B07GFG46MM",
+        "B07HGN5TWC",
+        "B0116QYZ16"
+      ],
+      "rrf": [
+        "B010EBVKFI",
+        "B07GFG46MM",
+        "B07HGN5TWC",
+        "B0856ZLNK6",
+        "B0116QYZ16"
+      ],
+      "reranked": [
+        "B0116QYZ16",
+        "B07GFG46MM",
+        "B00M0GMGO0",
+        "B07M7W712F",
+        "B08BZLR4KX"
+      ]
+    },
+    {
+      "query_id": 42158,
+      "query": "forget me not artificial flowers",
+      "bm25": [
+        "B0093JO8NE",
+        "B08N6VFK31",
+        "B0956YHDV5",
+        "B08GWQ315Q",
+        "B01IQY9CAA"
+      ],
+      "rrf": [
+        "B08N6VFK31",
+        "B0093JO8NE",
+        "B0956YHDV5",
+        "B01IQY9CAA",
+        "B094QWBHK9"
+      ],
+      "reranked": [
+        "B081WN1QK5",
+        "B0093JO8NE",
+        "B09BN1HM5S",
+        "B08ZJH7HGG",
+        "B01IQY9CAA"
+      ]
+    },
+    {
+      "query_id": 42164,
+      "query": "forging kit",
+      "bm25": [
+        "B07FGFF7CF",
+        "B00Z7BNEYQ",
+        "B07GRYGFXR",
+        "1631595059",
+        "B07KVMG529"
+      ],
+      "rrf": [
+        "B07GRYGFXR",
+        "B07KVMG529",
+        "B07FGFF7CF",
+        "B07Y8GZK6V",
+        "1631595059"
+      ],
+      "reranked": [
+        "B07FGFF7CF",
+        "B07KVMG529",
+        "B07DJYMB2D",
+        "B07FN651NS",
+        "B07Y8GZK6V"
+      ]
+    },
+    {
+      "query_id": 42238,
+      "query": "fortnite drift costume",
+      "bm25": [
+        "B07V5RGTYJ",
+        "B07TXRNL6H",
+        "B07GHB6BDQ",
+        "B07DVPXPVB",
+        "B07J2375JG"
+      ],
+      "rrf": [
+        "B07V5RGTYJ",
+        "B07TXRNL6H",
+        "B07GHB6BDQ",
+        "B07J2375JG",
+        "B07DVPXPVB"
+      ],
+      "reranked": [
+        "B07V5RGTYJ",
+        "B07GHB6BDQ",
+        "B07J2375JG",
+        "B07TXRNL6H",
+        "B07DVPXPVB"
+      ]
+    },
+    {
+      "query_id": 42300,
+      "query": "fountain pen without cartridge",
+      "bm25": [
+        "B07DFND67C",
+        "B088K92MV1",
+        "B00MDRZLHA",
+        "B00SNIIPIU",
+        "B07XCXBZJL"
+      ],
+      "rrf": [
+        "B088K92MV1",
+        "B07DFND67C",
+        "B07SM9CSWT",
+        "B07SNFK6TP",
+        "B07RFT9RPB"
+      ],
+      "reranked": [
+        "B07SM9CSWT",
+        "B07SNFK6TP",
+        "B088K92MV1",
+        "B00MDRZLHA",
+        "B08Y7JL93S"
+      ]
+    },
+    {
+      "query_id": 42606,
+      "query": "freshkote lubricant eye drops",
+      "bm25": [
+        "B07JCC21CJ",
+        "B07JVYF8DC",
+        "B092W7MYJ7",
+        "B09DJ6JFB2",
+        "B00433KUTQ"
+      ],
+      "rrf": [
+        "B07JCC21CJ",
+        "B07JVYF8DC",
+        "B092W7MYJ7",
+        "B09DJ6JFB2",
+        "B014PEZR1S"
+      ],
+      "reranked": [
+        "B07JCC21CJ",
+        "B07JVYF8DC",
+        "B092W7MYJ7",
+        "B09DJ6JFB2",
+        "B00BQCK52E"
+      ]
+    },
+    {
+      "query_id": 43983,
+      "query": "galaxy s10 case black and gold",
+      "bm25": [
+        "B07Q3SBGG5",
+        "B07NBSSPQ8",
+        "B07RFLQGB3",
+        "B07VCCTPVQ",
+        "B07VDCWMNZ"
+      ],
+      "rrf": [
+        "B07VCCTPVQ",
+        "B07RFLQGB3",
+        "B07Q3SBGG5",
+        "B07VDCWMNZ",
+        "B07NBSSPQ8"
+      ],
+      "reranked": [
+        "B07Q3SBGG5",
+        "B07VCCTPVQ",
+        "B07VDCWMNZ",
+        "B07RFLQGB3",
+        "B07P9XQDF2"
+      ]
+    },
+    {
+      "query_id": 45464,
+      "query": "girl scout patches",
+      "bm25": [
+        "B083572TJD",
+        "B00WTPTNKC",
+        "B01KWATUV2",
+        "B00DCJAMCW",
+        "B07F2XKZTP"
+      ],
+      "rrf": [
+        "B083572TJD",
+        "B00WTPTNKC",
+        "B07F2XKZTP",
+        "B00DCJAMCW",
+        "B086H92Z1R"
+      ],
+      "reranked": [
+        "B083572TJD",
+        "B074DD6J41",
+        "B00APT3GKC",
+        "B086G582ZT",
+        "B07CNFW54J"
+      ]
+    },
+    {
+      "query_id": 45645,
+      "query": "girls pants with owls on them",
+      "bm25": [
+        "B00UPN42N8",
+        "B06Y1H3LRD",
+        "B073HCWH72",
+        "B01M3RKFAA",
+        "B06XC581F9"
+      ],
+      "rrf": [
+        "B00UPN42N8",
+        "B06ZYWTQQH",
+        "B018SXGRXO",
+        "B06Y1H3LRD",
+        "B01M3RKFAA"
+      ],
+      "reranked": [
+        "B01M3RKFAA",
+        "B06ZYWTQQH",
+        "B018SXGRXO",
+        "B00UPN42N8",
+        "B00L2BEQ6U"
+      ]
+    },
+    {
+      "query_id": 46589,
+      "query": "golf mk4 side mirror",
+      "bm25": [
+        "B08CGLRCF9",
+        "B0799JNXF5",
+        "B01KTE14D8",
+        "B06VWC311G",
+        "B00CKINJ1M"
+      ],
+      "rrf": [
+        "B08CGLRCF9",
+        "B0799JNXF5",
+        "B01KTE14D8",
+        "B00CKINJ1M",
+        "B07DNJWNFG"
+      ],
+      "reranked": [
+        "B0799JNXF5",
+        "B08CGLRCF9",
+        "B07DNJWNFG",
+        "B07DNJS3XF",
+        "B00CKINJ1M"
+      ]
+    },
+    {
+      "query_id": 46787,
+      "query": "gopro hero 7 black",
+      "bm25": [
+        "B06VX9F7HY",
+        "B0836YW97C",
+        "B07TSFNFYG",
+        "B07PP4L7PC",
+        "B01M4I7RKG"
+      ],
+      "rrf": [
+        "B07PP4L7PC",
+        "B07TSFNFYG",
+        "B07P6Y2Y5G",
+        "B07TK4FJL4",
+        "B07GDGZCCH"
+      ],
+      "reranked": [
+        "B07TSFNFYG",
+        "B07PP4L7PC",
+        "B07J5BMT8R",
+        "B07GDGZCCH",
+        "B07SBDB34Y"
+      ]
+    },
+    {
+      "query_id": 47187,
+      "query": "gray color hair spray",
+      "bm25": [
+        "B015JUYS1M",
+        "B015JUYLZ0",
+        "B073ZLF8J3",
+        "B09265QB53",
+        "B005Z4P2BI"
+      ],
+      "rrf": [
+        "B015JUYS1M",
+        "B015JUYLZ0",
+        "B073ZLF8J3",
+        "B07ZDLJ28Y",
+        "B074K89CYM"
+      ],
+      "reranked": [
+        "B073ZLF8J3",
+        "B015JUYS1M",
+        "B015JUYLZ0",
+        "B001P9IHSC",
+        "B074K89CYM"
+      ]
+    },
+    {
+      "query_id": 47237,
+      "query": "great american products wine tumbler",
+      "bm25": [
+        "B08VVJC9T1",
+        "B08XYB2NFT",
+        "B08XY9N4W6",
+        "B09HPYH555",
+        "B07D96JCM5"
+      ],
+      "rrf": [
+        "B08XYB2NFT",
+        "B08VVJC9T1",
+        "B09HPYH555",
+        "B08XY9N4W6",
+        "B07D96JCM5"
+      ],
+      "reranked": [
+        "B09HPYH555",
+        "B08XY9N4W6",
+        "B08VVJC9T1",
+        "B08XYB2NFT",
+        "B07D96JCM5"
+      ]
+    },
+    {
+      "query_id": 47559,
+      "query": "grill for on kitchen table",
+      "bm25": [
+        "B07L8F4XLN",
+        "B083WPDJKG",
+        "B01IHHLB3W",
+        "B07ZCRXZWQ",
+        "B00JAAJQ3S"
+      ],
+      "rrf": [
+        "B07L8F4XLN",
+        "B07ZCRXZWQ",
+        "B083WPDJKG",
+        "B00JAAJQ3S",
+        "B01IHHLB3W"
+      ],
+      "reranked": [
+        "B07YD3CLHR",
+        "B07ZCRXZWQ",
+        "B00JAACHPC",
+        "B00JAAJQ3S",
+        "B07L8F4XLN"
+      ]
+    },
+    {
+      "query_id": 47619,
+      "query": "griswold family christmas",
+      "bm25": [
+        "B0152AJYI6",
+        "B004FQVIPG",
+        "B01FU7ZSWM",
+        "B01MTNGGDD",
+        "B07YSYP3V6"
+      ],
+      "rrf": [
+        "B004FQVIPG",
+        "B0152AJYI6",
+        "B01FU7ZSWM",
+        "B07YSYP3V6",
+        "B01MTNGGDD"
+      ],
+      "reranked": [
+        "B01FU7ZSWM",
+        "B004FQVIPG",
+        "B0152AJYI6",
+        "B07YSYP3V6",
+        "B01MTNGGDD"
+      ]
+    },
+    {
+      "query_id": 48470,
+      "query": "halberstam",
+      "bm25": [
+        "B07PB29273",
+        "B07HP8S81Q",
+        "B07H36J22G",
+        "B0725BKNZX",
+        "B01AYJVFAA"
+      ],
+      "rrf": [
+        "B0725BKNZX",
+        "B07PB29273",
+        "B07H36J22G",
+        "B00AEGIGM4",
+        "B07HP8S81Q"
+      ],
+      "reranked": [
+        "B00AFB5N24",
+        "B001BK22M2",
+        "B07H36J22G",
+        "B00AG8FZ4C",
+        "B0725BKNZX"
+      ]
+    },
+    {
+      "query_id": 48846,
+      "query": "hand made apple watch band",
+      "bm25": [
+        "B07FVDCBM7",
+        "B0874MX8C6",
+        "B0874N93MB",
+        "B07L618BCF",
+        "B075ZSMVXB"
+      ],
+      "rrf": [
+        "B07FVDCBM7",
+        "B0874MX8C6",
+        "B07HG2LJSP",
+        "B0874N93MB",
+        "B0785DLC1N"
+      ],
+      "reranked": [
+        "B075ZSMVXB",
+        "B07FVDCBM7",
+        "B0839CMD6D",
+        "B0874MX8C6",
+        "B0785DLC1N"
+      ]
+    },
+    {
+      "query_id": 49233,
+      "query": "hario v60 filter",
+      "bm25": [
+        "B00B7XJTP6",
+        "B0763JWP5X",
+        "B00EXT6RI8",
+        "B073RWF7NT",
+        "B00W9XANYY"
+      ],
+      "rrf": [
+        "B00B7XJTP6",
+        "B0763JWP5X",
+        "B00W9XANYY",
+        "B073RWF7NT",
+        "B000P4D5HG"
+      ],
+      "reranked": [
+        "B073RWF7NT",
+        "B00W9XANYY",
+        "B0763JWP5X",
+        "B000P4D5HG",
+        "B01MCULBR2"
+      ]
+    },
+    {
+      "query_id": 49262,
+      "query": "harley headlight 5.75”",
+      "bm25": [
+        "B06W2FZG5V",
+        "B0757JM86C",
+        "B07SK22Z8H",
+        "B07M632CB7",
+        "B01DZU30S0"
+      ],
+      "rrf": [
+        "B0757JM86C",
+        "B06W2FZG5V",
+        "B07SK22Z8H",
+        "B07M632CB7",
+        "B07QLL4QMF"
+      ],
+      "reranked": [
+        "B07M632CB7",
+        "B01DZU30S0",
+        "B07SK22Z8H",
+        "B07QLL4QMF",
+        "B0757JM86C"
+      ]
+    },
+    {
+      "query_id": 49436,
+      "query": "hatch baby",
+      "bm25": [
+        "B084YYBB6Y",
+        "B07P15L4WJ",
+        "B07RRDSD48",
+        "B07F3W954L",
+        "B07K8YNPCG"
+      ],
+      "rrf": [
+        "B07RRDSD48",
+        "B07F3W954L",
+        "B07P15L4WJ",
+        "B084YYBB6Y",
+        "B072TRBZPL"
+      ],
+      "reranked": [
+        "B06XMRCC94",
+        "B079S594KJ",
+        "B072TRBZPL",
+        "B07WFXGNGF",
+        "B07Y5MRCPM"
+      ]
+    },
+    {
+      "query_id": 49491,
+      "query": "hawaiian leis 6 pack",
+      "bm25": [
+        "B07WT85GTD",
+        "B07CC1HCKW",
+        "B07F3KW117",
+        "B07S1G3F6S",
+        "B07SBTL9J9"
+      ],
+      "rrf": [
+        "B07WT85GTD",
+        "B07F3KW117",
+        "B07SBTL9J9",
+        "B073QL5MSZ",
+        "B01FTUZEMO"
+      ],
+      "reranked": [
+        "B07WT85GTD",
+        "B07SBTL9J9",
+        "B073QL5MSZ",
+        "B01FTUZEMO",
+        "B07DVZ5BMZ"
+      ]
+    },
+    {
+      "query_id": 49858,
+      "query": "heartstrings drama",
+      "bm25": [
+        "B07NZ7YMQD",
+        "B08CS4KCVF",
+        "B07W4KCGQP",
+        "B07T7YYBYV",
+        "B07MCD7H64"
+      ],
+      "rrf": [
+        "B07NZ7YMQD",
+        "B07MCD7H64",
+        "B07J6T66RX",
+        "B07W4KCGQP",
+        "B01CYXYOIY"
+      ],
+      "reranked": [
+        "B07NZ7YMQD",
+        "B001P33BES",
+        "B07MCD7H64",
+        "B0749596GY",
+        "B01CYXYOIY"
+      ]
+    },
+    {
+      "query_id": 50218,
+      "query": "henna treated hair conditioner",
+      "bm25": [
+        "B07TH22WTL",
+        "B001EOKJY8",
+        "B0007NIRT6",
+        "B07TFJXSVV",
+        "B00L9JCZAY"
+      ],
+      "rrf": [
+        "B07TH22WTL",
+        "B001EOKJY8",
+        "B0007NIRT6",
+        "B07TFJXSVV",
+        "B00L9JCZAY"
+      ],
+      "reranked": [
+        "B07TH22WTL",
+        "B001EOKJY8",
+        "B0007NIRT6",
+        "B07TDSYP35",
+        "B07TFJXSVV"
+      ]
+    },
+    {
+      "query_id": 50435,
+      "query": "hidden shoes",
+      "bm25": [
+        "B07H7DN41H",
+        "B07SMPCQQ4",
+        "B006L3V6QC",
+        "B07QW34Q8F",
+        "B0749FB9GC"
+      ],
+      "rrf": [
+        "B07H7DN41H",
+        "B006L3V6QC",
+        "B07SMPCQQ4",
+        "B07QW34Q8F",
+        "B07WF6V59G"
+      ],
+      "reranked": [
+        "B07H7DN41H",
+        "B006L3V6QC",
+        "B07WF6V59G",
+        "B07SMPCQQ4",
+        "B07H5P3JSH"
+      ]
+    },
+    {
+      "query_id": 50441,
+      "query": "hide a bed couch",
+      "bm25": [
+        "B00USW0MTE",
+        "B07CZ8CQJ6",
+        "B078YZ3559",
+        "B07GR85L7Y",
+        "B005SF6QS2"
+      ],
+      "rrf": [
+        "B07CZ8CQJ6",
+        "B00USW0MTE",
+        "B07GR85L7Y",
+        "B00FNFAFY8",
+        "B005SF6QS2"
+      ],
+      "reranked": [
+        "B078YZ3559",
+        "B07CZ8CQJ6",
+        "B01LXDH29Y",
+        "B00USW0MTE",
+        "B01LWUVJFD"
+      ]
+    },
+    {
+      "query_id": 50902,
+      "query": "holly golightly earrings",
+      "bm25": [
+        "B07D696DXP",
+        "B076MRHVR4",
+        "B07NXQF7WF",
+        "B07J6N3J3G",
+        "B07HKMSVR3"
+      ],
+      "rrf": [
+        "B076MRHVR4",
+        "B07D696DXP",
+        "B07NXQF7WF",
+        "B07HKMSVR3",
+        "B07FZGBCXS"
+      ],
+      "reranked": [
+        "B07HKMSVR3",
+        "B076MRHVR4",
+        "B07J6N3J3G",
+        "B07NXQF7WF",
+        "B07FZGBCXS"
+      ]
+    },
+    {
+      "query_id": 50997,
+      "query": "home made dust collector",
+      "bm25": [
+        "B01MDUGEXE",
+        "B07NZZZ5ZL",
+        "B07R57PPPX",
+        "B08V51HLD7",
+        "B07R9XDZ3F"
+      ],
+      "rrf": [
+        "B08V51HLD7",
+        "B071CL5MJN",
+        "B004T86NAK",
+        "B01M18RJOU",
+        "B002JP315K"
+      ],
+      "reranked": [
+        "B002JP315K",
+        "B071CL5MJN",
+        "B08V51HLD7",
+        "B07D9YHZ87",
+        "B00064NPXO"
+      ]
+    },
+    {
+      "query_id": 51494,
+      "query": "hotas x flight stick",
+      "bm25": [
+        "B001CXYMFS",
+        "B000U1OOH4",
+        "B00CBVHJ00",
+        "B07ZG8CYY3",
+        "B015PJ68BK"
+      ],
+      "rrf": [
+        "B001CXYMFS",
+        "B00CBVHJ00",
+        "B07643TW2V",
+        "B000U1OOH4",
+        "B015PJ68BK"
+      ],
+      "reranked": [
+        "B001CXYMFS",
+        "B00CBVHJ00",
+        "B07JKNGPWW",
+        "B015PJ68BK",
+        "B07ZG8CYY3"
+      ]
+    },
+    {
+      "query_id": 52236,
+      "query": "hydro flask aqua",
+      "bm25": [
+        "B07MZDFRZS",
+        "B07MZCZ3X2",
+        "B089VLGPZD",
+        "B083GB5ZQT",
+        "B01GW2H09S"
+      ],
+      "rrf": [
+        "B07MZDFRZS",
+        "B07MZCZ3X2",
+        "B083GB5ZQT",
+        "B07WHDS6RT",
+        "B01GW2GNH8"
+      ],
+      "reranked": [
+        "B07WHDS6RT",
+        "B083GC98D8",
+        "B083GB5ZQT",
+        "B01GW2GC5G",
+        "B01KXHF34W"
+      ]
+    },
+    {
+      "query_id": 53207,
+      "query": "infant winter got wear",
+      "bm25": [
+        "B07MRGD73Q",
+        "B07D49GDQK",
+        "B07K6NW21L",
+        "B07HKR58S2",
+        "B07GF685ZS"
+      ],
+      "rrf": [
+        "B07MRGD73Q",
+        "B07CL5H4FQ",
+        "B07D49GDQK",
+        "B07HKR58S2",
+        "B073X4WWFY"
+      ],
+      "reranked": [
+        "B07CL5H4FQ",
+        "B01NBNRXAY",
+        "B01M6C5LNS",
+        "B0744PQRWM",
+        "B07K6NW21L"
+      ]
+    },
+    {
+      "query_id": 53412,
+      "query": "inspector gadget movie",
+      "bm25": [
+        "B081X3S2KW",
+        "B0019ESNGO",
+        "B003QT33BK",
+        "B000085EF7",
+        "B00DY9528Y"
+      ],
+      "rrf": [
+        "B000085EF7",
+        "B003QT33BK",
+        "B0019ESNGO",
+        "B006RXPRNY",
+        "B0000764K0"
+      ],
+      "reranked": [
+        "B0019ESNGO",
+        "B000085EF7",
+        "B003QT33BK",
+        "B006RXPRNY",
+        "B0000764K0"
+      ]
+    },
+    {
+      "query_id": 53495,
+      "query": "instinct td jakes book",
+      "bm25": [
+        "B01H9C7PRM",
+        "B01FMVTWNM",
+        "1455554030",
+        "1630384186",
+        "1455554057"
+      ],
+      "rrf": [
+        "B01H9C7PRM",
+        "B01FMVTWNM",
+        "1455554057",
+        "1455554030",
+        "1630384186"
+      ],
+      "reranked": [
+        "B01FMVTWNM",
+        "B01H9C7PRM",
+        "1455554057",
+        "1455534102",
+        "145556141X"
+      ]
+    },
+    {
+      "query_id": 53847,
+      "query": "ipad docking station",
+      "bm25": [
+        "B07XLFYN6S",
+        "B07JFLX57K",
+        "B07TWG4F56",
+        "B082F3YPTP",
+        "B074BG7L28"
+      ],
+      "rrf": [
+        "B07TWG4F56",
+        "B07JFLX57K",
+        "B082F3YPTP",
+        "B07XLFYN6S",
+        "B07SF5Z66K"
+      ],
+      "reranked": [
+        "B082F3YPTP",
+        "B07TWG4F56",
+        "B071K5SPKN",
+        "B01DBV1OKY",
+        "B07JFLX57K"
+      ]
+    },
+    {
+      "query_id": 53893,
+      "query": "ipad pencil 1st generation",
+      "bm25": [
+        "B08BZ9QF7N",
+        "B088D3KBQ5",
+        "B08C6YGGNH",
+        "B085C8DGMZ",
+        "B07P9TJGRX"
+      ],
+      "rrf": [
+        "B08C6YGGNH",
+        "B088D3KBQ5",
+        "B08BZ9QF7N",
+        "B07K1WWBJK",
+        "B07P9TJGRX"
+      ],
+      "reranked": [
+        "B07Z3VB7S1",
+        "B016NY7784",
+        "B07P9TJGRX",
+        "B07MV8X841",
+        "B088CVMMW5"
+      ]
+    },
+    {
+      "query_id": 54262,
+      "query": "iphone 7 plus charger cord 3ft",
+      "bm25": [
+        "B07LGK9PW2",
+        "B07LBXJQC9",
+        "B07FZ3LZ8Y",
+        "B07PR4XR9J",
+        "B07NWL24B2"
+      ],
+      "rrf": [
+        "B07LGK9PW2",
+        "B07LBXJQC9",
+        "B07FZ3LZ8Y",
+        "B07NWL24B2",
+        "B07PR4XR9J"
+      ],
+      "reranked": [
+        "B07LGK9PW2",
+        "B07LBXJQC9",
+        "B07NWL24B2",
+        "B07PR4YNF5",
+        "B07FZ3LZ8Y"
+      ]
+    },
+    {
+      "query_id": 54842,
+      "query": "iqua",
+      "bm25": [
+        "B07MCCYQ2S",
+        "B07Q345VRG",
+        "B00154LLE4",
+        "B07RJPSTZN",
+        "B01M7T30SE"
+      ],
+      "rrf": [
+        "B07MCCYQ2S",
+        "B07Q345VRG",
+        "B07RJPSTZN",
+        "B01M7T30SE",
+        "B00154LLE4"
+      ],
+      "reranked": [
+        "B07DHLPHMP",
+        "B07MCCYQ2S",
+        "B00129JZ0O",
+        "B0863K3R7M",
+        "B07MJ9759S"
+      ]
+    },
+    {
+      "query_id": 54957,
+      "query": "irridescent earrings",
+      "bm25": [
+        "B078H6SZLV",
+        "B07WDP314C",
+        "B07GGT72CM",
+        "B07GQQYTG5",
+        "B01IBYWRXE"
+      ],
+      "rrf": [
+        "B07GGT72CM",
+        "B07HHBBHRV",
+        "B078H6SZLV",
+        "B07WDP314C",
+        "B07D4C9PZW"
+      ],
+      "reranked": [
+        "B07HHBBHRV",
+        "B073JBPSTX",
+        "B07D4C9PZW",
+        "B07FCTJ6PN",
+        "B07GGT72CM"
+      ]
+    },
+    {
+      "query_id": 55162,
+      "query": "ivory area rug",
+      "bm25": [
+        "B074KQ1WVZ",
+        "B074HC1WWS",
+        "B078HDG9D3",
+        "B01EZFJGSC",
+        "B00MN6NNNK"
+      ],
+      "rrf": [
+        "B078HDG9D3",
+        "B074HC1WWS",
+        "B074KQ1WVZ",
+        "B01EZFJGSC",
+        "B005YBDVXS"
+      ],
+      "reranked": [
+        "B074HC1WWS",
+        "B078HDG9D3",
+        "B01EZFJGSC",
+        "B074KQ1WVZ",
+        "B00MN6NNNK"
+      ]
+    },
+    {
+      "query_id": 55327,
+      "query": "jack standds",
+      "bm25": [
+        "B07N691QNG",
+        "B07S7F7KQQ",
+        "B0019JVIPM",
+        "B000I1DTT0",
+        "B0000CBJKZ"
+      ],
+      "rrf": [
+        "B0019JVIPM",
+        "B0753MMRN7",
+        "B06Y656QMR",
+        "B000I1DTT0",
+        "B07N691QNG"
+      ],
+      "reranked": [
+        "B0093NBRHA",
+        "B0753MMRN7",
+        "B000CO86BY",
+        "B0007XTGCI",
+        "B06Y656QMR"
+      ]
+    },
+    {
+      "query_id": 56244,
+      "query": "joker mask",
+      "bm25": [
+        "B07YJ3HLTK",
+        "B07X99C221",
+        "1401249272",
+        "B07YCQ51L3",
+        "B08955XVQH"
+      ],
+      "rrf": [
+        "B07YJ3HLTK",
+        "B07YCQ51L3",
+        "B08955XVQH",
+        "B07X99C221",
+        "1401249272"
+      ],
+      "reranked": [
+        "B07YCQ51L3",
+        "B07YJ3HLTK",
+        "B07X99C221",
+        "B08955XVQH",
+        "1401249272"
+      ]
+    },
+    {
+      "query_id": 56685,
+      "query": "jurassic world raptor toys",
+      "bm25": [
+        "B07BMK9885",
+        "B07FDNPGNM",
+        "B07YL7JD5M",
+        "B076Q46F2H",
+        "B076MMCQRX"
+      ],
+      "rrf": [
+        "B07BMK9885",
+        "B07YL7JD5M",
+        "B076QD8XX8",
+        "B07FDNPGNM",
+        "B076Q46F2H"
+      ],
+      "reranked": [
+        "B07P84HT2N",
+        "B077WY4155",
+        "B076QD8XX8",
+        "B078SB8XT9",
+        "B07FDMWP91"
+      ]
+    },
+    {
+      "query_id": 56758,
+      "query": "jvc lt-22mar400",
+      "bm25": [
+        "B08KGTL8PT",
+        "B00RJ84AAW",
+        "B01AQ3PRNA",
+        "B0771DTWVY",
+        "B07CTZQJ97"
+      ],
+      "rrf": [
+        "B08KGTL8PT",
+        "B01AQ3PRNA",
+        "B00RJ84AAW",
+        "B0771DTWVY",
+        "B07CTZQJ97"
+      ],
+      "reranked": [
+        "B08KGTL8PT",
+        "B006B1BXCQ",
+        "B0771DTWVY",
+        "B07SG91ZRZ",
+        "B07YQ6CR3S"
+      ]
+    },
+    {
+      "query_id": 57115,
+      "query": "kc chiefs girl jerseys",
+      "bm25": [
+        "B00NHYLOCY",
+        "B07414J4YQ",
+        "B07RXXFVZD",
+        "B06ZZG5GD2",
+        "B07QXBT32H"
+      ],
+      "rrf": [
+        "B07414J4YQ",
+        "B06ZZG5GD2",
+        "B00NHYLOCY",
+        "B01N788VFK",
+        "B07WJR49HX"
+      ],
+      "reranked": [
+        "B01N788VFK",
+        "B07TMQDV48",
+        "B07TBPRWPN",
+        "B07WJR49HX",
+        "B07TLNXB5D"
+      ]
+    },
+    {
+      "query_id": 57574,
+      "query": "kicker bass control knob",
+      "bm25": [
+        "B01BDCAWUG",
+        "B07FNSWVDG",
+        "B07NS9YV1Q",
+        "B07484YZZG",
+        "B07J2RTN5X"
+      ],
+      "rrf": [
+        "B01BDCAWUG",
+        "B07FNSWVDG",
+        "B07484YZZG",
+        "B07J2MDRBM",
+        "B07J2QXBB2"
+      ],
+      "reranked": [
+        "B07J2MDRBM",
+        "B01BDCAWUG",
+        "B07J2QXBB2",
+        "B07484YZZG",
+        "B07J2RTN5X"
+      ]
+    },
+    {
+      "query_id": 57628,
+      "query": "kid skeleton pajamas",
+      "bm25": [
+        "B07T31PPVX",
+        "B07CMGZYKW",
+        "B076X478HZ",
+        "B075NR8SBN",
+        "B07VGQ4MYJ"
+      ],
+      "rrf": [
+        "B07T31PPVX",
+        "B075NR8SBN",
+        "B07CMGZYKW",
+        "B076X478HZ",
+        "B07VGQ4MYJ"
+      ],
+      "reranked": [
+        "B075NR8SBN",
+        "B07T31PPVX",
+        "B075BHS2GV",
+        "B074DR1624",
+        "B07HBPQ1JB"
+      ]
+    },
+    {
+      "query_id": 58115,
+      "query": "kielhs sunscreen",
+      "bm25": [
+        "B002CML1VG",
+        "B007U54P36",
+        "B002MSN3QQ",
+        "B001P92FMG",
+        "B008VK3F94"
+      ],
+      "rrf": [
+        "B002CML1VG",
+        "B00D145JAS",
+        "B007U54P36",
+        "B01A0NT3D6",
+        "B002MSN3QQ"
+      ],
+      "reranked": [
+        "B00D145JAS",
+        "B00CP5JCY8",
+        "B07FLMGK2Q",
+        "B079C42YJ5",
+        "B074PWDKB5"
+      ]
+    },
+    {
+      "query_id": 58325,
+      "query": "king platform bed without headboard",
+      "bm25": [
+        "B08B5Y2R2M",
+        "B09BN9VJZV",
+        "B096HDRRTN",
+        "B075H3MSTS",
+        "B01B8GQCB0"
+      ],
+      "rrf": [
+        "B075H3MSTS",
+        "B096HDRRTN",
+        "B08B5Y2R2M",
+        "B09BN9VJZV",
+        "B09CTK97V5"
+      ],
+      "reranked": [
+        "B08B5Y2R2M",
+        "B07PM5MFCQ",
+        "B07VPFQ3B8",
+        "B0789KRB8L",
+        "B08G4N34Z2"
+      ]
+    },
+    {
+      "query_id": 58366,
+      "query": "king size sheets not microfiber",
+      "bm25": [
+        "B008JP9UXG",
+        "B07XT6323T",
+        "B07P8V57QJ",
+        "B07XZKH5WD",
+        "B08F744W8H"
+      ],
+      "rrf": [
+        "B07P8V57QJ",
+        "B08F744W8H",
+        "B07TYB4FR8",
+        "B07XZKH5WD",
+        "B08YDM8XX3"
+      ],
+      "reranked": [
+        "B008JP9UXG",
+        "B00VANOA34",
+        "B086QGGRNT",
+        "B07P8V57QJ",
+        "B08K43SW2P"
+      ]
+    },
+    {
+      "query_id": 58383,
+      "query": "kings cribbage board game",
+      "bm25": [
+        "B00005LBF0",
+        "B00004SDBL",
+        "B082KR9PP8",
+        "B0854B2BH8",
+        "B082SJV191"
+      ],
+      "rrf": [
+        "B00005LBF0",
+        "B08C1L81MT",
+        "B0854B2BH8",
+        "B07D63X49P",
+        "B076X7RS73"
+      ],
+      "reranked": [
+        "B00005LBF0",
+        "B08C1L81MT",
+        "B07D63X49P",
+        "B0854B2BH8",
+        "B001Q77S1A"
+      ]
+    },
+    {
+      "query_id": 58448,
+      "query": "kiss press on nails medium length with glue",
+      "bm25": [
+        "B087989DWM",
+        "B01DJLXQHK",
+        "B00T9XE2M6",
+        "B00766RJ8C",
+        "B07ZWCYQJH"
+      ],
+      "rrf": [
+        "B01DJLXQHK",
+        "B00T9XE2M6",
+        "B00766RJ8C",
+        "B01IAEH7DK",
+        "B087989DWM"
+      ],
+      "reranked": [
+        "B01DJLXQHK",
+        "B00T9XE2M6",
+        "B00766RJ8C",
+        "B087989DWM",
+        "B007I6UVSK"
+      ]
+    },
+    {
+      "query_id": 58894,
+      "query": "knitted maroon crop top sweater",
+      "bm25": [
+        "B07H3TPBBM",
+        "B07WH4P4DG",
+        "B07HN2V9YV",
+        "B07HNZ92ZS",
+        "B07G14Z8TX"
+      ],
+      "rrf": [
+        "B07WH4P4DG",
+        "B076Y8GX2Z",
+        "B07H3TPBBM",
+        "B07HNZ92ZS",
+        "B07H2BMY72"
+      ],
+      "reranked": [
+        "B076Y8GX2Z",
+        "B07KLVP9PP",
+        "B016ZPKPL2",
+        "B07JLRRL3K",
+        "B07H2BMY72"
+      ]
+    },
+    {
+      "query_id": 58920,
+      "query": "knorr spinach dip mix",
+      "bm25": [
+        "B01H4846HI",
+        "B07ZC93KM4",
+        "B001XWRBXS",
+        "B07N5HHB1X",
+        "B082XKRLQT"
+      ],
+      "rrf": [
+        "B01H4846HI",
+        "B00DW10UQI",
+        "B0047S9J3U",
+        "B07ZC93KM4",
+        "B001XWRBXS"
+      ],
+      "reranked": [
+        "B01H4846HI",
+        "B07ZC93KM4",
+        "B001XWRBXS",
+        "B07N5HHB1X",
+        "B00DW10UQI"
+      ]
+    },
+    {
+      "query_id": 59113,
+      "query": "kremotex new anti aging cream",
+      "bm25": [
+        "B08667S27X",
+        "B07XTK74G4",
+        "B07DKZ75ZN",
+        "B004LZM6TI",
+        "B08GL3G1Y9"
+      ],
+      "rrf": [
+        "B08667S27X",
+        "B07XTK74G4",
+        "B07DKZ75ZN",
+        "B00HNSSPDG",
+        "B01HOHBS6G"
+      ],
+      "reranked": [
+        "B08667S27X",
+        "B07XTK74G4",
+        "B07DKZ75ZN",
+        "B076KNVTHQ",
+        "B01DC6XTYC"
+      ]
+    },
+    {
+      "query_id": 59167,
+      "query": "kuboy lighters",
+      "bm25": [
+        "B08L79GB7R",
+        "B00GUQWAS8",
+        "B09B6YJCN5",
+        "B07GCHLDWR",
+        "B01A02F714"
+      ],
+      "rrf": [
+        "B08L79GB7R",
+        "B00GUQWAS8",
+        "B016P8A1K4",
+        "B01A02F714",
+        "B07GCHLDWR"
+      ],
+      "reranked": [
+        "B00GUQWAS8",
+        "B07GCHLDWR",
+        "B08C9YV1P6",
+        "B09B6YJCN5",
+        "B01A02F714"
+      ]
+    },
+    {
+      "query_id": 59223,
+      "query": "kylo ren helmet metal",
+      "bm25": [
+        "B07G3LFN4N",
+        "B07CC4HGZ3",
+        "B07G3MY1GY",
+        "B07G71D518",
+        "B013TLFVZK"
+      ],
+      "rrf": [
+        "B07G3LFN4N",
+        "B07CC4HGZ3",
+        "B013TLFVZK",
+        "B07G3MY1GY",
+        "B01B4NLOW4"
+      ],
+      "reranked": [
+        "B07G3LFN4N",
+        "B07G71D518",
+        "B07CC4HGZ3",
+        "B07G3MY1GY",
+        "B013TLFVZK"
+      ]
+    },
+    {
+      "query_id": 60090,
+      "query": "large lego sets",
+      "bm25": [
+        "B00NHQF6MG",
+        "B083GK6WXJ",
+        "B07PX3WW5N",
+        "B0793JTRKG",
+        "B07JXP6R13"
+      ],
+      "rrf": [
+        "B00NHQF6MG",
+        "B083JWZNW7",
+        "B0793JTRKG",
+        "B07Q2WMBLR",
+        "B07PX3WW5N"
+      ],
+      "reranked": [
+        "B00NHQF6MG",
+        "B07GH953JN",
+        "B07Q2WMBLR",
+        "B083JWZNW7",
+        "B07W4M54CJ"
+      ]
+    },
+    {
+      "query_id": 60545,
+      "query": "lbs ii natures sunshine lower bowel",
+      "bm25": [
+        "B00H1LE26O",
+        "B000WQJK94",
+        "B004EKTAYE",
+        "B000MSEXK8",
+        "B0009DXOTM"
+      ],
+      "rrf": [
+        "B00H1LE26O",
+        "B000WQJK94",
+        "B000MSEXK8",
+        "B000WQFJN0",
+        "B000PJAM3G"
+      ],
+      "reranked": [
+        "B000WQJK94",
+        "B00H1LE26O",
+        "B000MSEXK8",
+        "B07TYF7YWK",
+        "B001JKIGEM"
+      ]
+    },
+    {
+      "query_id": 60628,
+      "query": "leanmode stimulant free fat burner & weight loss support",
+      "bm25": [
+        "B006QY4N20",
+        "B07V1PW1YN",
+        "B06Y6DMKWR",
+        "B00XISYB42",
+        "B0134TBGRE"
+      ],
+      "rrf": [
+        "B006QY4N20",
+        "B00XISYB42",
+        "B01HE85QOA",
+        "B06Y6DMKWR",
+        "B0134TBGRE"
+      ],
+      "reranked": [
+        "B00XISYB42",
+        "B01N3ZD6NQ",
+        "B01HE85QOA",
+        "B006QY4N20",
+        "B01AM0GRUY"
+      ]
+    },
+    {
+      "query_id": 61005,
+      "query": "led puck light remote 8 lights",
+      "bm25": [
+        "B085VWSZWD",
+        "B07WSBGX2D",
+        "B07Y68HZ3X",
+        "B01N0L39R7",
+        "B07J66RNWB"
+      ],
+      "rrf": [
+        "B085VWSZWD",
+        "B07WSBGX2D",
+        "B07J66RNWB",
+        "B07Y68HZ3X",
+        "B07FY57K63"
+      ],
+      "reranked": [
+        "B01N0L39R7",
+        "B085VWSZWD",
+        "B01MDOU9W2",
+        "B07FY57K63",
+        "B07J66RNWB"
+      ]
+    },
+    {
+      "query_id": 63091,
+      "query": "living room rug 9x12",
+      "bm25": [
+        "B00PQA4898",
+        "B00UJGXSDG",
+        "B00PQB47PM",
+        "B07S2BDMN8",
+        "B01GS3MKA0"
+      ],
+      "rrf": [
+        "B01LWOF721",
+        "B07GQQCHRD",
+        "B01GS3MKA0",
+        "B00PQB47PM",
+        "B01DVDANUO"
+      ],
+      "reranked": [
+        "B00UJGXSDG",
+        "B00PQB47PM",
+        "B01GS3MKA0",
+        "B01LXHXJF9",
+        "B00PQA4898"
+      ]
+    },
+    {
+      "query_id": 63434,
+      "query": "long brown human hair wig",
+      "bm25": [
+        "B00M19U7NS",
+        "B07KR78KZ1",
+        "B0852XD77F",
+        "B0899DD55P",
+        "B071NLDLM9"
+      ],
+      "rrf": [
+        "B00M19U7NS",
+        "B07KR78KZ1",
+        "B0852XD77F",
+        "B0899DD55P",
+        "B071NLDLM9"
+      ],
+      "reranked": [
+        "B07KR78KZ1",
+        "B00M19U7NS",
+        "B0852XD77F",
+        "B0899DD55P",
+        "B07L1NNPBB"
+      ]
+    },
+    {
+      "query_id": 64406,
+      "query": "lysol to go spray travel size",
+      "bm25": [
+        "B00HETC27E",
+        "B00TSPOA4K",
+        "B07Q62MLYT",
+        "B08678QT65",
+        "B073C7KNYY"
+      ],
+      "rrf": [
+        "B00HETC27E",
+        "B07Q62MLYT",
+        "B08925P3V8",
+        "B08678QT65",
+        "B0040ZOR1Y"
+      ],
+      "reranked": [
+        "B08925P3V8",
+        "B087CBHTNP",
+        "B073C7KNYY",
+        "B0887VLQR8",
+        "B07Q62MLYT"
+      ]
+    },
+    {
+      "query_id": 64685,
+      "query": "macroline paintball",
+      "bm25": [
+        "B002GE6H82",
+        "B00BZLNWHQ",
+        "B00UKOYMIW",
+        "B00BZLNW8K",
+        "B001VRFV0A"
+      ],
+      "rrf": [
+        "B00BZLNWHQ",
+        "B00UKOYMIW",
+        "B002GE6H82",
+        "B00BZLNW8K",
+        "B00BZLNW2Q"
+      ],
+      "reranked": [
+        "B00BZLNWHQ",
+        "B002GE6H82",
+        "B00BZLNW9E",
+        "B00UKOYMIW",
+        "B00BZLNW2Q"
+      ]
+    },
+    {
+      "query_id": 65739,
+      "query": "marco para gafas de mujer",
+      "bm25": [
+        "B073V7N75T",
+        "B0777192HB",
+        "B07HXP38RY",
+        "B07JHZH9S5",
+        "B07QJWMCL8"
+      ],
+      "rrf": [
+        "B07JHZH9S5",
+        "B07YC3NGXR",
+        "B07HXP38RY",
+        "B08P5JBGS7",
+        "B072KDMVVP"
+      ],
+      "reranked": [
+        "B07WFB2L4Q",
+        "B07HXP38RY",
+        "B098JR6KTL",
+        "B07JHZH9S5",
+        "B07VM86RDJ"
+      ]
+    },
+    {
+      "query_id": 65897,
+      "query": "marley n me",
+      "bm25": [
+        "B0872R4Q62",
+        "B00AQMGSF8",
+        "0061704393",
+        "B013RPTHIU",
+        "B07645RBF8"
+      ],
+      "rrf": [
+        "B0872R4Q62",
+        "0061704393",
+        "B00AQMGSF8",
+        "B013RPTHIU",
+        "B001REZM6U"
+      ],
+      "reranked": [
+        "B00AQMGSF8",
+        "B001REZM6U",
+        "0061704393",
+        "B0872R4Q62",
+        "B013RPTHIU"
+      ]
+    },
+    {
+      "query_id": 66048,
+      "query": "mary kay desmaquillante",
+      "bm25": [
+        "B00GI24VPE",
+        "B00VHA8XWY",
+        "B00IZRWY7C",
+        "B079K69ZYJ",
+        "B004UAFDSU"
+      ],
+      "rrf": [
+        "B00IZRWY7C",
+        "B00GI24VPE",
+        "B00VHA8XWY",
+        "B003FHPB2W",
+        "B07GWF7NS9"
+      ],
+      "reranked": [
+        "B07GWF7NS9",
+        "B000QUM5LG",
+        "B07VX1YK2N",
+        "B07935PBL5",
+        "B0793BP79L"
+      ]
+    },
+    {
+      "query_id": 67437,
+      "query": "mens basketball shoes",
+      "bm25": [
+        "B07TW7VJP9",
+        "B07RYRY9K3",
+        "B00CS5M4ZO",
+        "B084Z3KB8L",
+        "B07H29DYTZ"
+      ],
+      "rrf": [
+        "B084Z3KB8L",
+        "B07H29DYTZ",
+        "B07V6ZBKQB",
+        "B0854G91L8",
+        "B07X9MFZ89"
+      ],
+      "reranked": [
+        "B076CKDBYG",
+        "B084Z3KB8L",
+        "B07H29DYTZ",
+        "B07V6HNJ15",
+        "B07V6ZBKQB"
+      ]
+    },
+    {
+      "query_id": 67656,
+      "query": "mens hey dudes size 8",
+      "bm25": [
+        "B08KSHXLJR",
+        "B08KTS1TG2",
+        "B08BHZW5LV",
+        "B08MGXYZY5",
+        "B08MH2N4F8"
+      ],
+      "rrf": [
+        "B08KSHXLJR",
+        "B08MH2N4F8",
+        "B08BHZW5LV",
+        "B08MGXYZY5",
+        "B07HHFNXKD"
+      ],
+      "reranked": [
+        "B08MGVN5KZ",
+        "B08BHZW5LV",
+        "B07Q13VKGL",
+        "B08KSHXLJR",
+        "B07HHFNXKD"
+      ]
+    },
+    {
+      "query_id": 68141,
+      "query": "merlin magic sleepsuit large",
+      "bm25": [
+        "B00OTXQO4K",
+        "B00WRM0FV8",
+        "B08B82D2NK",
+        "B08B82D3XB",
+        "B08ST5TDT6"
+      ],
+      "rrf": [
+        "B00OTXQO4K",
+        "B00WRM0FV8",
+        "B08B82D2NK",
+        "B08B82D3XB",
+        "B01N76FDSZ"
+      ],
+      "reranked": [
+        "B00OTXQO4K",
+        "B00WRM0FV8",
+        "B08B82D3XB",
+        "B08B82D2NK",
+        "B01N76FDSZ"
+      ]
+    },
+    {
+      "query_id": 68404,
+      "query": "metal mail basket cart with wheels",
+      "bm25": [
+        "B07VC58NYG",
+        "B07J29YRG4",
+        "B000Z43NOQ",
+        "B075NTS1DL",
+        "B07V49ZP66"
+      ],
+      "rrf": [
+        "B07VC58NYG",
+        "B07J29YRG4",
+        "B07V49ZP66",
+        "B075NTS1DL",
+        "B000Z43NOQ"
+      ],
+      "reranked": [
+        "B07VC58NYG",
+        "B000Z43NOQ",
+        "B00HNTV46U",
+        "B06XKKGR43",
+        "B075NTS1DL"
+      ]
+    },
+    {
+      "query_id": 68785,
+      "query": "micro tredline",
+      "bm25": [
+        "B07QY5D6GG",
+        "B07KY98T5Z",
+        "B07ZCVH57P",
+        "B07VY5WYJQ",
+        "B07TYJYT53"
+      ],
+      "rrf": [
+        "B07QY5D6GG",
+        "B07VY5WYJQ",
+        "B07KY98T5Z",
+        "B07NZ9N21L",
+        "B01K63PDES"
+      ],
+      "reranked": [
+        "B07QY5D6GG",
+        "B01K63PDES",
+        "B07NZ9N21L",
+        "B07W1BFRR8",
+        "B07VY5WYJQ"
+      ]
+    },
+    {
+      "query_id": 68807,
+      "query": "microelectronics circuit analysis and design 4th edition",
+      "bm25": [
+        "B00N4EUIKG",
+        "0073380644",
+        "007328596X",
+        "0395326168",
+        "0256119198"
+      ],
+      "rrf": [
+        "007328596X",
+        "0073380644",
+        "B00N4EUIKG",
+        "0073529605",
+        "0495667722"
+      ],
+      "reranked": [
+        "B00N4EUIKG",
+        "007328596X",
+        "0073380644",
+        "B01AKC0DFE",
+        "0495667722"
+      ]
+    },
+    {
+      "query_id": 69133,
+      "query": "milla jovovich",
+      "bm25": [
+        "B07F29MWN7",
+        "B07KJBZDF6",
+        "B08F6X4JWY",
+        "B07D512BT1",
+        "B08QM7HVXR"
+      ],
+      "rrf": [
+        "B07F29MWN7",
+        "B08F6X4JWY",
+        "B07KJBZDF6",
+        "B08Q7SNBF7",
+        "B000GT4H0Y"
+      ],
+      "reranked": [
+        "B000I8ES70",
+        "B08F6X4JWY",
+        "B07D512BT1",
+        "B00B5SESF4",
+        "B0036EJEY0"
+      ]
+    },
+    {
+      "query_id": 69150,
+      "query": "million dollar purse",
+      "bm25": [
+        "B07SV4MTPD",
+        "B06XSC69JY",
+        "B01GPANE5Q",
+        "B00L44ZU8I",
+        "B071YYJP3R"
+      ],
+      "rrf": [
+        "B06XSC69JY",
+        "B07SV4MTPD",
+        "B071YYJP3R",
+        "B00L44ZU8I",
+        "B01GPANE5Q"
+      ],
+      "reranked": [
+        "B071YYJP3R",
+        "B07MMH1579",
+        "B07CPPMCQZ",
+        "B00L44ZU8I",
+        "B06XSC69JY"
+      ]
+    },
+    {
+      "query_id": 69159,
+      "query": "milt jackson ‎bebop lp",
+      "bm25": [
+        "B000000XZQ",
+        "B000000XM0",
+        "B000000Y0I",
+        "B000NPF9MQ",
+        "B004HU39MA"
+      ],
+      "rrf": [
+        "B000000XZQ",
+        "B000000XM0",
+        "B000000Y0I",
+        "B000NPF9MQ",
+        "B004HU39MA"
+      ],
+      "reranked": [
+        "B000000XM0",
+        "B000000XZQ",
+        "B000000Y0I",
+        "B000NPF9MQ",
+        "B0025KN40G"
+      ]
+    },
+    {
+      "query_id": 69327,
+      "query": "mini bottles pink champagne",
+      "bm25": [
+        "B074PC7Z2P",
+        "B082YKSFCV",
+        "B07BCDTRLP",
+        "B07GZ16N1N",
+        "B07TCJ8QCG"
+      ],
+      "rrf": [
+        "B07TCJ8QCG",
+        "B07JDWNPMX",
+        "B082YKSFCV",
+        "B07GZ16N1N",
+        "B07JGDMVCH"
+      ],
+      "reranked": [
+        "B07BCDTRLP",
+        "B07TCJ8QCG",
+        "B082YKSFCV",
+        "B07X5Y6FS4",
+        "B07GZ16N1N"
+      ]
+    },
+    {
+      "query_id": 69527,
+      "query": "mini sofa",
+      "bm25": [
+        "B00N20JWGI",
+        "B07C9X5B78",
+        "B079Q6M8RT",
+        "B01MDQHQRU",
+        "B005OHF65I"
+      ],
+      "rrf": [
+        "B07C9X5B78",
+        "B00N20JWGI",
+        "B019K8JF3K",
+        "B079Q6M8RT",
+        "B00NB2NOJI"
+      ],
+      "reranked": [
+        "B00N20JWGI",
+        "B072B9FT6S",
+        "B019K8JF3K",
+        "B07K9MLWKK",
+        "B01N29VJG7"
+      ]
+    },
+    {
+      "query_id": 69660,
+      "query": "minnie mouse suitcases for girls",
+      "bm25": [
+        "B06X18ZX7C",
+        "B00KBW7FDM",
+        "B078GFSGGR",
+        "B07KKFS7YX",
+        "B013YYCG96"
+      ],
+      "rrf": [
+        "B07KKFS7YX",
+        "B00KBW7FDM",
+        "B07PGTRSSJ",
+        "B013YYCG96",
+        "B078GFSGGR"
+      ],
+      "reranked": [
+        "B07PGTRSSJ",
+        "B00KBW7FDM",
+        "B07QF12G7H",
+        "B07QH82CXK",
+        "B0147FYOQ4"
+      ]
+    },
+    {
+      "query_id": 69688,
+      "query": "minwax early american 230 stain",
+      "bm25": [
+        "B00QKI89WM",
+        "B000I1AOM0",
+        "B08D9CFC67",
+        "B0000DI7ZI",
+        "B00C4TRNSM"
+      ],
+      "rrf": [
+        "B00QKI89WM",
+        "B08D9CFC67",
+        "B001JK3QII",
+        "B0000DI7ZI",
+        "B003RVSBG4"
+      ],
+      "reranked": [
+        "B0044UMW6M",
+        "B011VTB3TK",
+        "B000I1AOM0",
+        "B000NUVIPS",
+        "B00QKI89WM"
+      ]
+    },
+    {
+      "query_id": 70347,
+      "query": "money machine cash dispenser",
+      "bm25": [
+        "B00XULB1MM",
+        "B008R9I5GM",
+        "B01BCQPHX0",
+        "B01MRNVO7J",
+        "B0814H7C9F"
+      ],
+      "rrf": [
+        "B00XULB1MM",
+        "B008R9I5GM",
+        "B01BCQPHX0",
+        "B01MRNVO7J",
+        "B08X4F4FQH"
+      ],
+      "reranked": [
+        "B00XULB1MM",
+        "B008R9I5GM",
+        "B01BCQPHX0",
+        "B01MRNVO7J",
+        "B08XB5M232"
+      ]
+    },
+    {
+      "query_id": 70640,
+      "query": "mora knife fire starter replacement fire steel",
+      "bm25": [
+        "B006GR7EVY",
+        "B00BFIBOJW",
+        "B007JIHOE6",
+        "B00EAL1090",
+        "B01LZ37HU6"
+      ],
+      "rrf": [
+        "B006GR7EVY",
+        "B00BFIBOJW",
+        "B007JIHOE6",
+        "B01LZ37HU6",
+        "B00EAL1090"
+      ],
+      "reranked": [
+        "B006GR7EVY",
+        "B007JIHOE6",
+        "B01ICLK0J4",
+        "B00BFIBOJW",
+        "B01LZ37HU6"
+      ]
+    },
+    {
+      "query_id": 70787,
+      "query": "mother goose gyo fujikawa",
+      "bm25": [
+        "0062447629",
+        "B000E1FFFK",
+        "1402750641",
+        "0760733996",
+        "7558410223"
+      ],
+      "rrf": [
+        "B000E1FFFK",
+        "1402750641",
+        "0760733996",
+        "B005LELORS",
+        "0062447629"
+      ],
+      "reranked": [
+        "7558410223",
+        "B000E1FFFK",
+        "1402750641",
+        "0760733996",
+        "0590225170"
+      ]
+    },
+    {
+      "query_id": 70999,
+      "query": "motos electricas adultos",
+      "bm25": [
+        "B06XBW2NBL",
+        "B07WYXXL4V",
+        "B07SQZFV3J",
+        "B07K9MB6X1",
+        "B0771XVNB9"
+      ],
+      "rrf": [
+        "B0771XVNB9",
+        "B07SQZFV3J",
+        "B07ZJV8L7H",
+        "B09FT72DRJ",
+        "B09336PVR8"
+      ],
+      "reranked": [
+        "B09FT72DRJ",
+        "B094V9PMLW",
+        "B099RGQDSP",
+        "B08VMYHTVP",
+        "B082H3TYCJ"
+      ]
+    },
+    {
+      "query_id": 71571,
+      "query": "multivcolors socks for men pack of thirt",
+      "bm25": [
+        "B0195PVZHM",
+        "B005XV6XIO",
+        "B07MDCSPNJ",
+        "B00U0HD53M",
+        "B07G3GB8S1"
+      ],
+      "rrf": [
+        "B005XV6XIO",
+        "B0195PVZHM",
+        "B074125B5Q",
+        "B00U0HD53M",
+        "B00U0HD8C0"
+      ],
+      "reranked": [
+        "B074125B5Q",
+        "B005XV6XIO",
+        "B00U0HD53M",
+        "B01N7V3DKQ",
+        "B00U0HD8C0"
+      ]
+    },
+    {
+      "query_id": 71987,
+      "query": "n95 not kn95 masks",
+      "bm25": [
+        "B08SBXN5GW",
+        "B08JZL41H8",
+        "B08NVDFB3R",
+        "B087Z7N4XF",
+        "B08YS4958R"
+      ],
+      "rrf": [
+        "B08Q8M46FK",
+        "B08JZL41H8",
+        "B08NX8SC6G",
+        "B08NXBG87C",
+        "B08Y8QNT5R"
+      ],
+      "reranked": [
+        "B08SBXN5GW",
+        "B08JZL41H8",
+        "B087Z7N4XF",
+        "B08YS4958R",
+        "B08W4Y3JFW"
+      ]
+    },
+    {
+      "query_id": 72355,
+      "query": "natural hair relaxer without chemicals",
+      "bm25": [
+        "B00KH6JCR4",
+        "B00FN3KF18",
+        "B005IUGYFC",
+        "B00FN3EIS4",
+        "B01LTIAU7Y"
+      ],
+      "rrf": [
+        "B00KH6JCR4",
+        "B005IUGYFC",
+        "B01D58E7U2",
+        "B00439KH4I",
+        "B00809F52Q"
+      ],
+      "reranked": [
+        "B00439KH4I",
+        "B005IUGYFC",
+        "B00KH6JCR4",
+        "B002QDTO4W",
+        "B00694RE28"
+      ]
+    },
+    {
+      "query_id": 72794,
+      "query": "neon green wench hook strap",
+      "bm25": [
+        "B07GVC2LBX",
+        "B01IRSAOMK",
+        "B071P21X1X",
+        "B07V2NMQ1X",
+        "B06Y5FDX7H"
+      ],
+      "rrf": [
+        "B07GVC2LBX",
+        "B077J42YFQ",
+        "B01IRSAOMK",
+        "B076DJWTZD",
+        "B06Y5FDX7H"
+      ],
+      "reranked": [
+        "B06Y5FDX7H",
+        "B07GVC2LBX",
+        "B076DJWTZD",
+        "B071P21X1X",
+        "B077J42YFQ"
+      ]
+    },
+    {
+      "query_id": 72842,
+      "query": "nerdy charging bsnk",
+      "bm25": [
+        "B08BKJJPBM",
+        "B07D64V3JX",
+        "B07P5Q6SZ7",
+        "B07699RYCB",
+        "B07ZKMYDXP"
+      ],
+      "rrf": [
+        "B08BKJJPBM",
+        "B07D64V3JX",
+        "B07ZKMYDXP",
+        "B07699RYCB",
+        "B07WHY4NKL"
+      ],
+      "reranked": [
+        "B08BKJJPBM",
+        "B07ZKMYDXP",
+        "B07D64V3JX",
+        "B07699RYCB",
+        "B07P5Q6SZ7"
+      ]
+    },
+    {
+      "query_id": 73003,
+      "query": "neumann tlm 103",
+      "bm25": [
+        "B00AAO3FQ2",
+        "B0002KN4LA",
+        "B0002H0S4O",
+        "B0753GM3NR",
+        "B0002H0S26"
+      ],
+      "rrf": [
+        "B00AAO3FQ2",
+        "B0002KN4LA",
+        "B0002H0S4O",
+        "B0753GM3NR",
+        "B0002H0S26"
+      ],
+      "reranked": [
+        "B00AAO3FQ2",
+        "B0753GM3NR",
+        "B0002KN4LA",
+        "B0002H0S4O",
+        "B00LMFFVD8"
+      ]
+    },
+    {
+      "query_id": 73124,
+      "query": "new dust masks",
+      "bm25": [
+        "B07H938HCV",
+        "B08BWQ1PPH",
+        "B0892Q7ZQD",
+        "B087RSC5YJ",
+        "B086SZH1QG"
+      ],
+      "rrf": [
+        "B087RSC5YJ",
+        "B0892Q7ZQD",
+        "B07H938HCV",
+        "B086SZH1QG",
+        "B0859YZTFL"
+      ],
+      "reranked": [
+        "B087RSC5YJ",
+        "B0859YZTFL",
+        "B086SZH1QG",
+        "B087389XXZ",
+        "B08C7X7X2Z"
+      ]
+    },
+    {
+      "query_id": 73208,
+      "query": "newborn baby boy",
+      "bm25": [
+        "B07XML8PC6",
+        "B07G99QQ3D",
+        "B07GYW7CNM",
+        "B079KZPVMR",
+        "B07H4P47RN"
+      ],
+      "rrf": [
+        "B07XML8PC6",
+        "B07G99QQ3D",
+        "B07GYW7CNM",
+        "B07H4P47RN",
+        "B079KZPVMR"
+      ],
+      "reranked": [
+        "B07GYW7CNM",
+        "B073WN6PTS",
+        "B07XML8PC6",
+        "B07G99QQ3D",
+        "B079KZPVMR"
+      ]
+    },
+    {
+      "query_id": 73215,
+      "query": "newborn bed prop",
+      "bm25": [
+        "B01DIYCNBI",
+        "B082FFL817",
+        "B00D5ZZU7K",
+        "B07D7GS1HL",
+        "B07QZCG1Z2"
+      ],
+      "rrf": [
+        "B07D7GS1HL",
+        "B01DIYCNBI",
+        "B082FFL817",
+        "B07VF48X8M",
+        "B07CBR3H15"
+      ],
+      "reranked": [
+        "B07VF48X8M",
+        "B07YY7QBQH",
+        "B082FFL817",
+        "B01ENC2ASU",
+        "B07CBR3H15"
+      ]
+    },
+    {
+      "query_id": 73299,
+      "query": "nfl jerseys mens",
+      "bm25": [
+        "B07XD67GR4",
+        "B07R81F9C2",
+        "B07RXHLP9T",
+        "B07MLQP353",
+        "B01MTKZ4RT"
+      ],
+      "rrf": [
+        "B07RXHLP9T",
+        "B07XD67GR4",
+        "B07R81F9C2",
+        "B01NCHYE56",
+        "B01MTKZ4RT"
+      ],
+      "reranked": [
+        "B07XD67GR4",
+        "B07R81F9C2",
+        "B07RXXFVZD",
+        "B01NCHYE56",
+        "B00AUBSXN0"
+      ]
+    },
+    {
+      "query_id": 73401,
+      "query": "night reading lamp for bed",
+      "bm25": [
+        "B07DD8MSNC",
+        "B07VV26SVX",
+        "B087D22325",
+        "B07VZXKYXW",
+        "B016U6ZJGM"
+      ],
+      "rrf": [
+        "B07VV26SVX",
+        "B07DD8MSNC",
+        "B07PZS5C3C",
+        "B087D22325",
+        "B07XCVS3BT"
+      ],
+      "reranked": [
+        "B07PZS5C3C",
+        "B087D22325",
+        "B07F7P18DS",
+        "B07VV26SVX",
+        "B0828MZGNX"
+      ]
+    },
+    {
+      "query_id": 73654,
+      "query": "nike shoes men without laces",
+      "bm25": [
+        "B08TRJ1TJ6",
+        "B082R73J2Y",
+        "B08LSKKL4Z",
+        "B07WDCYHPG",
+        "B07M7VJCH1"
+      ],
+      "rrf": [
+        "B08TRJ1TJ6",
+        "B08LSKKL4Z",
+        "B082R73J2Y",
+        "B07WDCYHPG",
+        "B009KNM1QY"
+      ],
+      "reranked": [
+        "B07QKX9X9G",
+        "B0893KNBJ8",
+        "B07M7VJCH1",
+        "B07FKKVM24",
+        "B095MHNS8X"
+      ]
+    },
+    {
+      "query_id": 73699,
+      "query": "nike white belt",
+      "bm25": [
+        "B004RL0LL6",
+        "B076FPD2KL",
+        "B00RG0YX3C",
+        "B00E96ED2W",
+        "B00CLVU5FQ"
+      ],
+      "rrf": [
+        "B004RL0LL6",
+        "B00E96ED2W",
+        "B07576YYC6",
+        "B00RG0YX3C",
+        "B076FPD2KL"
+      ],
+      "reranked": [
+        "B004RL0LL6",
+        "B00E96ED2W",
+        "B07576YYC6",
+        "B00RG0YX3C",
+        "B0757FL37P"
+      ]
+    },
+    {
+      "query_id": 73711,
+      "query": "nike womens w kawa slide slide sandals",
+      "bm25": [
+        "B01F490DIU",
+        "B07MB9ZJM1",
+        "B005RFGS04",
+        "B073XRX1HL",
+        "B071VRTMD6"
+      ],
+      "rrf": [
+        "B01F490DIU",
+        "B07MB9ZJM1",
+        "B005RFGS04",
+        "B01DFT07QO",
+        "B071VRTMD6"
+      ],
+      "reranked": [
+        "B005RFGS04",
+        "B07MB9ZJM1",
+        "B01DFT07QO",
+        "B01F490DIU",
+        "B074TGL6K9"
+      ]
+    },
+    {
+      "query_id": 74110,
+      "query": "no stim pre workout",
+      "bm25": [
+        "B07JMQ2YZ2",
+        "B07FNMZXYB",
+        "B07DZKMT5Y",
+        "B07ZJP2QGQ",
+        "B07Z5D1MH9"
+      ],
+      "rrf": [
+        "B07JMQ2YZ2",
+        "B08WVLL9WN",
+        "B08DC88XDY",
+        "B07ZJP2QGQ",
+        "B07KYGM3QZ"
+      ],
+      "reranked": [
+        "B07JMQ2YZ2",
+        "B08DC88XDY",
+        "B08WVLL9WN",
+        "B00Y1MPW92",
+        "B07KYGM3QZ"
+      ]
+    },
+    {
+      "query_id": 74620,
+      "query": "nude heel sandal",
+      "bm25": [
+        "B07115CYVF",
+        "B01LT7HT92",
+        "B078N6XJK2",
+        "B07N3FVWKP",
+        "B015GIW1DE"
+      ],
+      "rrf": [
+        "B07N3FVWKP",
+        "B07115CYVF",
+        "B01LT7HT92",
+        "B078N6XJK2",
+        "B072R7NCCS"
+      ],
+      "reranked": [
+        "B07N3FVWKP",
+        "B072R7NCCS",
+        "B015GIW1DE",
+        "B0785MCNQW",
+        "B07NQ3NX9D"
+      ]
+    },
+    {
+      "query_id": 74975,
+      "query": "oakley valve",
+      "bm25": [
+        "B019XSHRQ4",
+        "B000K7F3YG",
+        "B019XSHFM0",
+        "B07TKMWG1Q",
+        "B06XW16QMS"
+      ],
+      "rrf": [
+        "B000K7F3YG",
+        "B019XSHRQ4",
+        "B07TKMWG1Q",
+        "B01G7E34LO",
+        "B019XSHFM0"
+      ],
+      "reranked": [
+        "B000K7F3YG",
+        "B019XSHRQ4",
+        "B019XSHFM0",
+        "B07TKMWG1Q",
+        "B00MLDP18K"
+      ]
+    },
+    {
+      "query_id": 75327,
+      "query": "oilers boys",
+      "bm25": [
+        "B00WVEZEKO",
+        "B01MZGDRI3",
+        "B07FDL25TW",
+        "B01M307LTA",
+        "B07FFTSLN3"
+      ],
+      "rrf": [
+        "B00WVEZEKO",
+        "B01MZGDRI3",
+        "B01M307LTA",
+        "B07FDL25TW",
+        "B07FFTSLN3"
+      ],
+      "reranked": [
+        "B00WVEZEKO",
+        "B01MZGDRI3",
+        "B07FFTSLN3",
+        "B01M307LTA",
+        "B07FDL25TW"
+      ]
+    },
+    {
+      "query_id": 75461,
+      "query": "olive sneakers for women",
+      "bm25": [
+        "B07DNDRZXT",
+        "B077XB1QDX",
+        "B07CPWQLVM",
+        "B079R7W6N1",
+        "B075ZYNWB5"
+      ],
+      "rrf": [
+        "B079R7W6N1",
+        "B07DNDRZXT",
+        "B075ZYNWB5",
+        "B07ST85WKG",
+        "B01C4W64LU"
+      ],
+      "reranked": [
+        "B075ZYNWB5",
+        "B01C4W64LU",
+        "B07ST85WKG",
+        "B079R7W6N1",
+        "B074KGPYV7"
+      ]
+    },
+    {
+      "query_id": 75971,
+      "query": "orange textured paint",
+      "bm25": [
+        "B000V4FFZ0",
+        "B0017373U4",
+        "B01JN7GE8W",
+        "B079K9NSGZ",
+        "B07C24CL45"
+      ],
+      "rrf": [
+        "B000V4FFZ0",
+        "B0017373U4",
+        "B07C24CL45",
+        "B079K9NSGZ",
+        "B006ZHJZ4Y"
+      ],
+      "reranked": [
+        "B07C24CL45",
+        "B01JN7GE8W",
+        "B079K9NSGZ",
+        "B006ZHJZ4Y",
+        "B000V4FFZ0"
+      ]
+    },
+    {
+      "query_id": 76219,
+      "query": "ori hoffmekler",
+      "bm25": [
+        "B084M566X2",
+        "B07NV9LFR8",
+        "B01MUA6QAX",
+        "B004J4XGKO",
+        "177511080X"
+      ],
+      "rrf": [
+        "B084M566X2",
+        "B01MUA6QAX",
+        "B004J4XGKO",
+        "177511080X",
+        "1583942009"
+      ],
+      "reranked": [
+        "0812915968",
+        "1250308224",
+        "0938045350",
+        "177511080X",
+        "1556436890"
+      ]
+    },
+    {
+      "query_id": 76433,
+      "query": "otterbox 6se phone case",
+      "bm25": [
+        "B07M7FMBXS",
+        "B00Z7T665C",
+        "B07XGBX9G7",
+        "B00F3SIW18",
+        "B07WMZHFYN"
+      ],
+      "rrf": [
+        "B00Z7T665C",
+        "B00F3SIW18",
+        "B07WMZHFYN",
+        "B07XGBX9G7",
+        "B07M7FMBXS"
+      ],
+      "reranked": [
+        "B00Z7T665C",
+        "B07XGBX9G7",
+        "B07WMZHFYN",
+        "B0813W2KYV",
+        "B00974L2PC"
+      ]
+    },
+    {
+      "query_id": 76629,
+      "query": "outdoor mosquito repellent device",
+      "bm25": [
+        "B085DRQF6M",
+        "B07NLJ3G99",
+        "B07VNNCYBW",
+        "B081QH2RQP",
+        "B07X4YF1KZ"
+      ],
+      "rrf": [
+        "B085DRQF6M",
+        "B081QH2RQP",
+        "B07VNNCYBW",
+        "B07NLJ3G99",
+        "B07X4YF1KZ"
+      ],
+      "reranked": [
+        "B07C8YDMJJ",
+        "B07X4YF1KZ",
+        "B082QXJR29",
+        "B00194D6ZW",
+        "B07JCQ8GQJ"
+      ]
+    },
+    {
+      "query_id": 76922,
+      "query": "owelette baby monitors",
+      "bm25": [
+        "B0828KQM1W",
+        "B07MGLWKMJ",
+        "B07VYW1N8N",
+        "B07VVMV7LY",
+        "B06ZZXYD6S"
+      ],
+      "rrf": [
+        "B07VYW1N8N",
+        "B06ZZXYD6S",
+        "B07VVMV7LY",
+        "B07N6LBL2D",
+        "B07MGLWKMJ"
+      ],
+      "reranked": [
+        "B06ZZXYD6S",
+        "B07N6LBL2D",
+        "B07VYW1N8N",
+        "B07VVMV7LY",
+        "B07MFR6NZG"
+      ]
+    },
+    {
+      "query_id": 78069,
+      "query": "path projects running shorts",
+      "bm25": [
+        "B089K6SJWZ",
+        "B07TQW9Z2S",
+        "B01FW2CWJC",
+        "B0797RZ4CY",
+        "B07DQKPRMN"
+      ],
+      "rrf": [
+        "B07TQW9Z2S",
+        "B07HRFGL8M",
+        "B07G243CVN",
+        "B08FXJJ8FQ",
+        "B089K6SJWZ"
+      ],
+      "reranked": [
+        "B07PR22X4Q",
+        "B07DQKPRMN",
+        "B01FW2CWJC",
+        "B07P7KHM2N",
+        "B07QCRLJW2"
+      ]
+    },
+    {
+      "query_id": 78246,
+      "query": "paws",
+      "bm25": [
+        "B07NMCNWJY",
+        "B004EK6ZVK",
+        "B01DWRYVV6",
+        "B07P839WJ3",
+        "B013MML2BI"
+      ],
+      "rrf": [
+        "B07NMCNWJY",
+        "B004EK6ZVK",
+        "B01DWRYVV6",
+        "B013MML2BI",
+        "B071GZBRFX"
+      ],
+      "reranked": [
+        "B001J22876",
+        "B071GZBRFX",
+        "B01DWRYVV6",
+        "B07ZG2CX32",
+        "B004EK6ZVK"
+      ]
+    },
+    {
+      "query_id": 78257,
+      "query": "payless shoes for women",
+      "bm25": [
+        "B07HT81YGY",
+        "B00L1R9O9E",
+        "B07793CR2Y",
+        "B073WHN5BL",
+        "B01CKI85N8"
+      ],
+      "rrf": [
+        "B07HT81YGY",
+        "B07793CR2Y",
+        "B00L1R9O9E",
+        "B01CKI85N8",
+        "B073WHN5BL"
+      ],
+      "reranked": [
+        "B01LYET8VB",
+        "B01CA3DO66",
+        "B0774VTXC8",
+        "B07HT81YGY",
+        "B07DYHV33Q"
+      ]
+    },
+    {
+      "query_id": 78475,
+      "query": "pearl thong",
+      "bm25": [
+        "B07H7TXYX4",
+        "B07PVYJ8HZ",
+        "B078HJ3W2R",
+        "B07RMZ12P6",
+        "B01MU37QBD"
+      ],
+      "rrf": [
+        "B07H7TXYX4",
+        "B07PVYJ8HZ",
+        "B07RMZ12P6",
+        "B078HJ3W2R",
+        "B07KFL9S65"
+      ],
+      "reranked": [
+        "B07RMZ12P6",
+        "B07PVYJ8HZ",
+        "B07H7TXYX4",
+        "B07KFL9S65",
+        "B078HJ3W2R"
+      ]
+    },
+    {
+      "query_id": 79285,
+      "query": "peter gundry cd",
+      "bm25": [
+        "B07PPJFF4F",
+        "B07TWP2YKZ",
+        "B07JVVZ5TL",
+        "B07F3QC48D",
+        "B076DNNGJ1"
+      ],
+      "rrf": [
+        "B07PPJFF4F",
+        "B07F3QC48D",
+        "B07TWP2YKZ",
+        "B07JVVZ5TL",
+        "B013PUGHJ4"
+      ],
+      "reranked": [
+        "B07PPJFF4F",
+        "B015ILDFKM",
+        "B07TWP2YKZ",
+        "B0744LFQ7D",
+        "B07JVVZ5TL"
+      ]
+    },
+    {
+      "query_id": 81664,
+      "query": "pocket planner without dates",
+      "bm25": [
+        "1652316248",
+        "B09GT6XSXY",
+        "B07HKFLWL3",
+        "B08T9TZ31Y",
+        "B08KQFZ2DM"
+      ],
+      "rrf": [
+        "B07HKFLWL3",
+        "B08KQFZ2DM",
+        "B08T9TZ31Y",
+        "B095VTG5ZD",
+        "1652316248"
+      ],
+      "reranked": [
+        "B09GT6XSXY",
+        "1652316248",
+        "B08J84HBYW",
+        "B08Z3MN9ZG",
+        "B08ZJ61PP5"
+      ]
+    },
+    {
+      "query_id": 81852,
+      "query": "polaris sportsman propshaft",
+      "bm25": [
+        "B07614KP2M",
+        "B07XWD3T7T",
+        "B06XD4QJQJ",
+        "B07R59HTBQ",
+        "B06WRWF1CN"
+      ],
+      "rrf": [
+        "B07614KP2M",
+        "B06XD4QJQJ",
+        "B0791N8PQP",
+        "B07R59HTBQ",
+        "B07NDZTMYD"
+      ],
+      "reranked": [
+        "B07614KP2M",
+        "B072KWLY72",
+        "B06WRWF1CN",
+        "B06XD4QJQJ",
+        "B000M6T6MU"
+      ]
+    },
+    {
+      "query_id": 82109,
+      "query": "pool alarms for inground pools",
+      "bm25": [
+        "B07ZMG4M85",
+        "B07PGXQYC9",
+        "B0744NM99M",
+        "B0026T4W5W",
+        "B004VQE1DG"
+      ],
+      "rrf": [
+        "B0026T4W5W",
+        "B0744NM99M",
+        "B07ZMG4M85",
+        "B0037Z7NF0",
+        "B0007P2CAE"
+      ],
+      "reranked": [
+        "B0007P2CAE",
+        "B0026T4W5W",
+        "B00BOUIXCM",
+        "B0037Z7NF0",
+        "B07DJVWVF8"
+      ]
+    },
+    {
+      "query_id": 82344,
+      "query": "pore strips for whole face",
+      "bm25": [
+        "B006RFZ66K",
+        "B0823G9S2M",
+        "B07SZ4XLSK",
+        "B07Q8K1TLH",
+        "B07NP21C53"
+      ],
+      "rrf": [
+        "B006RFZ66K",
+        "B07SZ4XLSK",
+        "B0823G9S2M",
+        "B07NP21C53",
+        "B07G17JF52"
+      ],
+      "reranked": [
+        "B07SZ4XLSK",
+        "B006RFZ66K",
+        "B0823G9S2M",
+        "B083V5F4FG",
+        "B07NP21C53"
+      ]
+    },
+    {
+      "query_id": 83386,
+      "query": "princess ten",
+      "bm25": [
+        "1408330121",
+        "B07L486K3T",
+        "B086Q53B36",
+        "B088W8CZBP",
+        "1975312856"
+      ],
+      "rrf": [
+        "1408330121",
+        "B07L486K3T",
+        "B000OCQ134",
+        "1975312856",
+        "B07NX5V1Z7"
+      ],
+      "reranked": [
+        "1408330121",
+        "B000OCQ134",
+        "B07L486K3T",
+        "B01N037GIU",
+        "B085LSWFX2"
+      ]
+    },
+    {
+      "query_id": 83543,
+      "query": "procedure chair",
+      "bm25": [
+        "B07QYHM5M7",
+        "B08XNZ5VDM",
+        "B07GC3SMBB",
+        "B089KCWF7P",
+        "B004L2JKTU"
+      ],
+      "rrf": [
+        "B07QYHM5M7",
+        "B004L2JKTU",
+        "B078C9N2RM",
+        "B003L31RJ6",
+        "B07JM4C4P2"
+      ],
+      "reranked": [
+        "B07QYHM5M7",
+        "B089KCWF7P",
+        "B08XNZ5VDM",
+        "B0718SQMLF",
+        "B01N4GOEVE"
+      ]
+    },
+    {
+      "query_id": 84541,
+      "query": "purple camo jacket",
+      "bm25": [
+        "B07DB8J3KC",
+        "B07487S3PL",
+        "B074W4Y9R7",
+        "B07H9WD1LM",
+        "B07H9TVZBB"
+      ],
+      "rrf": [
+        "B07DB8J3KC",
+        "B07487S3PL",
+        "B074W4Y9R7",
+        "B07H9WD1LM",
+        "B0743NPNJ1"
+      ],
+      "reranked": [
+        "B07DB8J3KC",
+        "B07487S3PL",
+        "B07BLQ2HJT",
+        "B07H9WD1LM",
+        "B074W4Y9R7"
+      ]
+    },
+    {
+      "query_id": 84787,
+      "query": "pyrex measuring cups measuring 2 and one half ozs",
+      "bm25": [
+        "B00NS39804",
+        "B00M2J7PCI",
+        "B0002KZMCY",
+        "B07D5PSMRS",
+        "B00XWDLBKK"
+      ],
+      "rrf": [
+        "B00NS39804",
+        "B0002KZMCY",
+        "B00M2J7PCI",
+        "B0000CFMZN",
+        "B07D5PSMRS"
+      ],
+      "reranked": [
+        "B00M2J7PCI",
+        "B0002KZMCY",
+        "B0000CFMZN",
+        "B00FYL4MPY",
+        "B00XWDLBKK"
+      ]
+    },
+    {
+      "query_id": 84872,
+      "query": "quant revolution",
+      "bm25": [
+        "1788840119",
+        "073521798X",
+        "B089DPJ4NK",
+        "B082DRQTB7",
+        "B089T7ZNV6"
+      ],
+      "rrf": [
+        "073521798X",
+        "1788840119",
+        "B082DRQTB7",
+        "B089DPJ4NK",
+        "B089T7ZNV6"
+      ],
+      "reranked": [
+        "B089T7ZNV6",
+        "B089DPJ4NK",
+        "073521798X",
+        "B082DRQTB7",
+        "1788840119"
+      ]
+    },
+    {
+      "query_id": 85332,
+      "query": "raid deep reach fogger",
+      "bm25": [
+        "B00LI5HO8M",
+        "B00N98SR7I",
+        "B07RTBYRVH",
+        "B07RBBWPT1",
+        "B00D8G7S1W"
+      ],
+      "rrf": [
+        "B00LI5HO8M",
+        "B00D8G7S1W",
+        "B07RBBWPT1",
+        "B00N98SR7I",
+        "B07RTBYRVH"
+      ],
+      "reranked": [
+        "B00LI5HO8M",
+        "B00N98SR7I",
+        "B07RBBWPT1",
+        "B07V1WR96K",
+        "B07V1K2GFX"
+      ]
+    },
+    {
+      "query_id": 86639,
+      "query": "reef sandals boys size 4",
+      "bm25": [
+        "B07CTPT7TS",
+        "B01IC9ZJTW",
+        "B07CZBVY5G",
+        "B011JIGL7M",
+        "B074597TKV"
+      ],
+      "rrf": [
+        "B07CTPT7TS",
+        "B01IC9ZJTW",
+        "B074597TKV",
+        "B07CTQ8NKG",
+        "B011JIGL7M"
+      ],
+      "reranked": [
+        "B07CTPT7TS",
+        "B01IC9ZJTW",
+        "B07CTN76PM",
+        "B07CZ7GPGT",
+        "B07CTQ8NKG"
+      ]
+    },
+    {
+      "query_id": 87073,
+      "query": "renogy 100w solar panel",
+      "bm25": [
+        "B07HN5R2KX",
+        "B01NADR1CI",
+        "B00BCRG22A",
+        "B01B3TEM1E",
+        "B00BFCNFRM"
+      ],
+      "rrf": [
+        "B01B3TEM1E",
+        "B07HN5R2KX",
+        "B01NADR1CI",
+        "B00BCRG22A",
+        "B07MZKY9H5"
+      ],
+      "reranked": [
+        "B01B3TEM1E",
+        "B07GF5JY35",
+        "B07BMNGVV3",
+        "B07HN5R2KX",
+        "B079JVBVL3"
+      ]
+    },
+    {
+      "query_id": 87672,
+      "query": "rihanna book",
+      "bm25": [
+        "0714878014",
+        "B00G9583NG",
+        "1419736140",
+        "B087SJ2XQP",
+        "B0748PJSBJ"
+      ],
+      "rrf": [
+        "0714878014",
+        "B00G9583NG",
+        "383655058X",
+        "159711443X",
+        "B0748PJSBJ"
+      ],
+      "reranked": [
+        "0714878014",
+        "B00G9583NG",
+        "0593139127",
+        "1641120177",
+        "1419736140"
+      ]
+    },
+    {
+      "query_id": 87932,
+      "query": "roadster racer flags",
+      "bm25": [
+        "B0758H6ZKM",
+        "B06XXM7Y4H",
+        "B077H19W6C",
+        "B074ZLFRLG",
+        "B0767ZC9P9"
+      ],
+      "rrf": [
+        "B06XXM7Y4H",
+        "B0767ZC9P9",
+        "B07DQHQFKK",
+        "B07Y3QGJTC",
+        "B077H19W6C"
+      ],
+      "reranked": [
+        "B07B63WQQH",
+        "B07Y3QGJTC",
+        "B01N9O34HJ",
+        "B077B393NS",
+        "B07DQHQFKK"
+      ]
+    },
+    {
+      "query_id": 88874,
+      "query": "royal blue xr phone case solcon",
+      "bm25": [
+        "B07QHWWJX3",
+        "B07QG1RCXS",
+        "B07JFZVNQR",
+        "B07Q61LBGP",
+        "B07N92KTW8"
+      ],
+      "rrf": [
+        "B07QHWWJX3",
+        "B07QG1RCXS",
+        "B07Q61LBGP",
+        "B07JFZVNQR",
+        "B07N92KTW8"
+      ],
+      "reranked": [
+        "B07QG1RCXS",
+        "B07QHWWJX3",
+        "B07KXJMC6Z",
+        "B07JFZVNQR",
+        "B07N92KTW8"
+      ]
+    },
+    {
+      "query_id": 89315,
+      "query": "rv laundry drying rack ladder mount",
+      "bm25": [
+        "B004ND9BMS",
+        "B004ND5DRK",
+        "B00B2AU7QE",
+        "B00H7P1G7C",
+        "B013KJEF5I"
+      ],
+      "rrf": [
+        "B004ND5DRK",
+        "B004ND9BMS",
+        "B00H7P1G7C",
+        "B013KJEF5I",
+        "B01K8WF9EG"
+      ],
+      "reranked": [
+        "B004ND5DRK",
+        "B004ND9BMS",
+        "B01M30LQB5",
+        "B004A30ZCQ",
+        "B013KJEF5I"
+      ]
+    },
+    {
+      "query_id": 89779,
+      "query": "salicylic acid face cleanser vegan",
+      "bm25": [
+        "B07KBG1CF7",
+        "B07VHD7ZTN",
+        "B06WRPJW3V",
+        "B0011DIWGY",
+        "B016C5G5R8"
+      ],
+      "rrf": [
+        "B07KBG1CF7",
+        "B07VHD7ZTN",
+        "B06WRPJW3V",
+        "B0011DIWGY",
+        "B013PU1RQM"
+      ],
+      "reranked": [
+        "B07KBG1CF7",
+        "B016C5G5R8",
+        "B0011DIWGY",
+        "B07BVHV7J7",
+        "B002ECVMWM"
+      ]
+    },
+    {
+      "query_id": 89836,
+      "query": "salt gun",
+      "bm25": [
+        "B07WMSNQCB",
+        "B08FJFVF59",
+        "B08XQ43LKD",
+        "B07JC9968Z",
+        "B01DUPMZKE"
+      ],
+      "rrf": [
+        "B07JC9968Z",
+        "B01DUPMZKE",
+        "B07WMSNQCB",
+        "B01NCAI8GP",
+        "B08XQ43LKD"
+      ],
+      "reranked": [
+        "B08CZQ146B",
+        "B00STSZ77G",
+        "B00TXQQDW6",
+        "B07JC9968Z",
+        "B071Z2C8FN"
+      ]
+    },
+    {
+      "query_id": 90230,
+      "query": "samsung note 9 case",
+      "bm25": [
+        "B07H9WV8TF",
+        "B07G7WY94D",
+        "B085DMZ1VY",
+        "B07FLZJ57M",
+        "B07ZRTCQ93"
+      ],
+      "rrf": [
+        "B07G7WY94D",
+        "B07H9WV8TF",
+        "B07K1KPZZ4",
+        "B07JWH9FZ3",
+        "B07FLZJ57M"
+      ],
+      "reranked": [
+        "B07FLZJ57M",
+        "B07K1KPZZ4",
+        "B085DMZ1VY",
+        "B07FN4FQ1Y",
+        "B07H9WV8TF"
+      ]
+    },
+    {
+      "query_id": 90454,
+      "query": "sandisk ssd plus 1tb",
+      "bm25": [
+        "B07SQNH6DN",
+        "B07D998212",
+        "B07TW9TT4W",
+        "B08BPLDWRP",
+        "B078STRHBX"
+      ],
+      "rrf": [
+        "B07SQNH6DN",
+        "B07D998212",
+        "B07TW9TT4W",
+        "B08BPLDWRP",
+        "B078STRHBX"
+      ],
+      "reranked": [
+        "B07D998212",
+        "B07SQNH6DN",
+        "B07TW9TT4W",
+        "B071KGRXRG",
+        "B08BPLDWRP"
+      ]
+    },
+    {
+      "query_id": 90524,
+      "query": "santa skirt",
+      "bm25": [
+        "B01N48EHNV",
+        "B07KSZHT4X",
+        "B07KSRLHK5",
+        "B07JMYVHX6",
+        "B00C5GNIEW"
+      ],
+      "rrf": [
+        "B01N48EHNV",
+        "B07KSZHT4X",
+        "B07KSRLHK5",
+        "B00C5GNIEW",
+        "B07JMYVHX6"
+      ],
+      "reranked": [
+        "B01N48EHNV",
+        "B07KSZHT4X",
+        "B07KSRLHK5",
+        "B07KP97W89",
+        "B00C5GNIEW"
+      ]
+    },
+    {
+      "query_id": 90653,
+      "query": "satin rope crafts",
+      "bm25": [
+        "B07YWZLNSL",
+        "B07VFB46ZG",
+        "B01691YH8E",
+        "B07Z3TPLVY",
+        "B07Z3RMJDC"
+      ],
+      "rrf": [
+        "B07VFB46ZG",
+        "B07Z3TPLVY",
+        "B07K2HP552",
+        "B01691YH8E",
+        "B07KDWZVZJ"
+      ],
+      "reranked": [
+        "B07Z3TPLVY",
+        "B07Z3RMJDC",
+        "B07KDWZVZJ",
+        "B07VFB46ZG",
+        "B01691YH8E"
+      ]
+    },
+    {
+      "query_id": 90764,
+      "query": "say when t shirt",
+      "bm25": [
+        "B07VP1K6Y2",
+        "B07M6C6671",
+        "B07V1VJ5HG",
+        "B07KWFJL1F",
+        "B07PCNCMKY"
+      ],
+      "rrf": [
+        "B07VP1K6Y2",
+        "B07M6C6671",
+        "B07PCNCMKY",
+        "B07V1VJ5HG",
+        "B07KWFJL1F"
+      ],
+      "reranked": [
+        "B07VP1K6Y2",
+        "B07FV8GRGX",
+        "B07V1VJ5HG",
+        "B07PCNCMKY",
+        "B07W83F1YV"
+      ]
+    },
+    {
+      "query_id": 90929,
+      "query": "school for good and evil 6",
+      "bm25": [
+        "000829223X",
+        "0062695223",
+        "B081NJCKJL",
+        "0008508011",
+        "006210490X"
+      ],
+      "rrf": [
+        "000829223X",
+        "B081NJCKJL",
+        "0062695223",
+        "006210490X",
+        "0008508011"
+      ],
+      "reranked": [
+        "000829223X",
+        "0062695223",
+        "0008508011",
+        "B081NJCKJL",
+        "006210490X"
+      ]
+    },
+    {
+      "query_id": 91383,
+      "query": "seat belt extender tesla model 3",
+      "bm25": [
+        "B07TQLCRZK",
+        "B07776HN79",
+        "B085QM7L67",
+        "B0852VP11D",
+        "B081LPR8YJ"
+      ],
+      "rrf": [
+        "B07TQLCRZK",
+        "B085QM7L67",
+        "B07776HN79",
+        "B0852VP11D",
+        "B081LPR8YJ"
+      ],
+      "reranked": [
+        "B0852VP11D",
+        "B085QM7L67",
+        "B083Z2CST8",
+        "B081LPR8YJ",
+        "B083FVCYKG"
+      ]
+    },
+    {
+      "query_id": 91397,
+      "query": "seat cushion not memory foam",
+      "bm25": [
+        "B07WQHM7BC",
+        "B07WNBR1SZ",
+        "B00CVYOAUY",
+        "B01DTG9D90",
+        "B00P1TDM28"
+      ],
+      "rrf": [
+        "B00P1TDM28",
+        "B08SLL2NKY",
+        "B099WVQYVZ",
+        "B08Q3HHW8F",
+        "B07P99KYK8"
+      ],
+      "reranked": [
+        "B07VMR4WWV",
+        "B07WQHM7BC",
+        "B07WNBR1SZ",
+        "B076PTZ745",
+        "B09731Q8P6"
+      ]
+    },
+    {
+      "query_id": 91478,
+      "query": "security camera outdoor without wifi",
+      "bm25": [
+        "B09DF92HH2",
+        "B07X27WDVM",
+        "B08SQGZZMJ",
+        "B08V4NP5LT",
+        "B08V1HTN71"
+      ],
+      "rrf": [
+        "B07X27WDVM",
+        "B08V4NP5LT",
+        "B09GK7RHSM",
+        "B07PM2NBGT",
+        "B08SQGZZMJ"
+      ],
+      "reranked": [
+        "B087M67PZQ",
+        "B01GQEDUAK",
+        "B08V393N9D",
+        "B08WCFQJV9",
+        "B07DW38ZGQ"
+      ]
+    },
+    {
+      "query_id": 91594,
+      "query": "selena makeup collection",
+      "bm25": [
+        "B096BL353K",
+        "B07D724GJ6",
+        "B01FENKVYM",
+        "B07WPWSZ47",
+        "B087QNDJ58"
+      ],
+      "rrf": [
+        "B096BL353K",
+        "B07D724GJ6",
+        "B087QNDJ58",
+        "B087QNHZ19",
+        "B076DWTL4M"
+      ],
+      "reranked": [
+        "B07D724GJ6",
+        "B087QQ3R56",
+        "B076DWTL4M",
+        "B096BL353K",
+        "B0887TB9GY"
+      ]
+    },
+    {
+      "query_id": 92355,
+      "query": "shazam toys",
+      "bm25": [
+        "B07KPS9H4M",
+        "B07KXCW2Q6",
+        "B07GSSQ9MF",
+        "B07GSTDWTD",
+        "B07GLH9139"
+      ],
+      "rrf": [
+        "B07KPS9H4M",
+        "B07KXCW2Q6",
+        "B07GSTDWTD",
+        "B07GSSQ9MF",
+        "B07WGJ13VR"
+      ],
+      "reranked": [
+        "B07GSSQ9MF",
+        "B07GSTDWTD",
+        "B07GQLHGQH",
+        "B07WGJ13VR",
+        "B01MA6BMSF"
+      ]
+    },
+    {
+      "query_id": 92606,
+      "query": "shipping boxes large",
+      "bm25": [
+        "B00IZLJUK2",
+        "B007PBKMKK",
+        "B085ZYBG22",
+        "B007XPBW3Y",
+        "B07WGDS5ND"
+      ],
+      "rrf": [
+        "B007PBKMKK",
+        "B00IZLJUK2",
+        "B085ZYBG22",
+        "B007XPBW3Y",
+        "B07WFCN5GX"
+      ],
+      "reranked": [
+        "B00IZLJUK2",
+        "B0026RHVES",
+        "B00BT4VQ9K",
+        "B007PBKMKK",
+        "B078HTDKMH"
+      ]
+    },
+    {
+      "query_id": 92928,
+      "query": "show tights for women",
+      "bm25": [
+        "B07L89MK48",
+        "B0088I0ZW4",
+        "B07DB19PZG",
+        "B082DMCMFZ",
+        "B00274V05Q"
+      ],
+      "rrf": [
+        "B07L89MK48",
+        "B00274V05Q",
+        "B082DMCMFZ",
+        "B00NOU4RQQ",
+        "B0088I0ZW4"
+      ],
+      "reranked": [
+        "B00274V05Q",
+        "B07L89MK48",
+        "B00NOU4RQQ",
+        "B000ACHX1C",
+        "B071Z8ZVWN"
+      ]
+    },
+    {
+      "query_id": 93303,
+      "query": "silicone rings for men glow in the dark",
+      "bm25": [
+        "B01G4FR5V6",
+        "B077KK4MFF",
+        "B01HPB3XZ0",
+        "B07S9NFRB2",
+        "B07VCN6693"
+      ],
+      "rrf": [
+        "B01G4FR5V6",
+        "B077KK4MFF",
+        "B01HPB3XZ0",
+        "B0739NBTM7",
+        "B07S9NFRB2"
+      ],
+      "reranked": [
+        "B01G4FR5V6",
+        "B01HPB3XZ0",
+        "B0739NBTM7",
+        "B07S9NFRB2",
+        "B07BRH5MRS"
+      ]
+    },
+    {
+      "query_id": 94686,
+      "query": "small dog bowl",
+      "bm25": [
+        "B01MY3D0KR",
+        "B01JZ8YEIG",
+        "B07L5739VX",
+        "B071Y3PDMM",
+        "B07J4PJNZF"
+      ],
+      "rrf": [
+        "B01MY3D0KR",
+        "B07L5739VX",
+        "B01JZ8YEIG",
+        "B07QH7TY6C",
+        "B071Y3PDMM"
+      ],
+      "reranked": [
+        "B06Y5SVC88",
+        "B07QH7TY6C",
+        "B01JZ8YEIG",
+        "B01MY3D0KR",
+        "B07L5739VX"
+      ]
+    },
+    {
+      "query_id": 95015,
+      "query": "smart kid belt car",
+      "bm25": [
+        "B07YH8Q3WQ",
+        "B07GF4PN37",
+        "B07G72ZDYX",
+        "B07LG24GR1",
+        "B07TKB5SWG"
+      ],
+      "rrf": [
+        "B07YH8Q3WQ",
+        "B07LG24GR1",
+        "B07GF4PN37",
+        "B07G72ZDYX",
+        "B07TKB5SWG"
+      ],
+      "reranked": [
+        "B07YH8Q3WQ",
+        "B07LG24GR1",
+        "B06W54SWNL",
+        "B07MT8YTCS",
+        "B07GF4PN37"
+      ]
+    },
+    {
+      "query_id": 95162,
+      "query": "smile line",
+      "bm25": [
+        "B07ST51M1K",
+        "B07Q4DK92V",
+        "B00IDWP4IA",
+        "B07QQBT6G4",
+        "B07D29W6GP"
+      ],
+      "rrf": [
+        "B07ST51M1K",
+        "B07QQBT6G4",
+        "B07Q4DK92V",
+        "B07D29W6GP",
+        "B082BCM24B"
+      ],
+      "reranked": [
+        "B07QQBT6G4",
+        "B07ST51M1K",
+        "B07D29W6GP",
+        "B082BCM24B",
+        "B07VYHLC46"
+      ]
+    },
+    {
+      "query_id": 95453,
+      "query": "snowflake jumbo",
+      "bm25": [
+        "B005O0MTDW",
+        "B07CYWLJT9",
+        "B075X3HMBD",
+        "B01KICBMKQ",
+        "B016MWUK0Y"
+      ],
+      "rrf": [
+        "B005O0MTDW",
+        "B07CYWLJT9",
+        "B01KICBMKQ",
+        "B075X3HMBD",
+        "B000YMX9ZW"
+      ],
+      "reranked": [
+        "B005O0MTDW",
+        "B000YMX9ZW",
+        "B07ZF9ZS8H",
+        "B0749QN5Z3",
+        "B01KICBMKQ"
+      ]
+    },
+    {
+      "query_id": 95528,
+      "query": "soa complete series blu ray",
+      "bm25": [
+        "B085RTL71M",
+        "B00QX0IT36",
+        "B009R1LPKC",
+        "B072DXR6W7",
+        "B0107TZ3IW"
+      ],
+      "rrf": [
+        "B00QX0IT36",
+        "B009R1LPKC",
+        "B0107TZ3IW",
+        "B072DXR6W7",
+        "B085RTL71M"
+      ],
+      "reranked": [
+        "B00QX0IT36",
+        "B009R1LPKC",
+        "B0107TZ3IW",
+        "B072DXR6W7",
+        "B00NLZA63C"
+      ]
+    },
+    {
+      "query_id": 95846,
+      "query": "solar lantern pink",
+      "bm25": [
+        "B089QT8F2V",
+        "B07RHQ6XXR",
+        "B07DL9P9YK",
+        "B07S4DWQHZ",
+        "B083NYBQHW"
+      ],
+      "rrf": [
+        "B089QT8F2V",
+        "B07RHQ6XXR",
+        "B083NYBQHW",
+        "B07BW6QZ87",
+        "B07VMQ5FHQ"
+      ],
+      "reranked": [
+        "B089QT8F2V",
+        "B07RHQ6XXR",
+        "B083NYBQHW",
+        "B0858YBRS5",
+        "B07S73H1NB"
+      ]
+    },
+    {
+      "query_id": 96622,
+      "query": "spectre 24 inch monitor",
+      "bm25": [
+        "B01HIA63AU",
+        "B07MTMCNLX",
+        "B087QRW81Z",
+        "B074F28QNS",
+        "B072XCZSSW"
+      ],
+      "rrf": [
+        "B01HIA63AU",
+        "B087QRW81Z",
+        "B07MTMCNLX",
+        "B0773ZY26F",
+        "B07CY7W3VC"
+      ],
+      "reranked": [
+        "B01HIA63AU",
+        "B087QRW81Z",
+        "B07MTMCNLX",
+        "B07KXSR99Y",
+        "B0773ZY26F"
+      ]
+    },
+    {
+      "query_id": 96995,
+      "query": "sport key covers caps silicone",
+      "bm25": [
+        "B07G73BLNH",
+        "B07SFWJ2ZK",
+        "B071D9XD4C",
+        "B07G5KTWL3",
+        "B07CL5HLX9"
+      ],
+      "rrf": [
+        "B07SFWJ2ZK",
+        "B07G73BLNH",
+        "B07G5KTWL3",
+        "B071D9XD4C",
+        "B075SWWX9G"
+      ],
+      "reranked": [
+        "B07SFWJ2ZK",
+        "B07CTDR9JM",
+        "B075SWWX9G",
+        "B07M6NJR11",
+        "B07G5KTWL3"
+      ]
+    },
+    {
+      "query_id": 97350,
+      "query": "st. patrick’s day infant",
+      "bm25": [
+        "B082D9DNXJ",
+        "B06XBKLQNT",
+        "B079WNVKXH",
+        "B082NSZ78D",
+        "B07MR9DCJ6"
+      ],
+      "rrf": [
+        "B079WNVKXH",
+        "B06XBKLQNT",
+        "B07LDWNJ96",
+        "B07MR9DCJ6",
+        "B082D648N7"
+      ],
+      "reranked": [
+        "B082NSZ78D",
+        "B07MBVZBLZ",
+        "B081KZDRYV",
+        "B083VTLFFQ",
+        "B07ML53W22"
+      ]
+    },
+    {
+      "query_id": 97558,
+      "query": "standing lamp without shade",
+      "bm25": [
+        "B08HYJFB58",
+        "B0778MN6B1",
+        "B07G58CHMJ",
+        "B07Z5NQPDS",
+        "B08M8XTSQP"
+      ],
+      "rrf": [
+        "B0778MN6B1",
+        "B08HYJFB58",
+        "B07Z5NQPDS",
+        "B08TLYKV7G",
+        "B08M8XTSQP"
+      ],
+      "reranked": [
+        "B08M8XTSQP",
+        "B08GM1SX7Q",
+        "B08HYJFB58",
+        "B07G58CHMJ",
+        "B07Z5NQPDS"
+      ]
+    },
+    {
+      "query_id": 98532,
+      "query": "stress away essential oil",
+      "bm25": [
+        "B06XHRTFFN",
+        "B00564NFWA",
+        "B00J4F7W12",
+        "B00HEXAKJC",
+        "B07D5LM32V"
+      ],
+      "rrf": [
+        "B06XHRTFFN",
+        "B00J4F7W12",
+        "B00HEXAKJC",
+        "B06X1FMYLQ",
+        "B00564NFWA"
+      ],
+      "reranked": [
+        "B06XHRTFFN",
+        "B06X1FMYLQ",
+        "B07D5LM32V",
+        "B00HEXAKJC",
+        "B00J4F7W12"
+      ]
+    },
+    {
+      "query_id": 98769,
+      "query": "stylus pen for samsung note 9 with bluetooth",
+      "bm25": [
+        "B07KFX2SHB",
+        "B083CPV2QY",
+        "B07V8KR2M8",
+        "B07K1BVHSG",
+        "B07JZPLPG1"
+      ],
+      "rrf": [
+        "B07KFX2SHB",
+        "B07JZPLPG1",
+        "B083CPV2QY",
+        "B07K1BVHSG",
+        "B07V8KR2M8"
+      ],
+      "reranked": [
+        "B07KFX2SHB",
+        "B07F8RF1MM",
+        "B07F1WZ8GT",
+        "B07F8W93Q6",
+        "B07F8SF5W1"
+      ]
+    },
+    {
+      "query_id": 100053,
+      "query": "t shirts for teen girls",
+      "bm25": [
+        "B08394LZXD",
+        "B07WLBB3QZ",
+        "B07BSBS56C",
+        "B07QYR9DBM",
+        "B07CZ1ZDK4"
+      ],
+      "rrf": [
+        "B08394LZXD",
+        "B07WLBB3QZ",
+        "B074QKKGFR",
+        "B07GKJY8G8",
+        "B07CZ1ZDK4"
+      ],
+      "reranked": [
+        "B08394LZXD",
+        "B074QKKGFR",
+        "B07WLBB3QZ",
+        "B07GKJY8G8",
+        "B07CZ1ZDK4"
+      ]
+    },
+    {
+      "query_id": 102037,
+      "query": "the gray barn book case",
+      "bm25": [
+        "B082DZK9DK",
+        "B07NXFVPNF",
+        "B07WPRRL88",
+        "B07CCKVKSH",
+        "B07PJN43GP"
+      ],
+      "rrf": [
+        "B07NXFVPNF",
+        "B082DZK9DK",
+        "B07PJN43GP",
+        "B07CCKVKSH",
+        "B07WPRRL88"
+      ],
+      "reranked": [
+        "B07CYGLJMQ",
+        "B07PJN43GP",
+        "B079B59T4L",
+        "B082DZK9DK",
+        "B01FG92PD4"
+      ]
+    },
+    {
+      "query_id": 102104,
+      "query": "the island of sea women by lisa see",
+      "bm25": [
+        "B07SL1LCJR",
+        "1501154869",
+        "B01HMXRVL8",
+        "B004J4WKXS",
+        "B07SCTZ4RQ"
+      ],
+      "rrf": [
+        "B07SL1LCJR",
+        "1501154869",
+        "B01HMXRVL8",
+        "B07SCTZ4RQ",
+        "B004J4WKXS"
+      ],
+      "reranked": [
+        "1501154869",
+        "B07SL1LCJR",
+        "B07D6NC123",
+        "B07CGWQMHT",
+        "1455563927"
+      ]
+    },
+    {
+      "query_id": 102215,
+      "query": "the mule clint eastwood",
+      "bm25": [
+        "B01AKQOK1S",
+        "B087P3J3CF",
+        "B07Q6CXZWZ",
+        "B07LFJSC49",
+        "B00PXVFPRO"
+      ],
+      "rrf": [
+        "B087P3J3CF",
+        "B07Q6CXZWZ",
+        "B01AKQOK1S",
+        "B07LFJSC49",
+        "B00PXVFPRO"
+      ],
+      "reranked": [
+        "B087P3J3CF",
+        "B07Q6CXZWZ",
+        "B07LFJSC49",
+        "B00PXVFPRO",
+        "B06XWTJVSX"
+      ]
+    },
+    {
+      "query_id": 102710,
+      "query": "thin orange throw blanket",
+      "bm25": [
+        "B0896QDFZM",
+        "B088TMHXFB",
+        "B01FFFA7MU",
+        "B00H8CQYS0",
+        "B01FRIBFTO"
+      ],
+      "rrf": [
+        "B0896QDFZM",
+        "B01FFFA7MU",
+        "B00H8CQYS0",
+        "B088TMHXFB",
+        "B01FRIBFTO"
+      ],
+      "reranked": [
+        "B06Y43F85K",
+        "B07JMSCBLD",
+        "B07XBSJ5NX",
+        "B00H8CQYS0",
+        "B0896QDFZM"
+      ]
+    },
+    {
+      "query_id": 102956,
+      "query": "thumbs up stamp",
+      "bm25": [
+        "B0085YB8ZY",
+        "B0085YB3RC",
+        "B071Y4QLHK",
+        "B07GBW1DS6",
+        "B0748GVDPW"
+      ],
+      "rrf": [
+        "B0085YB8ZY",
+        "B0085YB3RC",
+        "B071Y4QLHK",
+        "B07GBW1DS6",
+        "B0748GVDPW"
+      ],
+      "reranked": [
+        "B071Y4QLHK",
+        "B0748GVDPW",
+        "B07GBW1DS6",
+        "B0085YB8ZY",
+        "B0085YB3RC"
+      ]
+    },
+    {
+      "query_id": 103254,
+      "query": "tings",
+      "bm25": [
+        "B086T7DQ6N",
+        "B0859NVMCF",
+        "B082LS25Q9",
+        "B07X2BDR5Z",
+        "B079TMG49N"
+      ],
+      "rrf": [
+        "B08922WFQC",
+        "B01M5JS1ML",
+        "B0859NVMCF",
+        "B07X2BDR5Z",
+        "B002PJSKI8"
+      ],
+      "reranked": [
+        "B08922WFQC",
+        "B07X2BDR5Z",
+        "B0859NVMCF",
+        "B01M5JS1ML",
+        "B079TMG49N"
+      ]
+    },
+    {
+      "query_id": 103404,
+      "query": "tissue paper for gift bags",
+      "bm25": [
+        "B07KK5X2G3",
+        "B07ZYXXXTX",
+        "B07SN8SL85",
+        "B07PHPPZWW",
+        "B0045T4QES"
+      ],
+      "rrf": [
+        "B07KK5X2G3",
+        "B0045T4QES",
+        "B07PHPPZWW",
+        "B01M7NDNJM",
+        "B07ZYXXXTX"
+      ],
+      "reranked": [
+        "B07ZYXXXTX",
+        "B07KK5X2G3",
+        "B0045T4QES",
+        "B082P6ZRTS",
+        "B00FF93ZF8"
+      ]
+    },
+    {
+      "query_id": 103582,
+      "query": "toddler beanie 3t",
+      "bm25": [
+        "B0037NYGBG",
+        "B003KYTXJC",
+        "B0793RWQB6",
+        "B072N1V868",
+        "B07M93QRMJ"
+      ],
+      "rrf": [
+        "B0037NYGBG",
+        "B003KYTXJC",
+        "B07Z49X1M5",
+        "B076ZSJJWV",
+        "B07M93QRMJ"
+      ],
+      "reranked": [
+        "B0793RWQB6",
+        "B07XNY1R3X",
+        "B07G9YH8C7",
+        "B076ZSJJWV",
+        "B07Z49X1M5"
+      ]
+    },
+    {
+      "query_id": 103722,
+      "query": "toddler night gowns",
+      "bm25": [
+        "B07WTN87BY",
+        "B07WHBY1MK",
+        "B08542DHLH",
+        "B08DNV89JP",
+        "B07W7NVSCC"
+      ],
+      "rrf": [
+        "B07WTN87BY",
+        "B07WHBY1MK",
+        "B08DNV89JP",
+        "B081VC4DLX",
+        "B08542DHLH"
+      ],
+      "reranked": [
+        "B081VC4DLX",
+        "B07WHBY1MK",
+        "B08DNV89JP",
+        "B07WTN87BY",
+        "B07N7JF3QC"
+      ]
+    },
+    {
+      "query_id": 104285,
+      "query": "toro lawn mower parts side chute",
+      "bm25": [
+        "B01GB9V9J4",
+        "B0195UV0HW",
+        "B003X9TG0K",
+        "B07CCB1SRD",
+        "B07PG84QXR"
+      ],
+      "rrf": [
+        "B01GB9V9J4",
+        "B07CCB1SRD",
+        "B0195UV0HW",
+        "B003X9TG0K",
+        "B07PG84QXR"
+      ],
+      "reranked": [
+        "B01GB9V9J4",
+        "B07CCB1SRD",
+        "B003X9TG0K",
+        "B0195UV0HW",
+        "B00TD9M228"
+      ]
+    },
+    {
+      "query_id": 104556,
+      "query": "toy story girls clothes",
+      "bm25": [
+        "B07SK58F1C",
+        "B07V8DLF37",
+        "B07THJMYL9",
+        "B07MW7Y1H7",
+        "B07TJHGZ45"
+      ],
+      "rrf": [
+        "B07THJMYL9",
+        "B07QD2T9DR",
+        "B07TJHGZ45",
+        "B07MW7Y1H7",
+        "B07Q2CXRNN"
+      ],
+      "reranked": [
+        "B07TJHGZ45",
+        "B07Q2CXRNN",
+        "B07THJMYL9",
+        "B07TWNNR8Q",
+        "B07QD2T9DR"
+      ]
+    },
+    {
+      "query_id": 104760,
+      "query": "trail teck vapor",
+      "bm25": [
+        "B0031794XI",
+        "B003172CBO",
+        "B07MLM75PK",
+        "B07TZL5KB8",
+        "B00230JYDE"
+      ],
+      "rrf": [
+        "B07MLM75PK",
+        "B0031794XI",
+        "B003172CBO",
+        "B00230JYDE",
+        "B07TZL5KB8"
+      ],
+      "reranked": [
+        "B07TZL5KB8",
+        "B003172CBO",
+        "B0031794XI",
+        "B07BYLJ927",
+        "B07MLM75PK"
+      ]
+    },
+    {
+      "query_id": 104776,
+      "query": "trailer roof vent",
+      "bm25": [
+        "B006O12YE4",
+        "B077NR88R9",
+        "B07LBBVPHM",
+        "B002XL2I5E",
+        "B000BUQODG"
+      ],
+      "rrf": [
+        "B006O12YE4",
+        "B077NR88R9",
+        "B07LBBVPHM",
+        "B0731BPY3R",
+        "B007PRMRX4"
+      ],
+      "reranked": [
+        "B077NR88R9",
+        "B0731BPY3R",
+        "B006O12YE4",
+        "B007PRMRX4",
+        "B07LBBVPHM"
+      ]
+    },
+    {
+      "query_id": 104858,
+      "query": "trans jansport shady",
+      "bm25": [
+        "B01A69Q6G6",
+        "B071VCQBF6",
+        "B077F3Q2C9",
+        "B07N13NRMY",
+        "B01AF5TUF0"
+      ],
+      "rrf": [
+        "B01A69Q6G6",
+        "B071VCQBF6",
+        "B077F3Q2C9",
+        "B01AF5TUF0",
+        "B07N13NRMY"
+      ],
+      "reranked": [
+        "B01A69Q6G6",
+        "B077F3Q2C9",
+        "B071VCQBF6",
+        "B082JYQ69Y",
+        "B07CM8V6FC"
+      ]
+    },
+    {
+      "query_id": 105420,
+      "query": "trp spyre",
+      "bm25": [
+        "B07915SZW1",
+        "B078W642RM",
+        "B08GFVZKCM",
+        "B00GHPRDNE",
+        "B075ZZV4FG"
+      ],
+      "rrf": [
+        "B07915SZW1",
+        "B078W642RM",
+        "B00GHPRDNE",
+        "B07S7TGFLZ",
+        "B07Z3LDJ17"
+      ],
+      "reranked": [
+        "B075ZZV4FG",
+        "B07S7TGFLZ",
+        "B00GHPRDNE",
+        "B07Z3LDJ17",
+        "B08GFVZKCM"
+      ]
+    },
+    {
+      "query_id": 105425,
+      "query": "tru ball short n sweet",
+      "bm25": [
+        "B08L5RFBKD",
+        "B07CGFQWCB",
+        "B08HGF5KY4",
+        "B08L5QHCPB",
+        "B088MNX2MF"
+      ],
+      "rrf": [
+        "B08L5RFBKD",
+        "B07CGFQWCB",
+        "B08L5QHCPB",
+        "B08HGF5KY4",
+        "B07C36TMVT"
+      ],
+      "reranked": [
+        "B07CGFQWCB",
+        "B07C36TMVT",
+        "B08FZQ5R39",
+        "B08L5RFBKD",
+        "B08L5QHCPB"
+      ]
+    },
+    {
+      "query_id": 106103,
+      "query": "twin xl heated mattress pad",
+      "bm25": [
+        "B07YT1JJ57",
+        "B082WXFDRR",
+        "B01J5GFACM",
+        "B01J7MMAKO",
+        "B01DTFY9Z4"
+      ],
+      "rrf": [
+        "B07YT1JJ57",
+        "B082WXFDRR",
+        "B01J7MMAKO",
+        "B07Y3Y715Y",
+        "B008BF2U5Y"
+      ],
+      "reranked": [
+        "B07YT1JJ57",
+        "B01J7MMAKO",
+        "B01J5GFACM",
+        "B0088AHKJI",
+        "B008BF2UHC"
+      ]
+    },
+    {
+      "query_id": 106906,
+      "query": "united airlines personal item bag 17x10x9",
+      "bm25": [
+        "B0858CNW3C",
+        "B00W07ZU4M",
+        "B07G2BTH82",
+        "B07RZKW1TR",
+        "B07DF5M52C"
+      ],
+      "rrf": [
+        "B0858CNW3C",
+        "B00W07ZU4M",
+        "B071NVDMYW",
+        "B072858HW2",
+        "B01MSKRV3Y"
+      ],
+      "reranked": [
+        "B00W07ZU4M",
+        "B0858CNW3C",
+        "B07YL3P184",
+        "B07BKKGVWT",
+        "B07G2BTH82"
+      ]
+    },
+    {
+      "query_id": 107020,
+      "query": "unstable unicorns",
+      "bm25": [
+        "B07S31LJF9",
+        "B07BMLQBM1",
+        "B07V3NH51J",
+        "B07V5R5XFG",
+        "B085L2GX9W"
+      ],
+      "rrf": [
+        "B07S31LJF9",
+        "B07BMLQBM1",
+        "B07V3NH51J",
+        "B07V5R5XFG",
+        "B085L2GX9W"
+      ],
+      "reranked": [
+        "B07BMLQBM1",
+        "B07V3NH51J",
+        "B07S31LJF9",
+        "B07V5R5XFG",
+        "B010TQY7A8"
+      ]
+    },
+    {
+      "query_id": 107365,
+      "query": "usb to host cable",
+      "bm25": [
+        "B01N6QV602",
+        "B00PFOAQMI",
+        "B013G4CK68",
+        "B00UXKTJE0",
+        "B00UUBRV9C"
+      ],
+      "rrf": [
+        "B00PFOAQMI",
+        "B01N6QV602",
+        "B013G4CK68",
+        "B00UXKTJE0",
+        "B00UUBRV9C"
+      ],
+      "reranked": [
+        "B00PFOAQMI",
+        "B01N6QV602",
+        "B013G4CK68",
+        "B002KL26JA",
+        "B07DCPHQ6D"
+      ]
+    },
+    {
+      "query_id": 107883,
+      "query": "vans kids shoes",
+      "bm25": [
+        "B003FZQJPM",
+        "B00KCRR7VG",
+        "B078WWDSXL",
+        "B07D5Z17NF",
+        "B00KC9B58A"
+      ],
+      "rrf": [
+        "B00KCRR7VG",
+        "B003FZQJPM",
+        "B00KC9B58A",
+        "B07D5Z17NF",
+        "B01D0IMUEC"
+      ],
+      "reranked": [
+        "B003FZQJPM",
+        "B00KC9B58A",
+        "B01D0IMUEC",
+        "B00KCRR7VG",
+        "B01MQKN1QK"
+      ]
+    },
+    {
+      "query_id": 108181,
+      "query": "veniasa yoga mat",
+      "bm25": [
+        "B07QF5K281",
+        "B01N1ZI8ER",
+        "B07QDG9P5J",
+        "B008HYKY5C",
+        "B00DJQFAV6"
+      ],
+      "rrf": [
+        "B00DJQFAV6",
+        "B07QDG9P5J",
+        "B07N32WSP9",
+        "B01N1ZI8ER",
+        "B07QF5K281"
+      ],
+      "reranked": [
+        "B00DJQFAV6",
+        "B008HYKY5C",
+        "B01N1ZI8ER",
+        "B07XTQ5GTJ",
+        "B07QF5K281"
+      ]
+    },
+    {
+      "query_id": 108845,
+      "query": "vipe pen",
+      "bm25": [
+        "B087JD3BGQ",
+        "B07TQ443G8",
+        "B07RG36M3S",
+        "B07ZCM128V",
+        "B0862G2FMG"
+      ],
+      "rrf": [
+        "B087JD3BGQ",
+        "B07TQ443G8",
+        "B07RG36M3S",
+        "B0862G2FMG",
+        "B07ZCM128V"
+      ],
+      "reranked": [
+        "B07TQ443G8",
+        "B088NJPP86",
+        "B087JD3BGQ",
+        "B0862G2FMG",
+        "B07RG36M3S"
+      ]
+    },
+    {
+      "query_id": 108964,
+      "query": "vitamin k oil",
+      "bm25": [
+        "B00AREGVUM",
+        "B07PYK1K6P",
+        "B0061GINBA",
+        "B00BQAM6BE",
+        "B00WFAGPL6"
+      ],
+      "rrf": [
+        "B0061GINBA",
+        "B07PYK1K6P",
+        "B00BQAM6BE",
+        "B0001ITUTS",
+        "B06Y3X5SDZ"
+      ],
+      "reranked": [
+        "B0001ITUTS",
+        "B07BCCT8DK",
+        "B071DD17Q6",
+        "B07ZDGGHGD",
+        "B00BQAM6BE"
+      ]
+    },
+    {
+      "query_id": 109104,
+      "query": "volcano weed vaporizer",
+      "bm25": [
+        "B00B0AH3L8",
+        "B00K4DBSK4",
+        "B01MYGNGKK",
+        "B0813QSVFS",
+        "B097TNS6KL"
+      ],
+      "rrf": [
+        "B00B0AH3L8",
+        "B0865J4G4L",
+        "B01MYGNGKK",
+        "B08SWCBWNX",
+        "B00K4DBSK4"
+      ],
+      "reranked": [
+        "B0865J4G4L",
+        "B00B0AH3L8",
+        "B07P15CP3D",
+        "B07KZNDBQB",
+        "B07NZ2G4GT"
+      ]
+    },
+    {
+      "query_id": 109295,
+      "query": "waddle i do without you mug",
+      "bm25": [
+        "B081P8DBXB",
+        "B08KLY5RHB",
+        "B0949NPTPL",
+        "B094DQ1T8L",
+        "B08KLVCQYK"
+      ],
+      "rrf": [
+        "B081P8DBXB",
+        "B08KLVCQYK",
+        "B0949NPTPL",
+        "B08KLY5RHB",
+        "B094DQ1T8L"
+      ],
+      "reranked": [
+        "B081P8DBXB",
+        "B0949NPTPL",
+        "B094DQ1T8L",
+        "B08KLY5RHB",
+        "B08KLVCQYK"
+      ]
+    },
+    {
+      "query_id": 109371,
+      "query": "waist trainer for weight loss",
+      "bm25": [
+        "B07Y16B5SY",
+        "B07HJ6LK8P",
+        "B07Y9N17YH",
+        "B075KCNKVT",
+        "B07K2YSWPF"
+      ],
+      "rrf": [
+        "B07Y16B5SY",
+        "B07HJ6LK8P",
+        "B07P7T9796",
+        "B07Y9N17YH",
+        "B075KCNKVT"
+      ],
+      "reranked": [
+        "B07K2YSWPF",
+        "B07Y16B5SY",
+        "B07HJ6LK8P",
+        "B075KCNKVT",
+        "B07Y9N17YH"
+      ]
+    },
+    {
+      "query_id": 109810,
+      "query": "watch bands for garmin vivoactive 3",
+      "bm25": [
+        "B0749P7R94",
+        "B089SGQSFQ",
+        "B07BF9D492",
+        "B07G71BGS5",
+        "B07M9RNM97"
+      ],
+      "rrf": [
+        "B089SGQSFQ",
+        "B07BF9D492",
+        "B07M9RNM97",
+        "B0749P7R94",
+        "B07G71BGS5"
+      ],
+      "reranked": [
+        "B07M9RNM97",
+        "B07BF9D492",
+        "B089SGQSFQ",
+        "B07BJZBGMR",
+        "B07K1VVYT7"
+      ]
+    },
+    {
+      "query_id": 109851,
+      "query": "watch winders for rolex",
+      "bm25": [
+        "B0978YD2LY",
+        "B01LN8VLD2",
+        "B07H8XXYBZ",
+        "B079FPTY87",
+        "B07S8ZJ699"
+      ],
+      "rrf": [
+        "B0978YD2LY",
+        "B07RFKV134",
+        "B079FPTY87",
+        "B07DPJNDVZ",
+        "B07BJYRVDP"
+      ],
+      "reranked": [
+        "B07DPJNDVZ",
+        "B07RFKV134",
+        "B07JFT3BJ6",
+        "B07BJYRVDP",
+        "B079FPTY87"
+      ]
+    },
+    {
+      "query_id": 109940,
+      "query": "water flavoring packets without aspartame",
+      "bm25": [
+        "B00CQ7OUCE",
+        "B003YP3MUS",
+        "B0781VSS63",
+        "B0070AJMFC",
+        "B06VT923LQ"
+      ],
+      "rrf": [
+        "B003YP3MUS",
+        "B00CQ7OUCE",
+        "B0070AJMFC",
+        "B083V6QVR6",
+        "B07GBJ536F"
+      ],
+      "reranked": [
+        "B0070AJMFC",
+        "B06VT923LQ",
+        "B003YP3MUS",
+        "B06XD8N222",
+        "B00CQ7OUCE"
+      ]
+    },
+    {
+      "query_id": 110135,
+      "query": "waterproof hking coat",
+      "bm25": [
+        "B00LLV8MDO",
+        "B07G8BSVH4",
+        "B07ZCM3SH5",
+        "B07Q3PB9D9",
+        "B07FKDGPSR"
+      ],
+      "rrf": [
+        "B00LLV8MDO",
+        "B07G8BSVH4",
+        "B07ZCM3SH5",
+        "B07Q3PB9D9",
+        "B00M0FSTUQ"
+      ],
+      "reranked": [
+        "B00M0FSTUQ",
+        "B00LLV8MDO",
+        "B07ZCM3SH5",
+        "B07G8BSVH4",
+        "B00DQYWSE8"
+      ]
+    },
+    {
+      "query_id": 110618,
+      "query": "welcome to game",
+      "bm25": [
+        "B08428LQKP",
+        "B008YGV0H4",
+        "B00UQZGG3E",
+        "B01LXNMXHH",
+        "B07T5Q9B91"
+      ],
+      "rrf": [
+        "B08428LQKP",
+        "B083MSJ94Y",
+        "B07T5Q9B91",
+        "B008YGV0H4",
+        "B07R8WLWS8"
+      ],
+      "reranked": [
+        "B08428LQKP",
+        "B079TQ8V4L",
+        "B07TXWHYRG",
+        "B07R8WLWS8",
+        "B008YGV0H4"
+      ]
+    },
+    {
+      "query_id": 110695,
+      "query": "west the american cowboy",
+      "bm25": [
+        "1864708395",
+        "1493042106",
+        "1328470253",
+        "1541672542",
+        "0806154063"
+      ],
+      "rrf": [
+        "1864708395",
+        "1328470253",
+        "1493042106",
+        "0806154063",
+        "1864709189"
+      ],
+      "reranked": [
+        "1864708395",
+        "1864709189",
+        "0806154063",
+        "1733633510",
+        "1328470253"
+      ]
+    },
+    {
+      "query_id": 110956,
+      "query": "white basket with handle",
+      "bm25": [
+        "B079NQ8WZC",
+        "B01BO66DHC",
+        "B07K1MV2R9",
+        "B01H2SZQEM",
+        "B00U6GOCSO"
+      ],
+      "rrf": [
+        "B07K1MV2R9",
+        "B01BO66DHC",
+        "B07M63DKRK",
+        "B079NQ8WZC",
+        "B00U6GOCSO"
+      ],
+      "reranked": [
+        "B07M63DKRK",
+        "B07K1MV2R9",
+        "B01CZUJACQ",
+        "B074TXGRC8",
+        "B079NQ8WZC"
+      ]
+    },
+    {
+      "query_id": 111273,
+      "query": "white ruffle tank tops for women",
+      "bm25": [
+        "B07QJYY3PD",
+        "B07PT6YRDP",
+        "B07PS8G1NM",
+        "B07QNK2JRK",
+        "B07QYQSG34"
+      ],
+      "rrf": [
+        "B07PT6YRDP",
+        "B07QJYY3PD",
+        "B07PS8G1NM",
+        "B07QYQSG34",
+        "B07QXHPZMF"
+      ],
+      "reranked": [
+        "B07PT6YRDP",
+        "B07QYQSG34",
+        "B07QJYY3PD",
+        "B07RD3K2HH",
+        "B07LBP8MJV"
+      ]
+    },
+    {
+      "query_id": 111324,
+      "query": "white spandex shorts under dresses",
+      "bm25": [
+        "B00VREGE7Q",
+        "B00VRFEYB8",
+        "B07TV4SQZZ",
+        "B08978TM4T",
+        "B079VL9L3J"
+      ],
+      "rrf": [
+        "B07CYST3LM",
+        "B08B8813X8",
+        "B08BJ3421Z",
+        "B079VL9L3J",
+        "B00VREGE7Q"
+      ],
+      "reranked": [
+        "B07TV4SQZZ",
+        "B08978TM4T",
+        "B088TSTL79",
+        "B088TTLRPX",
+        "B07CYST3LM"
+      ]
+    },
+    {
+      "query_id": 111893,
+      "query": "wine",
+      "bm25": [
+        "B07DK8PP2M",
+        "B08BQY3NJK",
+        "B08CZRG14N",
+        "B082B5HQYY",
+        "B07TXT73Q6"
+      ],
+      "rrf": [
+        "B07DK8PP2M",
+        "B082B5HQYY",
+        "B07ZYNML3D",
+        "B07TXT73Q6",
+        "B089VNHX9P"
+      ],
+      "reranked": [
+        "0525533893",
+        "B07RZSVVLK",
+        "B07ZYNML3D",
+        "B07GZ1RFR8",
+        "B0811WFSFR"
+      ]
+    },
+    {
+      "query_id": 112875,
+      "query": "womens boots 11.5",
+      "bm25": [
+        "B009SSDRD2",
+        "B003K33XTE",
+        "B000Y0ATZC",
+        "B01LETQKJK",
+        "B0041FI6N8"
+      ],
+      "rrf": [
+        "B009SSDRD2",
+        "B0029F27Z0",
+        "B01LETQKJK",
+        "B0019MT428",
+        "B00JFCCLJC"
+      ],
+      "reranked": [
+        "B009SSDRD2",
+        "B06XCD8DNT",
+        "B01LETQKJK",
+        "B01IBHDGLS",
+        "B00JFCCLJC"
+      ]
+    },
+    {
+      "query_id": 113212,
+      "query": "womens sandals size 9",
+      "bm25": [
+        "B07H98ZL8K",
+        "B07GZ1B3MT",
+        "B08691HVBY",
+        "B07DR8WT9F",
+        "B071R3759F"
+      ],
+      "rrf": [
+        "B07GZ1B3MT",
+        "B071R3759F",
+        "B07H98ZL8K",
+        "B07DR8WT9F",
+        "B072T3M18P"
+      ],
+      "reranked": [
+        "B071R3759F",
+        "B07KQ34XVR",
+        "B07GZ1B3MT",
+        "B072T3M18P",
+        "B07DR8WT9F"
+      ]
+    },
+    {
+      "query_id": 113243,
+      "query": "womens shooting gear",
+      "bm25": [
+        "B0083ZZGP8",
+        "B084Z21NL1",
+        "B07Y57R5K8",
+        "B073J2TBSD",
+        "B072FH6FZJ"
+      ],
+      "rrf": [
+        "B0083ZZGP8",
+        "B001OTD4LS",
+        "B07Y57R5K8",
+        "B072FH6FZJ",
+        "B084Z21NL1"
+      ],
+      "reranked": [
+        "B0083ZZGP8",
+        "B001OTD4LS",
+        "B00162KJNE",
+        "B01MZ8QHQI",
+        "B073GC2TMH"
+      ]
+    },
+    {
+      "query_id": 113430,
+      "query": "women’s incontinence pad light",
+      "bm25": [
+        "B005IHVDMO",
+        "B0854L3SK5",
+        "B07PW3JNM9",
+        "B07RXB1V1T",
+        "B001DN99JQ"
+      ],
+      "rrf": [
+        "B005IHVDMO",
+        "B0854L3SK5",
+        "B00KXUWDAW",
+        "B07PW3JNM9",
+        "B07RXB1V1T"
+      ],
+      "reranked": [
+        "B005IHVDMO",
+        "B07PW3JNM9",
+        "B00KXUWDAW",
+        "B00HCMIF7O",
+        "B001INZGXY"
+      ]
+    },
+    {
+      "query_id": 113461,
+      "query": "wonder woman yoga pants",
+      "bm25": [
+        "B00P0H1MXM",
+        "B077GGFC7M",
+        "B07BS4169B",
+        "B07L1RDJQ6",
+        "B01GGH4JKM"
+      ],
+      "rrf": [
+        "B00P0H1MXM",
+        "B077GGFC7M",
+        "B07L1RDJQ6",
+        "B07BS4169B",
+        "B01GGH4JKM"
+      ],
+      "reranked": [
+        "B00P0H1MXM",
+        "B077GGFC7M",
+        "B07BS4169B",
+        "B07L1RDJQ6",
+        "B07H4WQR6W"
+      ]
+    },
+    {
+      "query_id": 113864,
+      "query": "workout equipment home gym women",
+      "bm25": [
+        "B08CMJKJ5M",
+        "B0818T77J3",
+        "B0863329SD",
+        "B074CXK16C",
+        "B07GPCMVDH"
+      ],
+      "rrf": [
+        "B08CMJKJ5M",
+        "B0818T77J3",
+        "B0863329SD",
+        "B074CXK16C",
+        "B08CL4SLTS"
+      ],
+      "reranked": [
+        "B08CMJKJ5M",
+        "B08CL4SLTS",
+        "B0863329SD",
+        "B074B3B22G",
+        "B0818T77J3"
+      ]
+    },
+    {
+      "query_id": 114138,
+      "query": "wwe elite",
+      "bm25": [
+        "B081ZXCYC7",
+        "B07P5PQLLS",
+        "B07NQMKKVN",
+        "B07NQ9WNHZ",
+        "B082FWZ127"
+      ],
+      "rrf": [
+        "B07P5PQLLS",
+        "B07NQ9WNHZ",
+        "B07NQMKKVN",
+        "B081ZXCYC7",
+        "B07Y92X3RD"
+      ],
+      "reranked": [
+        "B07Y92X3RD",
+        "B07P5PQLLS",
+        "B081ZXCYC7",
+        "B07NQ9WNHZ",
+        "B07XD6DD28"
+      ]
+    },
+    {
+      "query_id": 115581,
+      "query": "zeiss milvus canon",
+      "bm25": [
+        "B0163K17W0",
+        "B09HSNH42B",
+        "B089QQD38M",
+        "B09HSMF4FZ",
+        "B0794VX6LH"
+      ],
+      "rrf": [
+        "B0163K17W0",
+        "B09HSNH42B",
+        "B09HSMF4FZ",
+        "B089QQD38M",
+        "B0794VX6LH"
+      ],
+      "reranked": [
+        "B0163K17W0",
+        "B09HSMF4FZ",
+        "B09HSNH42B",
+        "B089QQD38M",
+        "B0794VX6LH"
+      ]
+    }
+  ]
+}

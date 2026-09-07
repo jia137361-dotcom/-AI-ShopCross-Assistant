@@ -1,0 +1,15 @@
+# Local demo deployment: keep stateful dependencies inside Docker's network.
+# Only the Langfuse web UI needs a host port, so this avoids clashes with an
+# existing PostgreSQL/Redis/ClickHouse/MinIO installation on the workstation.
+services:
+  langfuse-worker:
+    ports: !override []
+  clickhouse:
+    ports: !override []
+  minio:
+    ports: !override []
+  redis:
+    ports: !override []
+  postgres:
+    ports: !override
+      - "5435:5432"
